@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="{{ asset('backend/plugins/intl-tel-input/css/intlTelInput.css?.time()') }}">
+      <link rel="stylesheet" href="{{asset('front/css/src/jquery.tagsinput-revisited.css?.time()') }}">

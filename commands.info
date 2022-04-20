@@ -1,0 +1,7 @@
+\DB::connection('mysql')->enableQueryLog();
+dd(\DB::connection('mysql')->getQueryLog());
+
+php artisan view:clear
+composer dumpautoload -o
+php artisan route:clear
+php artisan config:clear

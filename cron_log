@@ -1,0 +1,23 @@
+Expired API Key provided: sk_live_*********************************************************************************************mcSC2v
+   Illuminate\Validation\ValidationException  : The given data was invalid.
+
+  at /home/peopleofplay/public_html/app/Helpers/MyHelper.php:637
+    633|     function errorMessage($template = '', $string = false)
+    634|     {
+    635|         $validator = \Validator::make([], []); // Empty data and rules fields
+    636|         $validator->errors()->add('error', $string == true ? $template : transLang($template));
+  > 637|         throw new \Illuminate\Validation\ValidationException($validator);
+    638|     }
+    639| }
+    640| 
+    641| if (!function_exists('errorMessage_new')) {
+
+  Exception trace:
+
+  1   errorMessage("Expired API Key provided: sk_live_*********************************************************************************************mcSC2v")
+      /home/peopleofplay/public_html/app/Console/Commands/Invoices.php:430
+
+  2   App\Console\Commands\Invoices::saveMissingSubscriptions()
+      /home/peopleofplay/public_html/app/Console/Commands/Invoices.php:69
+
+  Please use the argument -v to see more details.

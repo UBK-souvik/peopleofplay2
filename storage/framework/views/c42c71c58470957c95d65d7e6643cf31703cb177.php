@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="<?php echo e(asset('backend/plugins/intl-tel-input/css/intlTelInput.css?.time()')); ?>">
+      <link rel="stylesheet" href="<?php echo e(asset('front/css/src/jquery.tagsinput-revisited.css?.time()')); ?>">
