@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+    .mainListCarousel button.owl-prev {
+        left: 0;
+        position: absolute!important;
+        top: -185px!important;
+        height: 35px!important;
+        border-radius: 3px!important;
+        color: #fff!important;
+        width: 24px!important;
+        overflow: hidden;
+        border: 3px solid #662C92!important;
+        background-color: #662C92!important;
+    }
+    .mainListCarousel button.owl-next {
+        top: -185px!important;
+    }
+    .mainListCarousel button.owl-prev span {
+        top: -13px;
+    }
+    .mainListCarousel button.owl-next span {
+        top: -13px;
+    }
+}

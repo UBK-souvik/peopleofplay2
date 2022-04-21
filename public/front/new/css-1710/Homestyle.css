@@ -1,0 +1,460 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+ 
+}
+
+
+
+.modal-body.Registration {
+    margin: 30px !important;
+    padding: 30px !important;
+}
+
+span.modalclosebutton {
+    color: #141414;
+    margin-top: inherit;
+}
+
+button.close.regclosehidden {
+   
+    display: contents;
+   
+}
+
+
+
+header#DesktopHeaderHome {
+    z-index: 999;
+}
+
+.header-background{
+	background-color: #1a1a1a !important;
+	background-size: cover;
+	height: auto;
+	width: 100%;
+	background-color: #FCFCFC;
+}
+
+
+
+.box-width{
+    padding: 0px 30px;
+    
+}
+
+.Logostyle{
+   
+    background-color: #000;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+    border: 3px solid #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+
+a:hover{
+  color:fff!important;
+  text-decoration: none !important;
+}
+
+.Logostyle a:hover{
+   
+    background-color: #fff !important;
+      
+}
+
+.span-text-grey{
+color: #A29C9C;
+}
+
+
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 1.3rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    right: 6px;
+}
+
+.li-text li{
+	   padding: 0 10px 0 10px;
+    font-size: 18px;
+
+	}
+
+.fa{
+	width: 30px !important; 
+	height: 30px !important; 
+	object-fit: cover;
+	}
+
+.li-color{
+	display: inline-block;
+    padding: 0 10px;
+    color: #A29C9C;
+    transition: color 0.4s ease 0s;
+    font-size:20px;
+}
+
+.li-color:hover {
+    color: #fff;
+    transition: color 0.4s ease 0s;
+}
+
+
+.paragraph h2{
+ font-size:35px;
+ letter-spacing:0em;
+ font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+}
+
+.box-width{
+ background-color: #000;
+   font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+}
+
+.old-bv {
+    font-size: 14px;
+    background-color: #322348;
+}
+
+.left-column{
+	width:70%;
+	float: left;
+}
+
+
+
+.image-width{
+	background-color:#fff;
+  display: flex;
+  flex-direction: row;
+/* width: 264px;
+    height: 354px;*/
+}
+
+.wrap-text h3{
+	  font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+}
+
+ul{
+     list-style:none;
+     color:#3D8E99;
+}
+
+.ul-text-color li{
+	color:#3D8E99;
+	font-size:13px;
+}
+
+.p-text{
+	font-size: 14px;
+}
+
+.span-style{
+	color:#3D8E99 !important;
+	font-size: 12px;
+}
+
+.span-text{
+
+}
+
+.images-size{
+	width:44% !important;
+}
+
+.images-size img{
+	width:38% !important;
+}
+
+.wrap-gallery {
+  position: relative;
+  
+}
+
+.link-text{
+	color:#3D8E99 !important;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+}
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding:10px;
+  width:24%;
+  font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+  letter-spacing:0.05em;
+}
+
+.wrap-gallery .overlay {
+  opacity: 1;
+}
+
+.overlay1 {
+  position: absolute; 
+  bottom: 0; 
+  
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding:10px;
+  width:49%;
+  font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+  letter-spacing:0.05em;
+}
+
+.wrap-gallery .overlay1 {
+  opacity: 1;
+}
+
+.Second-column {
+    background-color: #FCFCFC !important;
+    padding: 15px;
+    font-family: Oswald;
+}
+
+.Second-column h2{
+  font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+}
+.h3-text-color{
+	color: #BFBFBF;
+	font-size:20px;
+	letter-spacing:0.08em !important;
+	font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+}
+
+.img-thumbnail {
+
+    border: 0px !important;
+    background-color:#FCFCFC !important;
+}
+
+
+.right-column{
+	width:30%;
+	float: right;
+	/*background-color: #262F40 !important;*/
+  background-color: #212121 !important;
+  color: #000;
+  padding: 20px!important;
+  }
+
+.dashboard-icon{
+  font-size: 35px;
+  font-weight:500;
+  font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+  color:#000;
+  
+  }
+
+
+.dashboard-icon1{
+  font-size: 18px;
+  font-weight:300;
+  font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+  color:#fff;
+ 
+  }
+
+.dashboard-icon1:hover {
+color: #3D8E99!important;
+ }
+
+
+
+i.fa.fa-icon {
+  font-size: 38px;
+}
+
+i.fa.fa-icon1 {
+  font-size: 18px;
+}
+
+
+.list-align{
+    line-height: 35.5px;
+    font-size: 12px;
+}
+
+.table.tablesidebar th {
+  
+    border:none !important;
+    font-weight: 400!important;
+    font-size: 14px !important;
+     padding: .75rem 0;
+    
+}
+
+.table.tablesidebar td {
+    border:none !important;
+    /*font-weight: 400!important;*/
+    font-size: 14px !important;
+     padding: .75rem 0;
+}
+
+
+.p-text p{
+	font-weight:600;
+	font-size: 16.5px;
+  color: #000000;
+  margin-bottom: 0;
+	font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+}
+
+.side-paragraph{
+	font-size:13px;
+}
+
+button.btn.btn-style{
+	background-color: rgba(176, 56, 32, 1);
+    border: solid rgba(255, 255, 255, 1) 0px;
+    cursor: pointer !important;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 70px;
+}
+
+button.btn.btn-style:hover {
+    background-color: rgba(162, 156, 156, 1);
+    border-color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    padding: 10px 70px;
+}
+
+.DesktopFirstGallery{
+    display: block;
+}
+
+.MobileFirstGallery{
+    display: none !important;
+}
+
+.p-text1{
+ font-size:13px;
+ font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+}
+
+.card-header{
+font-size:13px !important;
+ font-family: 'Oswald', sans-serif !important;
+}
+
+.card-body{
+font-size:13px !important;
+
+}
+
+.p-text2{
+font-size:10px;
+ font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+
+}
+
+footer a {
+    color: #A29C9C !important;
+    transition: color 0.4s ease 0s;
+    font-size: 16px;
+}
+
+footer a:hover {
+    color: #fff!important;
+    transition: color 0.4s ease 0s;
+    font-size: 16px;
+}
+
+.btn-floating {
+    /* position: relative; */
+    /* z-index: 1; */
+    display: inline-block;
+
+    transition: all .2s ease-in-out;
+    width: 0px;!important
+    height: 0px;!important
+    padding: 15px;
+  }
+
+.btn-floating.btn-sm {
+    width: 36.15385px;
+    height: 36.15385px;
+}
+
+.btn-floating i {
+   display: flex !important;
+    color: #fff !important;
+    justify-content: space-around;
+  }
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+/*Modal Products*/
+
+.li-style-products-Add{
+  background-image:
+    linear-gradient(to bottom, rgba(255,255,255, 0) 0%, rgba(0,0,0, 1) 100%),
+    url("../images/gallery4.jpg");
+    background-size: 100% 100%;
+    color: white;
+    font-size: 30px;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+     padding:30px;
+     max-width: 100%;
+     height:auto;
+}
+
+.li-style-products-Edit{
+  background-image:
+    linear-gradient(to bottom, rgba(255,255,255, 0) 0%, rgba(0,0,0, 1) 100%),
+    url("../images/gallery4.jpg");
+    background-size: 100% 100%;
+    color: white;
+    font-size: 30px;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+    padding:30px;
+    max-width: 100%;
+    height:auto;
+}
+
+i.fa.fa-plus.fa-liicon {
+
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+i.fa.fa-pencil.fa-liicon {
+
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.footer-background{
+  background: #000;
+}
+
+.imagesetfix{
+
+}

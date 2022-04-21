@@ -1,0 +1,63 @@
+.pTopThityFive {
+    padding: 35px 0px 0 !important;
+}
+
+.userProfileSec .img_res_mob_dec {
+    width: 138px !important;
+    height: 138px !important;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.Gallery-text-overlay-Image3 img {
+    border-radius: 12px;
+}
+
+
+/*******Slider Nav Arrow**************/
+
+.pTopThityFive .mainListCarousel button.owl-prev,
+.pTopThityFive .mainListCarousel button.owl-next {
+    width: 32px;
+    height: 35px;
+    border-radius: 4px;
+    color: #662e91 !important;
+    border: unset;
+    background-color: unset;
+}
+
+.pTopThityFive .mainListCarousel button.owl-prev i,
+.pTopThityFive .mainListCarousel button.owl-next i {
+    font-size: 30px;
+}
+
+.pTopThityFive .mainListCarousel button.owl-prev,
+.pTopThityFive .mainListCarousel_video button.owl-prev {
+    float: left;
+}
+
+.pTopThityFive .mainListCarousel button.owl-next,
+.pTopThityFive .mainListCarousel_video button.owl-next {
+    float: right;
+}
+
+.pTopThityFive .mainListCarousel_video button.owl-prev,
+.pTopThityFive .mainListCarousel_video button.owl-next {
+    width: 32px;
+    height: 35px;
+    border-radius: 4px;
+    color: #662e91 !important;
+    border: unset;
+    background-color: unset;
+}
+
+.mainListCarousel_video .owl-nav button i {
+    font-size: 30px;
+}
+
+.mainListCarousel_video .videoPreview {
+    max-height: 172px !important;
+}
+
+
+/*******Slider Nav Arrow**************/

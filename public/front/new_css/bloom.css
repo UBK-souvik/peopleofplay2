@@ -1,0 +1,181 @@
+.customContainer {
+    max-width: 980px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+/**********|| Bloom Top ||**********/
+.bloomTop {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.ukrainStand img{
+    min-width: 95px;
+}
+.leftSide {
+    display: flex;
+    gap: 40px;
+}
+.bloomLogo p {
+    text-align: right;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: #18B5A0;
+    font-size: 24px;
+}
+.blmBtnList {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 0;
+}
+/**********|| Bloom Top ||**********/
+/**********|| Bloom Box Css ||**********/
+.divOne1 {
+    width: 260px;
+}
+.divOne2 {
+    width: calc(100% - 285px);
+}
+.manageFlex {
+    gap: 25px;
+}
+.wlcmBorder {
+    border: 7px solid #18b5a0;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+.blmHeading h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #662D91;
+}
+.imgContnt {
+    font-size: 14px;
+    color: #000;
+}
+.imgContnt p {
+    display: inline;
+}
+.imgContnt a {
+    text-decoration: underline;
+    color: #005AFF;
+    font-weight: bold;
+}
+.otherText p {
+    font-size: 16px;
+}
+.blmHeading {
+    gap: 20px;
+}
+.blmHeading .headImg img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.blmHeading h4 {
+    font-size: 24px;
+}
+.blmHeading h4,.blmHeading h6,.videoOfWeek .imageAdd h6,.footerMsg h6 {
+    font-weight: bold;
+    line-height: normal;
+}
+.imageAdd {
+    max-width: 450px;
+}
+.imageAdd,.fullAdsimages {
+    text-align: center;
+    margin: 15px auto;
+    border: 1px solid #000000;
+}
+.sepContent {
+    margin-bottom: 30px;
+}
+.joinPOP .divOne1 {
+    width: 190px;
+}
+.joinPOP .divOne2 {
+    width: calc(100% - 215px);
+}
+.wldWideList h5 {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.videoOfWeek .imageAdd {
+    max-width: 500px;
+}
+.footerMsg p {
+    font-size: 15px;
+    margin: 0;
+}
+/**********|| Bloom Box Css ||**********/
+@media(max-width: 991px){
+    .customContainer {
+    max-width: 100%;
+    padding: 0px 15px;
+}
+.leftSide {
+    display: flex;
+    gap: 25px;
+}
+.bloomLogo img {
+    max-height: 90px;
+}
+.manageFlex {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.divOne2,.joinPOP .divOne2 {
+    width: calc(100% - 0px);
+}
+.blmBtnList {
+    gap: 10px;
+}
+}
+@media(max-width: 767px){
+    .bloomTop {
+    align-items: flex-end;
+    flex-direction: column-reverse;
+        position: relative;
+}
+.ukrainStand img {
+    min-width: 70px;
+}
+.blmHeading {
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+}
+@media(max-width: 575px){
+.leftSide {
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shareFB {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.blmHeading h2 {
+    font-size: 22px;
+}
+.blmHeading h4,.bloomLogo p {
+    font-size: 18px;
+}
+.divOne1 {
+    width: auto;
+}
+.otherText p {
+    font-size: 14px;
+}
+.imgContnt {
+    font-size: 13px;
+}
+}

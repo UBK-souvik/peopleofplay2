@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1100px) {
+ .watchlistLI {
+    font-size: 17px!important;
+}
+.li-color {
+    font-size: 17px;
+}
+.main_header_menu .li-color {
+    font-size: 17px;
+}
+.myMainSearchWrap{
+	width: 100%!important;
+    margin: 0 auto;
+}
+.homeProfileCircle {
+    width: 130px!important;
+    height: 130px!important;
+    object-fit: cover;
+}
+button.owl-prev {
+    top: -151px!important;
+}
+button.owl-next {
+    top: -151px!important;
+}
+.mainListCarousel button.owl-prev {
+    top: -201px!important;
+}
+.mainListCarousel button.owl-next {
+    top: -201px!important;
+}
+#videos-fixed-size .kimg_div_class_new {
+    width: 205px!important;
+    height: 140px!important;
+}
+.productSlider {
+    width: 110px!important;
+    height: 110px!important;
+ }
+
+.planColumn {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 33%;
+    max-width: 33%;
+}
+.pricing .card {
+    border-radius: 0px;
+    background-color: #E7E6E6;
+    height: 812px;
+}
+.sideListTopHead a li {
+    padding: 0 0 0 10px;
+}
+.li-text li {
+    padding: 0 2px 0 8px;
+    font-size: 18px;
+}
+
+
+
+
+
+}

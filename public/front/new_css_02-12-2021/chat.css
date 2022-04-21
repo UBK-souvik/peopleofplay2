@@ -1,0 +1,564 @@
+                /***** || Chat Box Design ||*****/
+                
+                .esChatNotification h4 {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 24px;
+                    letter-spacing: 2px;
+                    color: #3C3C3C;
+                }
+                
+                .esChatBoxLeft {
+                    width: 30%;
+                    border-right: 1px solid #BFD4E4;
+                    height: 660px;
+                }
+                
+                .esChatBoxRight {
+                    width: 70%;
+                }
+                
+                .esChatNotification {
+                    padding: 5% 7%;
+                    height: 87px;
+                }
+                
+                .esChatUser {
+                    padding: 30px;
+                }
+                
+                .esChatNotification,
+                .esChatUser {
+                    border-bottom: 1.07939px solid #BFD4E4;
+                }
+                
+                .esMsgUser .esUsrMImg {
+                    overflow: hidden;
+                    width: 72px;
+                }
+                
+                .esMsgUser .esUsrMImg img {
+                    top: 0px;
+                }
+                
+                .esMsgUser h3 {
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 1px;
+                    color: #3C3C3C;
+                }
+                
+                .esChatWithUser .esTableLeft .esUsrMImg {
+                    width: 55px;
+                    height: 55px;
+                    border-radius: 100%;
+                }
+                
+                .esChatWithUser .esTableRight {
+                    width: calc(100% - 60px);
+                    padding: 0px 5px 0px 10px;
+                }
+                
+                .esChatWithUser .esTableRight h4,
+                .esTableRight span {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 1px;
+                    color: #3C3C3C;
+                }
+                
+                .esChatWithUser .esTableRight h4 .esUsTime {
+                    font-weight: 200;
+                    font-size: 15px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 1px;
+                    color: #3C3C3C;
+                }
+                
+                .esChatWithUser .esTableRight p {
+                    margin: 0px;
+                    display: -webkit-box !important;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 1;
+                    overflow: hidden;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 25px;
+                    letter-spacing: 1px;
+                    color: #3C3C3C;
+                }
+                
+                .esAllChatNotifiations {
+                    padding: 2%;
+                }
+                
+                .esChatLists li {
+                    padding: 15px 5%;
+                }
+                
+                .esCurrentChatBox .esChatLists li {
+                    background-image: url(../images/icons/line.png);
+                    background-repeat: no-repeat;
+                    background-position: bottom;
+                    padding: 30px 5%;
+                }
+                
+                .esCurrentChatBox .esChatLists li p {
+                    -webkit-line-clamp: 1;
+                }
+                
+                .esOtherNotifications .esChatUserActive {
+                    align-items: center;
+                    display: flex;
+                }
+                
+                .esInsideRightMessage .esTableFilters {
+                    justify-content: normal;
+                    display: flex;
+                }
+                
+                .esUserMsgBox p {
+                    font-size: 17.2703px;
+                    letter-spacing: 0.015em;
+                    color: #3C3C3C;
+                    margin-bottom: 0;
+                }
+                
+                .esUserMsgBox {
+                    width: 75%;
+                    background: #f0f0f1;
+                    border-radius: 17.2703px;
+                    padding: 16px 20px;
+                    position: relative;
+                }
+                
+                .esRightSideChat::before {
+                    position: absolute;
+                    content: "";
+                    border-right: 28px solid #f0f0f1;
+                    border-top: 12px solid transparent;
+                    border-bottom: 12px solid transparent;
+                    left: -28px;
+                    top: 16px;
+                }
+                
+                .esUserMsgBox .esTakeTestBtn {
+                    color: #810034;
+                    font-size: 23px;
+                }
+                
+                .esLeftMessage .esUserMsgBox {
+                    margin: 0px 0 0px auto;
+                    text-align: right;
+                }
+                
+                .esLeftSideChat::before {
+                    position: absolute;
+                    content: "";
+                    border-left: 28px solid #f0f0f1;
+                    border-top: 12px solid transparent;
+                    border-bottom: 12px solid transparent;
+                    right: -28px;
+                    top: 16px;
+                }
+                
+                .esMsgInput input[type=text]::placeholder {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #3C3C3C;
+                }
+                
+                .esEnterMsg {
+                    background: #FFEFF6;
+                    border-radius: 18px;
+                    padding: 0 20px;
+                    width: 80%;
+                    margin: 0 auto;
+                }
+                
+                .esMsgInput input[type=text] {
+                    background: transparent;
+                }
+                
+                .esMsgInput {
+                    width: 90%;
+                }
+                
+                .esEnterMsg div {
+                    padding: 20px 0;
+                }
+                /*  .esTableFilters {
+        justify-content: space-between;
+        display: flex;
+    }*/
+                
+                .esChatNotification,
+                .esChatUser {
+                    border-bottom: 1px solid #BFD4E4;
+                }
+                
+                .esChatUser {
+                    padding: 18px;
+                    height: 87px;
+                }
+                
+                .esForAns {
+                    border-radius: 10px;
+                    align-items: center;
+                    display: flex;
+                }
+                
+                .esForAns {
+                    background: #EBF9FA;
+                    min-width: 48%;
+                    margin-bottom: 20px;
+                }
+                
+                .esChatBoxInbox {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .esMsgUser .esUsrMImg {
+                    overflow: hidden;
+                    width: 50px;
+                    background-color: #fcb886;
+                    height: 50px;
+                }
+                
+                .esTableRight {
+                    width: 100%;
+                }
+                
+                .esUsrMImg {
+                    background-color: #fcb886;
+                    border-radius: 100%;
+                }
+                
+                .esUsrMImg {
+                    width: 152px;
+                }
+                
+                .esUsrMImg img {
+                    position: relative;
+                }
+                
+                .esMsgUser .esUsrMImg img {
+                    top: 0px;
+                }
+                
+                .esChatBoxLeft .navbar-toggler {
+                    display: none;
+                }
+                
+                .esChatBoxLeft button.navbar-toggler,
+                .esChatBoxLeft button.navbar-toggler span {
+                    position: absolute;
+                }
+                
+                .esChatBoxLeft button.navbar-toggler {
+                    height: 30px;
+                    width: 30px;
+                    padding: 0;
+                    outline: 0px;
+                    right: 0;
+                }
+                
+                .esChatBoxLeft button.navbar-toggler span.line1 {
+                    top: 5px;
+                }
+                
+                .esChatBoxLeft button.navbar-toggler span {
+                    margin: 0 auto;
+                }
+                
+                .esChatBoxLeft button.navbar-toggler span {
+                    border-top: 1px solid red;
+                    width: 30px;
+                    display: block;
+                    transition: 0.5s;
+                    left: 0px;
+                    right: 0px;
+                }
+                
+                .esChatBoxLeft button.navbar-toggler span.line2 {
+                    top: 13px;
+                }
+                
+                .esChatBoxLeft button.navbar-toggler span.line3 {
+                    bottom: 5px;
+                }
+                
+                .esShowSideBar.esChatBoxLeft button.navbar-toggler span.line3 {
+                    opacity: 0;
+                }
+                
+                .esChatBoxLeft button.navbar-toggler span.line3 {
+                    bottom: 5px;
+                }
+                
+                .esShowSideBar.esChatBoxLeft button.navbar-toggler span.line2 {
+                    transform: rotate( -45deg);
+                    top: 14px;
+                }
+                
+                .esShowSideBar.esChatBoxLeft button.navbar-toggler span.line1 {
+                    transform: rotate( 45deg);
+                    top: 13px;
+                }
+                
+                .esInsideChatBox {
+                    position: relative;
+                    height: 510px;
+                }
+                
+                .esEnterMessage {
+                    position: absolute;
+                    bottom: 0px;
+                    width: 100%;
+                    border-top: 1px solid #ccc;
+                    background: #fff;
+                    border-bottom-right-radius: 12px;
+                }
+                
+                .esInsideChatBox {
+                    position: relative;
+                    height: 480px;
+                    overflow: hidden;
+                    overflow-y: scroll;
+                }
+                
+                .sendBtn {
+                    background: #ffeff6;
+                }
+                
+                .esChatLists li#active .esTableRight span {
+                    font-weight: 600;
+                    color: #662c92;
+                }
+                
+                .esChatLists li .esTableRight span {
+                    font-weight: 500;
+                }
+                
+                #active {
+                    background-color: #fff !important;
+                }
+                
+                .chat_list:hover {
+                    background: #fff;
+                }
+                
+                .esChatLists li {
+                    padding: 15px 5%;
+                }
+                
+                .chat_list {
+                    border-bottom: 1px solid #ffff !important;
+                    margin: 0;
+                    padding: 18px 16px 10px;
+                }
+                
+                .esTableLeft {
+                    white-space: nowrap;
+                }
+                
+                .esInsideChatBox::-webkit-scrollbar,
+                .esAllChatNotifiations::-webkit-scrollbar {
+                    width: 5px;
+                }
+                
+                .esInsideChatBox::-webkit-scrollbar-thumb,
+                .esAllChatNotifiations::-webkit-scrollbar-thumb {
+                    background: #F6F7F8;
+                    border: 1px solid #939393;
+                    border-radius: 10px;
+                }
+                
+                .esInsideChatBox::-webkit-scrollbar-track,
+                .esAllChatNotifiations::-webkit-scrollbar-track {
+                    background: #f1f1f1;
+                }
+                
+                 ::-webkit-scrollbar {
+                    width: 8px;
+                }
+                
+                 ::-webkit-scrollbar-thumb {
+                    background: #F6F7F8;
+                    border: 1px solid #939393;
+                    border-radius: 10px;
+                }
+                
+                 ::-webkit-scrollbar-track {
+                    background: #f1f1f1;
+                }
+                
+                .esDashBdDiv {
+                    border-radius: 12px;
+                }
+                
+                .esAllChatNotifiations {
+                    height: 572px;
+                    overflow: hidden;
+                    overflow-y: auto;
+                }
+                
+                .esMsgDays .btn {
+                    border: 1px solid #9FA4AB;
+                    border-radius: 50px;
+                    font-size: 15.1115px;
+                    color: #9FA4AB;
+                    padding: 10px;
+                }
+                /***** || Chat Box Design ||*****/
+                /***** || Chat Box Responsive Design ||*****/
+                
+                @media (max-width: 1300px) {
+                    .esShowSideBar .esToggleMenu,
+                    .esShowSideBar .esChatForToggle {
+                        min-height: 700px;
+                        transform: scaleY(1);
+                        opacity: 1;
+                    }
+                }
+                
+                @media (max-width: 1200px) {
+                    .esChatNotification {
+                        padding: 3% 4%;
+                        height: 87px;
+                    }
+                }
+                
+                @media(max-width: 991px) {
+                    .esChatBoxLeft .navbar-toggler {
+                        display: block;
+                        left: 20px;
+                        top: 26px;
+                        z-index: 111;
+                        background-color: #fff;
+                    }
+                    .esChatBoxLeft {
+                        width: 0px;
+                        height: auto;
+                        position: absolute !important;
+                        z-index: 1;
+                        background-color: #fff;
+                        top: 0;
+                        left: 15px;
+                        bottom: 0;
+                        min-height: 100% !important;
+                        border-top-left-radius: 12px;
+                        border-bottom-left-radius: 12px;
+                    }
+                    .esChatBoxLeft {
+                        border-right: unset;
+                    }
+                    .esEnterMessage {
+                        border-bottom-left-radius: 12px;
+                    }
+                    .esChatNotification {
+                        height: 87px;
+                    }
+                    .esChatBoxRight {
+                        width: 100%;
+                        border-left: 0;
+                    }
+                    .esChatForToggle {
+                        opacity: 0;
+                        transform: scaleY(0);
+                        transition: 0.5s;
+                        transform-origin: top;
+                    }
+                    .esChatForToggle {
+                        opacity: 0;
+                        transform: scaleY(0);
+                        transition: 0.5s;
+                        transform-origin: top;
+                        min-height: 100vh;
+                    }
+                    .esChatUser {
+                        padding: 15px 15px 15px 80px;
+                    }
+                    .esShowSideBar {
+                        width: 320px;
+                        box-shadow: 0px 0px 10px #a5a5a5;
+                    }
+                    .esShowSideBar.esChatBoxLeft button.navbar-toggler {
+                        left: 87%;
+                    }
+                    .esInsideMsgBox {
+                        max-height: 60vh;
+                        overflow: auto;
+                        min-height: 60vh;
+                    }
+                    .esAllChatNotifiations {
+                        max-height: 464px;
+                    }
+                    .esInsideChatBox::-webkit-scrollbar {
+                        width: 0px;
+                    }
+                     ::-webkit-scrollbar {
+                        width: 5px;
+                    }
+                }
+                
+                @media (max-width: 767px) {
+                    .esChatUser .esMsgUser .esUsrMImg {
+                        width: 60px;
+                        height: 60px;
+                    }
+                    .esRightMessage .esTableRight {
+                        padding: 0px 5px 0px 30px !important;
+                    }
+                    .esLeftMessage .esTableRight {
+                        padding: 0px 30px 0px 5px !important;
+                    }
+                    .esUserMsgBox {
+                        width: 95%;
+                        padding: 10px;
+                        margin-bottom: 10px !important;
+                    }
+                    .esRightSideChat::before {
+                        top: 9px;
+                        left: -20px;
+                    }
+                    .esLeftSideChat::before {
+                        top: 9px;
+                        right: -20px;
+                    }
+                    .esUserMsgBox p {
+                        font-size: 14px;
+                    }
+                    .esChatBoxLeft .navbar-toggler {
+                        top: 32px;
+                    }
+                }
+                
+                @media (max-width: 350px) {
+                    .esMsgUser .esUsrMImg {
+                        width: 40px !important;
+                        height: 40px !important;
+                    }
+                    .esMsgUser h3 {
+                        font-size: 16px;
+                    }
+                    .esChatBoxLeft .navbar-toggler {
+                        top: 22px;
+                    }
+                    .esChatUser {
+                        height: 74px;
+                    }
+                    .esShowSideBar {
+                        width: 91%;
+                    }
+                    .esChatBoxLeft {
+                        border-radius: 12px;
+                    }
+                }
+                /***** || Chat Box Responsive Design ||*****/

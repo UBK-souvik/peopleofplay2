@@ -53,10 +53,7 @@ class EventHeaderController extends Controller
         $request->validate([
             // 'event_id' => 'nullable|exists:events,id',
 
-            'h1_tag' => 'required',
-            'h2_tag' => 'required',
-            'h3_tag' => 'required',
-            'button_text' => 'required',
+
         ]);
         try {
             DB::beginTransaction();
@@ -68,6 +65,11 @@ class EventHeaderController extends Controller
             $event_header->h2_tag = $request->h2_tag;
             $event_header->h3_tag = $request->h3_tag;
             $event_header->button_text = $request->button_text;
+            $event_header->button_two_text = $request->button_two_text;
+            $event_header->button_three_text = $request->button_three_text;
+            $event_header->button_one_link = $request->button_one_link;
+            $event_header->button_two_link = $request->button_two_link;
+            $event_header->button_three_link = $request->button_three_link;
 
                 // print_r ($event_header);exit;
             $event_header->save();

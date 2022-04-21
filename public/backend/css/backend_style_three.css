@@ -1,0 +1,63 @@
+.imgHundred{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+.marginTopFive{
+	margin-top: 5px;
+}
+.imgFifty{
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+}
+
+.kbg_black {
+    border-radius: 0;
+    background-color: #000;
+}
+.twoFiftySeven{
+	width: 280px;
+	height: 140px;
+	object-fit: cover;
+}
+/*.paddingTwo{
+	padding: 8px;
+}*/
+
+.kbg_black h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin:0;
+    padding-left: 15px;
+    color: #fff;
+}
+.kclose{
+	color: #fff;
+}
+.paddingZero{
+	padding: 0
+}
+
+
+
+
+@media screen and (min-width: 480px) {
+  .TopMarginFiveMob{
+	margin-top: 5px;
+  }
+}
+.table tr th{
+	white-space: nowrap;
+}
+
+
+p.noteText{
+	  color: red;
+	  font-size: 11px!important;
+	}
+  @media only screen and (min-width: 576px) {
+      .bootstrap-tagsinput input {
+        min-width: 566px;
+      }
+  }

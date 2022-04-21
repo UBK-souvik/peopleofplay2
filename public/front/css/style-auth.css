@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+    letter-spacing: 0.5px;
+
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #000 !important;
+}
+
+.Login-Style{
+    background-color:#fff!important; 
+}
+
+.formstyle{
+    border: 1px solid #c2cbd4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+}
+.btnLogin
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+    background: #f0c14b!important;
+    border-color: #a88734 #9c7e31 #846a29 !important;
+    color:#000!important;
+    font-size:15px!important;
+}
+
+.btnLogin:hover
+{
+    background-color: #111!important;
+    color:#fff!important;
+}
+
+.modal-body {
+    border: 1px solid #c2cbd4 !important;
+    padding: 30px !important;
+    margin: 30px !important;
+    border-radius: 10px;
+}

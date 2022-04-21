@@ -136,7 +136,7 @@ if(!isset(Auth::guard('users')->user()->type_of_user) || Auth::guard('users')->u
                                     <a class="dropdown-item" href="<?php echo e(route('front.pages.quiz.detail')); ?>">3 Truths and a Lie</a>
                                     <a class="dropdown-item" href="<?php echo e($str_link_classifieds); ?>">Classifieds</a>
                                     <a class="dropdown-item" target="_blank" href="<?php echo e($str_link_pop_industry_get_together); ?>">Networking Events</a>
-                                    <a class="dropdown-item" target="_blank" href="<?php echo e(route('front.prEvent')); ?>">2022 April Marketing and PR Event</a>
+                                    <a class="dropdown-item" href="<?php echo e(route('front.prEvent')); ?>">2022 April Marketing and PR Event</a>
                                  </div>
                               </div>
                            </div>

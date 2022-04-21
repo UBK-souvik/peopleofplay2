@@ -1,0 +1,311 @@
+.dictionarySection {
+    margin: 40px 0;
+    padding: 30px 0 70px 0;
+}
+
+
+/*.dictionaryContainer2 {
+    width: 80%;
+    margin: 0 auto;
+}*/
+
+.headTextDictonary {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.PRDeskZero {
+    padding-right: 0;
+}
+
+.searchDictionary {
+    align-items: center;
+}
+
+.searchDictionary input {
+    height: 45px;
+}
+
+.searchDictionary .or {
+    max-width: 47px;
+}
+
+.dictionarySection .form-inline .form-control {
+    width: 100%;
+}
+
+.searchDictionary .or p {
+    margin-top: 8px;
+}
+
+.searchDictionary .randomWord p {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.searchDictionary .randomWord {
+    border: 2px solid #000;
+    box-shadow: 2px 2px 6px #d2cfcf;
+    border-radius: 2px;
+}
+
+.clickSubmit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clickSubmitInner p {
+    font-weight: 500;
+}
+
+.clickSubmitInner p a {
+    background-color: #9900FF;
+    border-radius: 5px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.starBackground {
+    background-size: cover;
+    background-position: center;
+    width: 240px;
+    height: 238px;
+    position: relative;
+}
+
+.textOverBackground {
+    width: 59%;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.recentHead {
+    margin-top: 40px;
+}
+
+.cardBox .bottomText a {
+    color: #9900FF;
+}
+
+.cardBox .socialDropdown span i {
+    font-size: 16px;
+}
+
+.homesectionBox .greenBg {
+    background-color: #D9EAD3;
+    min-height: 234px;
+}
+
+.offerImgDictonary {
+    display: flex;
+    align-items: center;
+}
+
+.dictionarySection .TruthsLieMini {
+    background-color: unset;
+    border-radius: unset;
+    box-shadow: unset;
+    margin-bottom: unset;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 44px;
+    height: 44px;
+    line-height: 2.3rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    right: 14px;
+    top: 4px;
+}
+
+.searchDictionary .randomWord p a:hover {
+    color: #652893;
+}
+
+.searchDictionary .randomWord p a {
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.textPurple {
+    color: #672997;
+}
+
+.dictionarySection .form-inline .form-control:focus {
+    box-shadow: 0 0 0 0.1rem rgb(101 39 146 / 65%);
+}
+
+.dictionarySection .form-inline .form-control:hover,
+.dictionarySection .form-inline .form-control:focus {
+    border: 1px solid #662893!important;
+}
+
+.clickSubmitInner p a:hover {
+    box-shadow: 0px 2px 4px 1px #615f5f !important;
+}
+
+.dictionaryContainer .TruthsLieMini {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px 1px #8c8c8c !important;
+    border-radius: 16px;
+    border: 0 !important;
+}
+
+.dictionaryContainer .TruthsLieMini .cardBox {
+    border-radius: 16px !important;
+}
+
+.dictionaryContainer .cardBox {
+    padding: 20px 20px 10px;
+    box-shadow: 0px 2px 4px 1px #8c8c8c !important;
+    border-radius: 16px;
+    background: #fff !important;
+}
+
+.dictionaryContainer .cardBox .bottomText a {
+    text-decoration: underline;
+}
+
+.clickRandomInner .btn {
+    border: 2px solid #000;
+    border-radius: 0;
+    color: #000;
+}
+
+
+/*************pop-dictionary responsive css***************/
+
+@media only screen and (max-width: 1199px) {
+    .starBackground {
+        width: 236px;
+        margin: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .has-search .form-control-feedback {
+        width: 40px;
+        height: 40px;
+        top: 10px;
+    }
+    .searchDictionary .or p {
+        margin-top: 16px;
+    }
+    .searchDictionary .randomWord p {
+        font-size: 35px;
+    }
+    .starBackground {
+        width: 53%;
+        margin: 40px 0;
+    }
+    .starBackground {
+        width: 234px;
+        margin: 40px 0;
+    }
+    .recentHead {
+        margin-top: 0;
+    }
+    .clickSubmitInner p a {
+        font-weight: normal !important;
+        font-size: 16px !important;
+    }
+    .clickSubmitInner,
+    .clickRandomInner {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .searchFormHead {
+        margin: 0;
+    }
+    .PRDeskZero {
+        padding: 0;
+    }
+    .searchDictionary .or {
+        max-width: unset;
+    }
+    .searchDictionary .randomWord p {
+        font-size: unset;
+    }
+    .searchDictionary .randomWord p a {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .dictionaryContainer2 {
+        width: 100%;
+    }
+    .has-search .form-control-feedback {
+        right: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cardBox .bottomText {
+        margin-top: 19px;
+    }
+    .PRDeskZero {
+        padding-right: 15px;
+    }
+    .dictionarySection .form-inline .form-control {
+        width: 100%!important;
+    }
+    .dictionarySection .has-search .form-control {
+        width: 100%!important;
+    }
+    .searchDictionary .or {
+        margin: 0 auto;
+    }
+    .clickSubmitInner {
+        margin: 0 auto;
+    }
+    .dictionaryContainer {
+        width: 100%;
+        padding: 15px!important;
+    }
+    .dictionaryContainer .mainHeadText {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .searchDictionary .or p {
+        margin: 8px 0;
+    }
+    .searchDictionary .randomWord {
+        margin: 0 15px;
+        box-shadow: 2px 2px 6px #d2cfcf;
+    }
+    .searchDictionary .randomWord p {
+        margin-top: 0;
+        padding: 7px 0;
+    }
+    .offerImgDictonary img {
+        margin: 0 auto;
+    }
+    .clickSubmit {
+        padding-top: 0px;
+        margin-bottom: 30px;
+    }
+    .cardBox {
+        margin-bottom: 30px;
+    }
+    .searchDictionary {
+        flex-direction: column;
+    }
+}
+
+
+/*************pop-dictionary responsive css***************/

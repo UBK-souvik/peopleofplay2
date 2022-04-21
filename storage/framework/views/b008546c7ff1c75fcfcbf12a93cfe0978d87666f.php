@@ -473,20 +473,28 @@ $is_chk_spon_adv_page_flag = 1;
          <span>Events 2022</span>
          </a>
          <ul class="treeview-menu">
-            <li ><a href="<?php echo e(url('/admin/eventyear')); ?>"><i class="fa fa-circle-o"></i>Profile List</a></li>
-            <li ><a href="<?php echo e(url('admin/profileheader')); ?>"><i class="fa fa-circle-o"></i>Profile Header</a></li>
+            <li ><a href="<?php echo e(url('/admin/eventheader')); ?>"><i class="fa fa-circle-o"></i>Section one Header </a></li>
+
+
          </ul>
          <ul class="treeview-menu">
-            <li ><a href="<?php echo e(url('/admin/eventheader')); ?>"><i class="fa fa-circle-o"></i>Page Header List</a></li>
+             <li ><a href="<?php echo e(url('admin/profileheader')); ?>"><i class="fa fa-circle-o"></i>Section two Header</a></li>
+            <li ><a href="<?php echo e(url('/admin/eventyear')); ?>"><i class="fa fa-circle-o"></i>Section two Profile</a></li>
+            
+         </ul>
+
+         <ul class="treeview-menu">
+             <li ><a href="<?php echo e(url('admin/sectionthree')); ?>"><i class="fa fa-circle-o"></i>Section three Header</a></li>
+            <li ><a href="<?php echo e(url('/admin/sectionprofile')); ?>"><i class="fa fa-circle-o"></i>Section three Profile</a></li>
             
          </ul>
          <ul class="treeview-menu">
-            <li ><a href="<?php echo e(url('/admin/eventdescription')); ?>"><i class="fa fa-circle-o"></i>Event Description List</a></li>
-            <li ><a href="<?php echo e(url('/admin/descriptionheader')); ?>"><i class="fa fa-circle-o"></i>Event Description Header</a></li>
+             <li ><a href="<?php echo e(url('/admin/descriptionheader')); ?>"><i class="fa fa-circle-o"></i>Section three Description Header</a></li>
+            <li ><a href="<?php echo e(url('/admin/eventdescription')); ?>"><i class="fa fa-circle-o"></i>Section three Description </a></li>
             
          </ul>
          <ul class="treeview-menu">
-            <li ><a href="<?php echo e(url('/admin/eventbanner')); ?>"><i class="fa fa-circle-o"></i>Event Banner List</a></li>
+            <li ><a href="<?php echo e(url('/admin/eventbanner')); ?>"><i class="fa fa-circle-o"></i>Section four</a></li>
             
          </ul>
          </li>

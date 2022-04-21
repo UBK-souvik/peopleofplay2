@@ -29,7 +29,12 @@
                                         <th>Header 1</th>
                                         <th>Header 2</th>
                                         <th>Header 3</th>
-                                        <th>Button Text</th>
+                                        <th>Button 1 Text</th>
+                                        <th>Button 2 Text</th>
+                                        <th>Button 3 Text</th>
+                                        {{-- <th>Button 1 Link</th>
+                                        <th>Button 3 Link</th>
+                                        <th>Button 3 Link</th> --}}
                                         <th>Action</th>
 					                </tr>
 				                </thead>
@@ -60,7 +65,11 @@
 	            { "data": "h2_tag" },
 	            { "data": "h3_tag" },
 	            { "data": "button_text" },
-
+	            { "data": "button_two_text" },
+	            { "data": "button_three_text" },
+	            // { "data": "button_one_link" },
+	            // { "data": "button_two_link" },
+	            // { "data": "button_three_link" },
                 {
                     "mRender": function (data, type, row)
                     {

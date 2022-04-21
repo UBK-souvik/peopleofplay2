@@ -1,0 +1,158 @@
+@media screen and (max-width: 567px) {
+
+
+
+  .has-search .form-control {
+    padding-left: 2.375rem;
+    width: 286px !important;
+}
+
+
+header#DesktopHeaderHome {
+    display: none;
+}
+
+header#MobileHeaderHome {
+    display: block;
+    flex-direction: row;
+}
+
+
+.hideondesktop{
+    display: none;
+}
+
+i.fa.navbarsicon {
+    color: #fff;
+    font-size: 30px;
+    }
+
+i.fa.navbarsicontop {
+    color: #fff;
+    font-size: 15px;
+    display: inline;
+    }
+
+a.dashboardp {
+    color: #fff!important;
+    font-size: 12px;
+    
+}
+
+a.dashboardplogin {
+    color: #fff!important;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+a.nav-linkdashboard {
+    color: #fff !important;
+    transition: color 0.4s ease 0s;
+    font-size: 12px;
+    display: table-row;
+}
+a.nav-linkdashboard:hover {
+    color: #000 !important;
+    transition: color 0.4s ease 0s;
+}
+
+i.fa.fa-icon1dashboard{
+    font-size: 12px;
+}
+
+.linemargin{
+    margin-top:0px !important;
+    background: #fff;
+}
+
+.linemarginmenu{
+    
+    background: #A29C9C;
+}
+
+.Topbar{
+    background: #A29C9C;
+}
+span.fa.fa-search.form-control-feedback {
+  display: none;
+}
+
+a.nav-link {
+    color: #A29C9C !important;
+    transition: color 0.4s ease 0s;
+    font-size: 12px;
+    display: table-row;
+}
+
+a.nav-link:hover {
+    color: #fff!important;
+    transition: color 0.4s ease 0s;
+    font-size: 16px;
+}
+
+div#navbarSupportedContent {
+    padding: 15px 0px;
+}
+
+.image-width img {
+    width: 50%;
+    height:auto;
+}
+
+.right-column{
+    float:none;
+    width:100%;
+}
+
+.left-column{
+    float:none;
+    width:100%;
+}
+
+.navbar-toggler {
+   
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+section#MobileProducts {
+    background-color: #000;
+}
+
+.ml-sm-auto, .mx-sm-auto {
+    margin-left: auto!important;
+}
+
+.image-width{
+  display: flex;
+  flex-direction: column;  
+}
+
+.paragraph {
+    margin-top: 30px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.navbar-toggler {
+    border: none;
+    border-radius: 0px !important;
+}
+
+.navbar-toggler:focus {
+    border: none;
+}
+
+.MobileFirstGallery{
+    display: block !important;
+}
+
+.DesktopFirstGallerythird{
+    display: none !important;
+}
+
+
+
+}

@@ -1,0 +1,99 @@
+#gallery-main-div-id-new .kmenu ul li a {
+    padding: 7px 15px 0px;
+    font-weight: 400;
+    background: transparent;
+    transition: all 1s ease;
+}
+
+#gallery-main-div-id-new .kmenu ul li a {
+    margin-right: 5px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.kmenu .active {
+    background-color: #672997!important;
+    color: #fff!important;
+    border-radius: 0px;
+    padding-bottom: 10px!important;
+}
+
+.kmenu a {
+    color: #672997!important;
+    border: 1px solid #672997;
+    padding-bottom: 10px!important;
+}
+
+.imgfifty {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.tbody_productlist tr td {
+    font-weight: 500!important;
+    font-size: 13px !important;
+}
+
+.imgProfilePadding {
+    text-align: center;
+}
+
+
+/**product edit**/
+
+.ui-sortable th {
+    text-align: center;
+}
+
+.table-striped td {
+    background: #fff;
+}
+
+.table-striped tbody tr {
+    border-bottom: 1px solid #999;
+    text-align: center;
+}
+
+.edit_profileTbl th,
+.edit_profileTbl td {
+    padding: 10px 0;
+}
+
+.table-striped tbody tr {
+    border-bottom: 1px solid #999;
+    text-align: center;
+}
+
+
+/**product edit**/
+
+
+/**media**/
+
+.media-upload {
+    position: relative;
+}
+
+.custom-file-input1::before {
+    content: 'Choose File';
+    color: #000;
+    display: inline-block;
+    background: #FFCA2C !important;
+    border: 1px solid transparent!important;
+    border-radius: 14px;
+    padding: 13px 24px 12px;
+    outline: 0;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    bottom: 0;
+    box-shadow: 0px 2px 4px 1px #8c8c8ceb;
+}
+
+
+/**media**/

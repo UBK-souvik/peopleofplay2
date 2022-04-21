@@ -1,0 +1,232 @@
+.PricingTable {
+    box-shadow: 0px 0px 8px 2px #b3b3b3;
+    background-color: #ffffff;
+}
+
+.table {
+    margin-bottom: 0!important;
+}
+
+.PricingTable .table thead th {
+    padding: 10px;
+    min-width: 200px;
+}
+
+
+/* .TableHead {
+    position: relative;
+} */
+
+.PricingTable .table thead th {
+    position: relative;
+    vertical-align: top;
+}
+
+.TablePriceBtn {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+}
+
+span.freeTop {
+    font-size: 12px !important;
+}
+
+.freeTop {
+    color: #fff !important;
+    line-height: 1.3;
+    background: #ed2a2a;
+    padding: 1px 15px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 99;
+    top: -8px !important;
+    box-shadow: 0px 1px 4px 1px #f7d571;
+    margin: 8px 0;
+    right: 10px;
+}
+
+.FreePlan {
+    margin-top: 18px !important;
+}
+
+.PlanType h6 {
+    margin: 0;
+}
+
+.pricing .wrap-all {
+    background: none;
+}
+
+.wrap-all {
+    padding: 0.5px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    min-height: 210px !important;
+}
+
+.pricing .card-price {
+    margin: 0 0 1px 0px;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    color: #000!important;
+}
+
+.pricing .monthPay {
+    font-size: 13px;
+    color: #000;
+    font-weight: 600;
+}
+
+.PricingTable .table thead th p {
+    font-size: 12px !important;
+}
+
+.pricing .sidetitle {
+    color: #000;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif !important;
+    text-transform: capitalize;
+    min-height: 70px;
+}
+
+.sidetitle {
+    line-height: 1.6;
+}
+
+.pricing .btn {
+    font-size: 85%;
+    padding: 0.5rem 1rem;
+}
+
+.btnAll,
+.edit-btn-style {
+    background-color: #FFCA2C;
+    border-radius: 4px;
+    color: #000!important;
+}
+
+.planHeadOne {
+    background: green !important;
+    font-weight: 600!important;
+    text-transform: uppercase !important;
+    border-radius: 4px;
+    margin-bottom: 0;
+}
+
+span.mostPopularTop {
+    font-size: 12px !important;
+}
+
+.mostPopularTop {
+    background: #ed2a2a;
+    padding: 1px 15px;
+    border-radius: 10px;
+    color: #fff !important;
+    position: absolute;
+    right: 20px;
+    z-index: 99;
+    margin: 8px 0;
+    top: 0;
+}
+
+.PopPlanPopular {
+    margin-top: 8px;
+}
+
+.PricingTable .table thead th:nth-child(2) {
+    background: #FFE599;
+}
+
+.PricingTable .table thead th:nth-child(3) {
+    background: #B6D7A8;
+}
+
+.PricingTable .table thead th:nth-child(4) {
+    background: #B4A7D6;
+}
+
+.PricingTable .table thead th:nth-child(5) {
+    background: #EA9999;
+}
+
+.PricingTable .table tbody tr:nth-child(1) td {
+    border-top: none !important;
+}
+
+.PricingTable .table tbody tr td:nth-child(1) {
+    background: #EEEEEE;
+}
+
+.PricingTable .table tbody tr td:nth-child(1) {
+    text-align: left;
+    white-space: nowrap;
+    font-weight: 800 !important;
+}
+
+.PricingTable .table tbody tr td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px!important;
+    padding: 10px 20px;
+    color: #000;
+}
+
+.PricingTable .table tbody tr:nth-child(1) td {
+    border-top: none !important;
+}
+
+.PricingTable .table tbody tr td:nth-child(2) {
+    background: #FFF2CC;
+}
+
+.PricingTable .table tbody tr td:nth-child(3) {
+    background: #D9EAD3;
+}
+
+.PricingTable .table tbody tr td:nth-child(4) {
+    background: #D9D2E9;
+}
+
+.PricingTable .table tbody tr td:nth-child(5) {
+    background: #F4CCCC;
+}
+
+.PricingTable .table tbody .TableIcon {
+    width: 26px;
+}
+
+.pricing .btn {
+    letter-spacing: .1rem;
+    font-weight: 700;
+    opacity: 1;
+    transition: all .2s;
+}
+
+.cardBg {
+    position: relative;
+}
+
+.button_1,
+.button_3 {
+    color: #000;
+    font-weight: 500;
+}
+
+.TablePriceBtn a {
+    white-space: normal;
+    width: 150px;
+}
+
+@media only screen and (min-device-width:1300px) {
+    .PricingTable.table-responsive {
+        overflow-x: unset;
+    }
+}
+
+@media only screen and (max-device-width:767px) {
+    .PricingTable .table tbody tr td:nth-child(1) {
+        white-space: normal;
+    }
+}

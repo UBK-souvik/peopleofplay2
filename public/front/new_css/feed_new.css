@@ -1,0 +1,358 @@
+/******file-upload**********/
+
+.file-upload .image-box {
+    height: 200px;
+    width: 100%;
+    background: #ccc;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.file-upload .image-box img {
+    height: 100%;
+    display: none;
+}
+
+.file-upload .image-box .btn {
+    padding: 4px 14px;
+    font-size: 12px;
+    color: #383d41;
+    border: 1px solid #383d41;
+    margin: 8px 0;
+    font-weight: 700;
+}
+
+.file-upload .image-box .popFeedIcon .fa {
+    font-size: 30px;
+    color: #383d41;
+}
+
+.file-upload .image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.file-upload .image-box img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.popFeedIcon img {
+    display: block !important;
+    width: 34px !important;
+}
+
+.popFeedIcon {
+    display: flex;
+    justify-content: center;
+}
+
+
+/******file-upload**********/
+
+
+/******tab**********/
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #e7e7e7;
+    border-color: #dee2e600 #dee2e600 #fff0;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin: 0px 2px;
+    color: #495057;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e600;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: #e9ecef00 #e9ecef00 #dee2e600;
+    background-color: #e7e7e7;
+}
+
+.popModelFeed .nav {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.popModelFeed .nav li a img {
+    max-height: 30px;
+    min-height: 30px;
+    object-fit: scale-down;
+    max-width: 30px;
+    min-width: 30px;
+}
+
+.popModelFeed .nav li a p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.popModelFeed .nav {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    padding-bottom: 20px;
+}
+
+.popModelFeed .nav li a {
+    padding: 6px 10px;
+}
+
+
+/******tab**********/
+
+
+/************bootstrap-tagsinput *************/
+
+.bootstrap-tagsinput {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    display: block;
+    padding: 4px 6px;
+    color: #555;
+    border-radius: 4px;
+    width: 100%;
+    line-height: 29px;
+    cursor: text;
+}
+
+.bootstrap-tagsinput input {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0 6px;
+    margin: 0;
+    width: auto;
+    max-width: inherit;
+}
+
+.bootstrap-tagsinput.form-control input::-moz-placeholder {
+    color: #777;
+    opacity: 1;
+}
+
+.bootstrap-tagsinput.form-control input:-ms-input-placeholder {
+    color: #777;
+}
+
+.bootstrap-tagsinput.form-control input::-webkit-input-placeholder {
+    color: #777;
+}
+
+.bootstrap-tagsinput input:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.bootstrap-tagsinput .tag {
+    margin-right: 2px;
+    color: white;
+}
+
+.bootstrap-tagsinput .tag [data-role="remove"] {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.bootstrap-tagsinput .tag [data-role="remove"]:after {
+    content: "x";
+    padding: 0px 2px;
+}
+
+.bootstrap-tagsinput .tag [data-role="remove"]:hover {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.bootstrap-tagsinput .tag [data-role="remove"]:hover:active {
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.bootstrap-tagsinput .tag {
+    background-color: #5bc0de;
+    display: inline-block;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+
+.bootstrap-tagsinput input[type=text],
+.feedSelectInput .select2-search__field {
+    display: block;
+    width: 100%;
+}
+
+
+/************bootstrap-tagsinput *************/
+
+
+/*************select2 **************/
+
+.select2-container--bootstrap .select2-selection--multiple.feedSelectInput .select2-selection__choice {
+    color: #fff;
+    background: #5bc0de;
+    border: 1px solid #5bc0de;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.select2-container--bootstrap .select2-selection--multiple.feedSelectInput .select2-selection__choice__remove {
+    color: #fff;
+    margin-left: 3px;
+    margin-right: 0;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.select2-container--bootstrap.select2-container--focus .select2-selection.feedSelectInput,
+.select2-container--bootstrap.select2-container--open .select2-selection.feedSelectInput {
+    box-shadow: unset;
+    border-color: #ccc;
+}
+
+.select2-container--bootstrap .select2-dropdown {
+    box-shadow: unset;
+    border-color: #ccc;
+}
+
+.select2-search__field::placeholder {
+    color: #777777 !important;
+}
+
+.form-control::placeholder,
+.bootstrap-tagsinput input[type=text] {
+    font-size: 14px;
+}
+
+.select2-container--bootstrap .select2-selection--multiple.feedSelectInput .select2-search--inline .select2-search__field {
+    padding: 0 6px;
+    width: 100% !important;
+}
+
+.popFeedImage .select2-container {
+    width: 100% !important;
+}
+
+
+/*************select2 **************/
+
+
+/*******model********/
+
+.popFeedPosts .modal-lg {
+    max-width: 400px;
+}
+
+.popFeedPosts .modal-title {
+    font-size: 18px;
+}
+
+.popFeedPosts .modal-header {
+    position: relative;
+    padding: 8px;
+    justify-content: center;
+    border-bottom: 1px solid #9f9f9f;
+}
+
+.popFeedPosts button.close {
+    position: absolute;
+    right: 16px;
+    outline: none;
+    z-index: 100;
+}
+
+.headTitle {
+    display: none;
+}
+
+.headTitle.active {
+    display: block;
+    opacity: 10;
+}
+
+.popFeedPosts {
+    padding: 0 !important;
+}
+
+.popFeedPosts .modal-content {
+    border-radius: 1.3rem;
+    overflow: hidden;
+    border: 0px;
+}
+
+.popPostBtn .btn {
+    background-color: #662e91;
+    color: #fff;
+    padding: 8px 30px;
+    font-size: 14px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.popFeedPosts .tab-content>.active {
+    display: block;
+    opacity: 1;
+}
+.popFeedImagePreview .col-ting,.popFeedProductPreview .col-ting {
+    margin-top: 0px !important;
+}
+.popFeedImageForm .feedInputsInside {
+    height: calc(100vh - 260px);
+    overflow-y: auto;
+    /* overflow-x: hidden; */
+}
+.popPostBtn {
+    padding: 10px 0px;
+    border-top: 1px dashed rgb(205, 205, 205);
+    margin: 0px !important;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+/*.popPostBtn {*/
+/*    margin: 0px !important;*/
+/*    padding: 10px 0px;*/
+/*    border-top: 1px dashed #cdcdcd;*/
+/*}*/
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/*******model********/
+
+@media only screen and (max-device-width: 400px) {
+    .file-upload .image-box {
+        height: 250px;
+    }
+}
+@media (max-width:575px) {
+    .popPostBtn {
+        gap: 10px;
+        flex-direction: column;
+    }
+}

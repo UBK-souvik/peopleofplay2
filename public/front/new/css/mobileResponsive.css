@@ -1,0 +1,46 @@
+@media screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+    .DashboardProfileList li a img {
+        margin-right: 10px;
+        width: 22px;
+    }
+    .DashboardProfile .nav .nav-item .nav-link {
+        font-size: 15px;
+        max-width: 148px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .span-white1 {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .span-white1 {
+        font-size: 13px!important;
+    }
+    .sidebarImgCircle {
+        width: 65px !important;
+        height: 65px !important;
+        object-fit: cover;
+    }
+    a.p-text1.span-style1 {
+        width: unset !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mainListCarousel button.owl-prev span {
+        top: -13px;
+    }
+    .mainListCarousel button.owl-next span {
+        top: -13px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .HomeSectionSlider {
+        padding-left: unset !important;
+        padding-right: unset !important;
+    }
+}

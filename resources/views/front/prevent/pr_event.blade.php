@@ -23,7 +23,13 @@
                         </div>
 
                         <div class="imagebtn text-center " style="margin-top: 22px;">
-                            <a class="btn hover_btn" target="_blank"><span class="ButtonText " style="padding:17px;">{{ $row->button_text }}</span></a>
+                            <a class="btn hover_btn" href="{{ $row->button_one_link }}" target="_blank"><span class="ButtonText " style="padding:17px;">{{ $row->button_text }}</span></a>
+                        </div>
+                        <div class="imagebtn text-center " style="margin-top: 22px;">
+                            <a class="btn hover_btn" href="{{ $row->button_two_link }}" target="_blank"><span class="ButtonText " style="padding:17px;">{{ $row->button_two_text }}</span></a>
+                        </div>
+                        <div class="imagebtn text-center " style="margin-top: 22px;">
+                            <a class="btn hover_btn" href="{{ $row->button_three_link }}" target="_blank"><span class="ButtonText " style="padding:17px;">{{ $row->button_three_text }}</span></a>
                         </div>
                     </div>
                 </div>
@@ -37,27 +43,55 @@
                     </div>
                     <?php } ?>
 
-                    <div class="row images_class" style="">
+                    <div class="row" >
                         <?php foreach ($data as $key => $row2) { ?>
-                            <div class="col-sm-3 ">
+                            <div class="col-sm-12 col-xs-12 col-md-3">
+                                <div class="imagebox  profileImg" >
                                 <a href="{{ $row2->profileUrl }}" target="_blank">
 
-                                <div class="imagebox imgbox" style="width: 201px;height: 250px;object-fit: cover;object-position: 50% 50%;">
                                         <img src="{{ @imageBasePath($row2->main_image) }}" class="category-banner img-fluid">
 
-                                </div>
                                 </a>
+                            </div>
+
                                 <a href="{{ $row2->profileUrl }}" target="_blank">
-                                <span class="imagebox-desc text-center mt-2" style="font-size: 17px;
-                                font-weight: bold; color:black;    margin-left: 78px;"> {{ $row2->profileName }} </span>
+                                <span class="imagebox-desc text-center mt-2 profileName" > {{ $row2->profileName }} </span>
                                 </a>
-                                <span class="imagebox-desc text-center mt-1" style="font-family:sans-serif;font-size:13px;margin-left: 78px;"> {{ $row2->profileSubtitle }} </span>
+                                <span class="imagebox-desc text-center mt-1 profileSubtitle" > {{ $row2->profileSubtitle }} </span>
                             </div>
                         <?php } ?>
                     </div>
                 </div>
 
-                <div class="ImageBoxSection my-2 description" style="">
+                <div class="ImageBoxSection my-2">
+                    <?php foreach ($sectionThree as $key => $section) { ?>
+
+                    <div class="imageboxhead text-center mt-5 mb-5" >
+                        <h4 style="color: #662e91;font-size: 28px;font-weight:bold;" > {{ $section->profileHeader }} </h4>
+                    </div>
+                    <?php } ?>
+
+                    <div class="row" >
+                        <?php foreach ($sectionProfile as $key => $sectionprofile) { ?>
+                            <div class="col-sm-12 col-xs-12 col-md-3">
+                                <div class="imagebox  profileImg" >
+                                <a href="{{ $sectionprofile->profileUrl }}" target="_blank">
+
+                                        <img src="{{ @imageBasePath($sectionprofile->main_image) }}" class="category-banner img-fluid">
+
+                                </a>
+                            </div>
+
+                                <a href="{{ $sectionprofile->profileUrl }}" target="_blank">
+                                <span class="imagebox-desc text-center mt-2 profileName" > {{ $sectionprofile->profileName }} </span>
+                                </a>
+                                <span class="imagebox-desc text-center mt-1 profileSubtitle" > {{ $sectionprofile->profileSubtitle }} </span>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+
+                <div class="ImageBoxSection my-2 description" >
                     <?php foreach ($descriptionHeader as $key => $description) { ?>
 
                     <div class="imageboxhead text-center mt-5 mb-5">
@@ -82,9 +116,9 @@
                             font-weight: bold;"> {{ $banner->banner_header }} </h4>
                       </div>
                       <div class="row">
-                              <div class="col-sm-10 col-lg-4 mb-4" style="position: ">
-                                  <div class="imageboxs bannerImg" style="width: 929px;object-fit: cover;object-position: 50% 50%;">
-                                          <img src="{{ @imageBasePath($banner->main_image) }}" class="category-banner img-fluid">
+                              <div class="col-md-10 bannerImage" >
+                                  <div class="imageboxs banner_img">
+                                          <img src="{{ @imageBasePath($banner->main_image) }}" class="category-banner img-fluid ">
                                   </div>
                               </div>
                         <?php } ?>

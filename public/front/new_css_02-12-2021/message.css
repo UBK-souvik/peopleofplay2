@@ -1,0 +1,294 @@
+.chatMessaging {
+    padding: 0 0 0px 0;
+    width: 100%;
+}
+
+.inbox_msg {
+    border: 1px solid #c4c4c4;
+    clear: both;
+    overflow: hidden;
+}
+
+.inbox_people {
+    background: #672997;
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    color: #fff;
+    border-right: 1px solid #c4c4c4;
+}
+
+.recent_heading1 h4 {
+    font-weight: 300;
+}
+
+.inbox_chat {
+    border-top: 1px solid lightgrey;
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.mesgs {
+    float: left;
+    padding: 15px 15px 0 15px;
+    width: 60%;
+}
+
+.msg_history {
+    height: 516px;
+    overflow-y: auto;
+}
+
+.type_msg {
+    position: relative;
+}
+
+.input_msg_write {
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+
+.input_msg_write input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #4c4c4c;
+    font-size: 14px;
+    min-height: 48px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+
+/*Chat Message css start*/
+
+.chatImg {
+    width: 35px!important;
+    height: 35px!important;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.textChatImg {
+    width: 28px!important;
+    height: 28px!important;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 3px;
+}
+
+
+/*.container{max-width:1170px; margin:auto;}*/
+
+
+/*img{ max-width:100%;}*/
+
+.inbox_msg {
+    border: 1px solid #c4c4c4;
+    clear: both;
+    overflow: hidden;
+}
+
+.top_spac {
+    margin: 20px 0 0;
+}
+
+.recent_heading {
+    float: left;
+    width: 40%;
+}
+
+.recent_heading h4 {
+    color: #05728f;
+    font-size: 21px;
+    margin: auto;
+}
+
+.chat_ib h5 {
+    font-size: 15px;
+    color: #fff;
+    margin: 0 0 0px 0;
+}
+
+.chat_ib h5 span {
+    font-size: 9px;
+    float: right;
+}
+
+.chat_ib p {
+    font-size: 13px;
+    font-weight: 300;
+    color: #fff;
+    margin: auto
+}
+
+.chat_img {
+    float: left;
+    width: 11%;
+}
+
+.chat_ib {
+    float: left;
+    padding: 0 0 0 9px;
+    width: 100%!important;
+    margin-top: 6px;
+}
+
+.chat_people {
+    overflow: hidden;
+    clear: both;
+}
+
+.chat_list {
+    border-bottom: 1px solid #f5c518;
+    margin: 0;
+    padding: 18px 16px 10px;
+}
+
+.inbox_chat {
+    border-top: 1px solid lightgrey;
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.active_chat {
+    background: #f5c518;
+    border-top: 1px solid #f5c518;
+}
+
+.chat_list:hover {
+    background: #f5c518;
+}
+
+.incoming_msg_img {
+    display: inline-block;
+    width: 6%;
+}
+
+.received_msg {
+    display: inline-block;
+    padding: 0 0 0 0px;
+    vertical-align: top;
+    /*width: 92%;*/
+}
+
+.received_withd_msg p {
+    background: #ebebeb none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #646464;
+    font-size: 13px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.time_date {
+    color: #747474;
+    display: block;
+    font-size: 8px;
+    margin: 0 0 8px;
+}
+
+.received_withd_msg {
+    width: 100%;
+}
+
+.mesgs {
+    float: left;
+    padding: 15px 15px 0 15px;
+    width: 60%;
+}
+
+
+/*.headind_srch1 {          border-bottom: #000!important;        }        .recent_heading1{          border-bottom: #000!important;        }*/
+
+.recent_heading1 h4 {
+    font-weight: 300;
+}
+
+.sent_msg p {
+    background: #672997;
+    border-radius: 4px;
+    font-size: 13px;
+    margin: 0;
+    color: #fff;
+    padding: 5px 10px 5px 12px;
+    max-width: 100%;
+}
+
+.outgoing_msg {
+    overflow: hidden;
+    margin: 0;
+}
+
+.sent_msg {
+    float: right;
+    /*width: 46%;*/
+}
+
+.type_msg {
+    position: relative;
+}
+
+.msg_send_btn {
+    background: #662C92 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    height: 33px;
+    position: absolute;
+    right: 4px;
+    top: 8px;
+    width: 33px;
+    padding-top: 3px;
+    padding-right: 4px;
+}
+
+.chatMessaging {
+    padding: 0 0 0px 0;
+    width: 100%;
+}
+
+.msg_history {
+    height: 516px;
+    overflow-y: auto;
+}
+
+
+/*Chat Message End*/
+
+.tagsBox .tag {
+    background-color: #f2f2f2;
+    padding: 2px 3px;
+    margin-right: 5px;
+}
+
+.borderBlack {
+    border: 1px solid #000!important;
+}
+
+.imgThreeTen {
+    min-width: 215px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 2px;
+    object-position: 50% 50%;
+}
+
+.imgThreeNine {
+    width: 256px;
+    height: 157px;
+    object-fit: cover;
+    border-radius: 2px;
+    object-position: 50% 50%;
+}
+
+.imgThreeTen_inner_new {
+    width: 210px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 2px;
+    object-position: 50% 50%;
+}

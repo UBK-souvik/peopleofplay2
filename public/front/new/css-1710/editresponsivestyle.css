@@ -1,0 +1,43 @@
+@media screen and (max-width: 567px)
+{
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width: 286px !important;
+}
+
+section#MobileProductsEdit {
+    background-color: #000;
+}
+header#MobileHeaderEdit {
+    display: block;
+   }
+
+header#DesktopHeaderEdit {
+    display: none;
+}
+
+i.fa.fa-bars.navbarsicon {
+    color: #fff;
+    font-size: 30px;
+    }
+
+span.fa.fa-search.form-control-feedback {
+  display: none;
+}
+
+a.nav-link {
+    color: #A29C9C;
+    transition: color 0.4s ease 0s;
+    font-size: 16px;
+}
+
+a.nav-link:hover {
+    color: #fff!important;
+    transition: color 0.4s ease 0s;
+    font-size: 16px;
+}
+
+.ml-sm-auto, .mx-sm-auto {
+    margin-left: auto!important;
+}

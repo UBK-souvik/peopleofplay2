@@ -1,0 +1,571 @@
+.knowledge-base-faq-div-class  .panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.knowledge-base-faq-div-class  .panel-body {
+  padding: 15px;
+}
+.knowledge-base-faq-div-class  .panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.knowledge-base-faq-div-class  .panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+.knowledge-base-faq-div-class  .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+.knowledge-base-faq-div-class  .panel-title > a,
+.knowledge-base-faq-div-class  .panel-title > small,
+.knowledge-base-faq-div-class  .panel-title > .small,
+.knowledge-base-faq-div-class  .panel-title > small > a,
+.knowledge-base-faq-div-class  .panel-title > .small > a {
+  color: inherit;
+}
+.knowledge-base-faq-div-class  .panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.knowledge-base-faq-div-class  .panel > .list-group,
+.knowledge-base-faq-div-class  .panel > .panel-collapse > .list-group {
+  margin-bottom: 0;
+}
+.knowledge-base-faq-div-class  .panel > .list-group .list-group-item,
+.knowledge-base-faq-div-class  .panel > .panel-collapse > .list-group .list-group-item {
+  border-width: 1px 0;
+  border-radius: 0;
+}
+.knowledge-base-faq-div-class  .panel > .list-group:first-child .list-group-item:first-child,
+.knowledge-base-faq-div-class  .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
+  border-top: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.knowledge-base-faq-div-class  .panel > .list-group:last-child .list-group-item:last-child,
+.knowledge-base-faq-div-class  .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+  border-bottom: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.knowledge-base-faq-div-class  .panel > .panel-heading + .panel-collapse > .list-group .list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.knowledge-base-faq-div-class  .panel-heading + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+.knowledge-base-faq-div-class  .list-group + .panel-footer {
+  border-top-width: 0;
+}
+.knowledge-base-faq-div-class  .panel > .table,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table,
+.knowledge-base-faq-div-class  .panel > .panel-collapse > .table {
+  margin-bottom: 0;
+}
+.knowledge-base-faq-div-class  .panel > .table caption,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table caption,
+.knowledge-base-faq-div-class  .panel > .panel-collapse > .table caption {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.knowledge-base-faq-div-class  .panel > .table:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:first-child > .table:first-child {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.knowledge-base-faq-div-class  .panel > .table:first-child > thead:first-child > tr:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
+.knowledge-base-faq-div-class  .panel > .table:first-child > tbody:first-child > tr:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.knowledge-base-faq-div-class  .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.knowledge-base-faq-div-class  .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.knowledge-base-faq-div-class  .panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.knowledge-base-faq-div-class  .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
+  border-top-left-radius: 3px;
+}
+.knowledge-base-faq-div-class  .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.knowledge-base-faq-div-class  .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.knowledge-base-faq-div-class  .panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.knowledge-base-faq-div-class  .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
+  border-top-right-radius: 3px;
+}
+.knowledge-base-faq-div-class  .panel > .table:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:last-child > .table:last-child {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.knowledge-base-faq-div-class  .panel > .table:last-child > tbody:last-child > tr:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
+.knowledge-base-faq-div-class  .panel > .table:last-child > tfoot:last-child > tr:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.knowledge-base-faq-div-class  .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.knowledge-base-faq-div-class  .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.knowledge-base-faq-div-class  .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.knowledge-base-faq-div-class  .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
+  border-bottom-left-radius: 3px;
+}
+.knowledge-base-faq-div-class  .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.knowledge-base-faq-div-class  .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.knowledge-base-faq-div-class  .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.knowledge-base-faq-div-class  .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
+  border-bottom-right-radius: 3px;
+}
+.knowledge-base-faq-div-class  .panel > .panel-body + .table,
+.knowledge-base-faq-div-class  .panel > .panel-body + .table-responsive,
+.knowledge-base-faq-div-class  .panel > .table + .panel-body,
+.knowledge-base-faq-div-class  .panel > .table-responsive + .panel-body {
+  border-top: 1px solid #ddd;
+}
+.knowledge-base-faq-div-class  .panel > .table > tbody:first-child > tr:first-child th,
+.knowledge-base-faq-div-class  .panel > .table > tbody:first-child > tr:first-child td {
+  border-top: 0;
+}
+.knowledge-base-faq-div-class  .panel > .table-bordered,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered {
+  border: 0;
+}
+.knowledge-base-faq-div-class  .panel > .table-bordered > thead > tr > th:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+.knowledge-base-faq-div-class  .panel > .table-bordered > tbody > tr > th:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+.knowledge-base-faq-div-class  .panel > .table-bordered > tfoot > tr > th:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+.knowledge-base-faq-div-class  .panel > .table-bordered > thead > tr > td:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+.knowledge-base-faq-div-class  .panel > .table-bordered > tbody > tr > td:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+.knowledge-base-faq-div-class  .panel > .table-bordered > tfoot > tr > td:first-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+  border-left: 0;
+}
+.knowledge-base-faq-div-class  .panel > .table-bordered > thead > tr > th:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+.knowledge-base-faq-div-class  .panel > .table-bordered > tbody > tr > th:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+.knowledge-base-faq-div-class  .panel > .table-bordered > tfoot > tr > th:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+.knowledge-base-faq-div-class  .panel > .table-bordered > thead > tr > td:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+.knowledge-base-faq-div-class  .panel > .table-bordered > tbody > tr > td:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+.knowledge-base-faq-div-class  .panel > .table-bordered > tfoot > tr > td:last-child,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+  border-right: 0;
+}
+.knowledge-base-faq-div-class  .panel > .table-bordered > thead > tr:first-child > td,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
+.knowledge-base-faq-div-class  .panel > .table-bordered > tbody > tr:first-child > td,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tbody > tr:first-child > td,
+.knowledge-base-faq-div-class  .panel > .table-bordered > thead > tr:first-child > th,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > thead > tr:first-child > th,
+.knowledge-base-faq-div-class  .panel > .table-bordered > tbody > tr:first-child > th,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {
+  border-bottom: 0;
+}
+.knowledge-base-faq-div-class  .panel > .table-bordered > tbody > tr:last-child > td,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+.knowledge-base-faq-div-class  .panel > .table-bordered > tfoot > tr:last-child > td,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td,
+.knowledge-base-faq-div-class  .panel > .table-bordered > tbody > tr:last-child > th,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+.knowledge-base-faq-div-class  .panel > .table-bordered > tfoot > tr:last-child > th,
+.knowledge-base-faq-div-class  .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {
+  border-bottom: 0;
+}
+.knowledge-base-faq-div-class  .panel > .table-responsive {
+  margin-bottom: 0;
+  border: 0;
+}
+.knowledge-base-faq-div-class  .panel-group {
+  margin-bottom: 20px;
+}
+.knowledge-base-faq-div-class  .panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 4px;
+}
+.knowledge-base-faq-div-class  .panel-group .panel + .panel {
+  margin-top: 5px;
+}
+.knowledge-base-faq-div-class  .panel-group .panel-heading {
+  border-bottom: 0;
+}
+.knowledge-base-faq-div-class  .panel-group .panel-heading + .panel-collapse > .panel-body,
+.panel-group .panel-heading + .panel-collapse > .list-group {
+  border-top: 1px solid #ddd;
+}
+.knowledge-base-faq-div-class  .panel-group .panel-footer {
+  border-top: 0;
+}
+.knowledge-base-faq-div-class  .panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 1px solid #ddd;
+}
+.knowledge-base-faq-div-class  .panel-default {
+  border-color: #ddd;
+}
+.knowledge-base-faq-div-class  .panel-default > .panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+.knowledge-base-faq-div-class  .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.knowledge-base-faq-div-class  .panel-default > .panel-heading .badge {
+  color: #f5f5f5;
+  background-color: #333;
+}
+.knowledge-base-faq-div-class  .panel-default > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+.knowledge-base-faq-div-class  .panel-primary {
+  border-color: #337ab7;
+}
+.knowledge-base-faq-div-class  .panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+.knowledge-base-faq-div-class  .panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #337ab7;
+}
+.knowledge-base-faq-div-class  .panel-primary > .panel-heading .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+.knowledge-base-faq-div-class  .panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #337ab7;
+}
+.knowledge-base-faq-div-class  .panel-success {
+  border-color: #d6e9c6;
+}
+.knowledge-base-faq-div-class  .panel-success > .panel-heading {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.knowledge-base-faq-div-class  .panel-success > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #d6e9c6;
+}
+.knowledge-base-faq-div-class  .panel-success > .panel-heading .badge {
+  color: #dff0d8;
+  background-color: #3c763d;
+}
+.knowledge-base-faq-div-class  .panel-success > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #d6e9c6;
+}
+.knowledge-base-faq-div-class  .panel-info {
+  border-color: #bce8f1;
+}
+.knowledge-base-faq-div-class  .panel-info > .panel-heading {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.knowledge-base-faq-div-class  .panel-info > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #bce8f1;
+}
+.knowledge-base-faq-div-class  .panel-info > .panel-heading .badge {
+  color: #d9edf7;
+  background-color: #31708f;
+}
+.knowledge-base-faq-div-class  .panel-info > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #bce8f1;
+}
+.knowledge-base-faq-div-class  .panel-warning {
+  border-color: #faebcc;
+}
+.knowledge-base-faq-div-class  .panel-warning > .panel-heading {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+.knowledge-base-faq-div-class  .panel-warning > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #faebcc;
+}
+.knowledge-base-faq-div-class  .panel-warning > .panel-heading .badge {
+  color: #fcf8e3;
+  background-color: #8a6d3b;
+}
+.knowledge-base-faq-div-class  .panel-warning > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #faebcc;
+}
+.knowledge-base-faq-div-class  .panel-danger {
+  border-color: #ebccd1;
+}
+.knowledge-base-faq-div-class  .panel-danger > .panel-heading {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.knowledge-base-faq-div-class  .panel-danger > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ebccd1;
+}
+.knowledge-base-faq-div-class  .panel-danger > .panel-heading .badge {
+  color: #f2dede;
+  background-color: #a94442;
+}
+.knowledge-base-faq-div-class  .panel-danger > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ebccd1;
+}
+
+
+.knowledge-base-faq-div-class  .fat-heading-abb {
+	font-size: 16px;
+	padding-bottom: 10px;
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+	color: #535353;
+}
+.knowledge-base-faq-div-class  .fat-heading-abb i {
+	margin-right: 5px;
+}
+.knowledge-base-faq-div-class  .fat-heading-abb a {
+	color: #18456c;
+	text-decoration: none;
+}
+.knowledge-base-faq-div-class  .fat-heading-abb a:hover {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+.knowledge-base-faq-div-class  .fat-content-small {
+	font-size: 14px;
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.knowledge-base-faq-div-class  .fat-content-small i {
+	margin-right: 5px;
+}
+.knowledge-base-faq-div-class  .fat-content-small ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+	text-align: left;
+}
+.knowledge-base-faq-div-class  .fat-content-small ul li {
+	padding: 4px 5px 4px 0px;
+}
+.knowledge-base-faq-div-class  .fat-content-small ul li a {
+	color: #666666;
+}
+.knowledge-base-faq-div-class  .fat-content-small ul li a:hover {
+	color: #155469;
+	text-decoration: none;
+}
+
+/* Margins */
+.knowledge-base-faq-div-class  .margin-bottom-5 {
+	margin-bottom: 10px
+}
+.knowledge-base-faq-div-class  .margin-bottom-10 {
+	margin-bottom: 10px
+}
+.knowledge-base-faq-div-class  .margin-bottom-20 {
+	margin-bottom: 20px;
+}
+.knowledge-base-faq-div-class  .margin-bottom-30 {
+	margin-bottom: 30px;
+}
+.knowledge-base-faq-div-class  .margin-top-10 {
+	margin-top: 10px;
+}
+.knowledge-base-faq-div-class  .margin-top-20 {
+	margin-top: 20px;
+}
+.knowledge-base-faq-div-class  .margin-left-10 {
+	margin-left: 10px;
+}
+.knowledge-base-faq-div-class  .margin-left-20 {
+	margin-left: 20px;
+}
+
+/* PADDINGS */
+.knowledge-base-faq-div-class  .padding-40 {
+	padding: 40px;
+}
+.knowledge-base-faq-div-class  .padding-30 {
+	padding: 30px;
+}
+.knowledge-base-faq-div-class  .padding-20 {
+	padding: 20px;
+}
+.knowledge-base-faq-div-class  .padding-10 {
+	padding: 10px;
+}
+.knowledge-base-faq-div-class  .padding-right-10 {
+	padding-right: 10px;
+}
+.knowledge-base-faq-div-class  .padding-left-10 {
+	padding-left: 10px;
+}
+.knowledge-base-faq-div-class  .padding-left-20 {
+	padding-left: 20px;
+}
+.knowledge-base-faq-div-class  .padding-left-30 {
+	padding-left: 30px;
+}
+.knowledge-base-faq-div-class  .padding-left-35 {
+	padding-left: 35px;
+}
+.knowledge-base-faq-div-class  .padding-left-40 {
+	padding-left: 40px;
+}
+.knowledge-base-faq-div-class  .padding-top-10 {
+	padding-top: 30px;
+}
+.knowledge-base-faq-div-class  .padding-top-15 {
+	padding-top: 30px;
+}
+.knowledge-base-faq-div-class  .padding-top-20 {
+	padding-top: 30px;
+}
+.knowledge-base-faq-div-class  .padding-top-30 {
+	padding-top: 30px;
+}
+.knowledge-base-faq-div-class  .padding-bottom-10 {
+	padding-top: 30px;
+}
+.knowledge-base-faq-div-class  .padding-bottom-15 {
+	padding-top: 30px;
+}
+.knowledge-base-faq-div-class  .padding-bottom-20 {
+	padding-top: 30px;
+}
+.knowledge-base-faq-div-class  .padding-bottom-30 {
+	padding-top: 30px;
+}
+
+
+.knowledge-base-faq-div-class  .fb-heading {
+	font-size: 25px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+.knowledge-base-faq-div-class  .fb-heading i {
+	margin-right: 5px;
+}
+@media only screen and (max-width: 500px) {
+	.knowledge-base-faq-div-class  .fb-heading {
+		font-size: 18px;
+	}
+}@media only screen and (max-width: 400px) {
+	.knowledge-base-faq-div-class  .fb-heading {
+		font-size: 15px;
+	}
+}
+.knowledge-base-faq-div-class  .fb-sub-heading {
+	font-size: 16px;
+	font-weight: lighter;
+	margin-top: 5px;
+	text-transform: none;
+}
+.knowledge-base-faq-div-class  .fb-content {
+	width: inherit;
+	margin: 0 auto;
+}
+.knowledge-base-faq-div-class  .fb-heading-small {
+	font-size: 18px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+/* ARTICLE PAGE STYLING */
+.knowledge-base-faq-div-class  .article-heading-abb {
+	font-size: 20px;
+	padding: 15px 15px 10px 15px;
+  text-overflow: ellipsis;
+	color: #303030;
+	font-weight: bold;
+}
+.knowledge-base-faq-div-class  .article-heading-abb i {
+	margin-right: 5px;
+}
+.knowledge-base-faq-div-class  .article-heading-abb a {
+	color: #303030;
+	text-decoration: none;
+}
+.knowledge-base-faq-div-class  .article-heading-abb a:hover {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+.knowledge-base-faq-div-class  .article-info {
+	padding: 5px 10px 5px 5px;
+	border-top: 1px solid #f0eeee;
+	border-bottom: 1px solid #f0eeee;
+	background-color: #f9f8f8;
+}
+.knowledge-base-faq-div-class  .article-info a {
+	margin-left: 5px;
+	color: #676767;
+	text-decoration: none;
+}
+.knowledge-base-faq-div-class  .article-info a:hover {
+	color: #2e2e2e;
+	text-decoration: none;
+}
+.knowledge-base-faq-div-class  .article-info i {
+	margin-right: 3px;
+}
+
+.knowledge-base-faq-div-class  .art-date {
+	display: inline-block;
+	margin-left: 10px;
+	padding: 3px 0px 3px 0px;
+}
+.knowledge-base-faq-div-class  .art-category {
+	display: inline-block;
+	margin-left: 10px;
+	padding: 3px 0px 3px 0px;
+}
+.knowledge-base-faq-div-class  .art-comments {
+	display: inline-block;
+	margin-left: 10px;
+	padding: 3px 0px 3px 0px;
+}
+.knowledge-base-faq-div-class  .article-content {
+	padding: 15px 35px 10px 15px;
+}
+.knowledge-base-faq-div-class  .article-read-more {
+	padding: 0px 10px 15px 10px;
+	text-align: right;
+}

@@ -1,0 +1,126 @@
+#add-edit-user-main-box-body-div  .accordion__header {
+  padding: 1em;
+  background-color: #ccc;
+  margin-top: 2px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+#add-edit-user-main-box-body-div  .accordion__header > * {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 500;
+  /*color: #000;*/
+}
+
+#add-edit-user-main-box-body-div  .accordion__header.is-active {
+  background-color: #000;
+  color: #fff!important;
+}
+
+#add-edit-user-main-box-body-div  .accordion__toggle {
+  margin-left: 10px;
+  height: 3px;
+  background-color: #222;
+  width: 13px;
+  display: block;
+  position: relative;
+  flex-shrink: 1;
+  border-radius: 2px;
+}
+
+#add-edit-user-main-box-body-div  .accordion__toggle::before {
+  content: "";
+  width: 3px;
+  height: 13px;
+  display: block;
+  background-color: #222;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  border-radius: 2px;
+}
+
+#add-edit-user-main-box-body-div  .is-active .accordion__toggle {
+  background-color: #fff;
+}
+
+#add-edit-user-main-box-body-div  .is-active .accordion__toggle::before {
+  display: none;
+}
+
+#add-edit-user-main-box-body-div  .accordion__body {
+  display: none;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+
+#add-edit-user-main-box-body-div  .accordion__body.is-active {
+  display: block;
+}
+#add-edit-user-main-box-body-div  .adduserbutton{
+    margin-top: 8px;
+}
+
+.advertisement_width_height_class
+{
+  width:200px;
+  height:200px;  
+}
+
+#message-box-id
+{
+  margin-top: 10px;	
+}
+
+
+.customSwitch input {
+  display: none;
+}
+.customSwitch {
+  display: block;
+  width: 30px;
+  height: 10px;
+  position: relative;
+  margin: 0 auto;
+}
+.customSwitch .slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 30px;
+  box-shadow: 0 0 0 1px #9e9e9e, 0 0 0px #9e9e9e;
+  cursor: pointer;
+  border: 1px solid transparent;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.customSwitch .slider:before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 7.5px;
+  background-color: #9e9e9e;
+  border-radius: 30px;
+  transform: translateX(0px);
+  transition: 0.2s;
+}
+.customSwitch input:checked + .slider:before {
+  transform: translateX(17px);
+  background-color: #367fa9;
+}
+.customSwitch input:checked + .slider {
+  box-shadow: 0 0 0 1px #367fa9, 0 0 0px #367fa9;
+}
+table.table-bordered.dataTable tbody tr td {
+  vertical-align: middle;
+}

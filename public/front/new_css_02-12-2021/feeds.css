@@ -1,0 +1,632 @@
+/*.bg-box-shadow {
+    box-shadow: 0px 1px 4px 1px #8c8c8c;
+}*/
+.feed-box {
+    border: 1px solid #ccc;
+}
+.top-banner a {
+    background: #652C8F;
+    padding: 6px 13px;
+    font-size: 14px;
+    border-radius: 50px;
+    font-weight: 400;
+    box-shadow: 0px 2px 4px #423f3f;
+    display: inline-block;
+    color: #fff;
+}
+
+.top-banner a:hover {
+    color: #fff!important;
+}
+
+.top-banner {
+    margin: 0 0 14px;
+    background: #FFCA2C;
+    padding: 30px 60px;
+    border-radius: 12px;
+}
+
+.top-banner h3 {
+    font-weight: 600;
+}
+
+.top-banner h6 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.feed-box {
+    background: #fff;
+    border-radius: 12px;
+    /*padding: 16px;*/
+}
+
+.prof-image {
+    max-width: 60px;
+    min-width: 60px;
+}
+
+.add-favorites span i.fa {
+    width: 12px !important;
+    height: 0px !important;
+    color: #696969;
+}
+
+.add-favorites a {
+    font-weight: 700;
+    color: #597ebc;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.add-favorites i.fa.fa-star-o {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.tag-list li a,
+.ankr-list li a {
+    padding: 2px;
+    font-size: 14px;
+    color: #000;
+}
+
+.prof-image img {
+    width: 60px !important;
+    height: 60px !important;
+    object-fit: cover;
+}
+.feed-tag ul li a {
+    padding-right: 4px;
+}
+.Prof-name {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.feed-image-post a:hover {
+    color: #652792;
+}
+
+.feed-image-post a {
+    padding: 8px 0;
+    display: inline-block;
+}
+
+.feed-image-post iframe {
+    border: 0;
+}
+
+.comments .commenter-pic img {
+    max-width: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    object-fit: cover;
+}
+.ProfOptsComments ul {
+    justify-content: space-between;
+}
+.ProfOptsComments ul li a {
+    padding: 0 4px;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+}
+
+/*****Set your Interests for your Feed Page css*********/
+
+.WelcomePopFeed {
+    background: #fff;
+    padding: 40px;
+}
+
+.WelcomeHead h1 {
+    font-size: 30px;
+}
+
+.WelcomeHead h4 {
+    font-size: 20px;
+}
+
+.WelcomePopFeed ul li a {
+    display: block;
+    padding: .5rem 1rem;
+    background-color: #eeeeee;
+    margin: 4px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.setfeedactive {
+    background-color: #77bf4e !important;
+    box-shadow: 0px 1px 2px 2px #c1c1c1;
+}
+
+.WelcomePopFeed ul li a:hover {
+    color: #000;
+}
+
+.btn-primary {
+    font-size: 18px;
+    font-weight: 600;
+    width: 40%;
+    box-shadow: 2px 3px 6px #808080;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle,
+.btn-primary:hover,
+.btn-primary {
+    color: #000;
+    background-color: #ffca2c;
+    border-color: #ffca2c;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: unset;
+}
+
+.SetFeedBtnPrimary {
+    text-align: center;
+}
+
+
+/*****Set your Interests for your Feed Page css*********/
+
+.popfeedmodal button.close {
+    position: absolute;
+    right: 0;
+    padding: 14px;
+    z-index: 99;
+}
+
+.button-group-pills a {
+    display: inline-block;
+}
+
+@media only screen and (max-device-width:575px) {
+    .top-banner {
+        padding: 16px;
+    }
+    .feed-profile {
+        flex-direction: column;
+    }
+    .add-favorites {
+        padding: 10px 0;
+    }
+    .add-favorites .text-right {
+        text-align: left !important;
+    }
+    .top-banner p {
+        margin: 0;
+        white-space: normal;
+        margin-bottom: 10px;
+    }
+}
+
+
+/******comments*********/
+
+.comments-details button.btn.dropdown-toggle,
+.comments-details .total-comments {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.comments-details {
+    padding: 15px 0px;
+}
+
+.comments .comments .dropdown,
+.comments .dropup {
+    position: relative;
+}
+
+.comments button {
+    background-color: transparent;
+    border: none;
+}
+
+.comments .comment-box {
+    width: 100%;
+    float: left;
+    height: 100%;
+    background-color: #FAFAFA;
+    padding: 10px 10px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.comments .add-comment {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.comments .commenter-pic {
+    display: inline-block;
+    border: 2px solid #fff;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.comments .commenter-pic img {
+    max-width: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.comments .add-comment .commenter-name {
+    width: 100%;
+    padding-left: 75px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.comments .add-comment input {
+    border-top: 0px;
+    border-bottom: 1px solid #ccc;
+    border-left: 0px;
+    border-right: 0px;
+    outline: 0px;
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+    padding: 0;
+    font-weight: normal;
+}
+
+.comments .add-comment input:focus {
+    border-color: #03a9f4;
+    border-width: 2px;
+}
+
+.comments .add-comment button[type=submit] {
+    background-color: #03a9f4;
+    color: #fff;
+    margin-right: 0px;
+}
+
+.comments .add-comment button {
+    background-color: #dedede;
+    margin: 10px 5px;
+    font-size: 14px;
+    text-transform: capitalize;
+    float: right;
+    padding: 4px 10px;
+}
+
+span.commenter-name a:hover {
+    text-decoration: underline;
+}
+
+.comments .comment-meta a {
+    color: #000;
+}
+
+.comments .comment-meta i.fa {
+    color: #652b91;
+}
+
+.comments .commenter-name .comment-time {
+    font-weight: normal;
+    margin-left: 8px;
+    font-size: 15px;
+}
+
+.comments p.comment-txt {
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 0px 15px;
+}
+
+.comments .commenter-name {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.comments .comment-meta {
+    font-size: 16px;
+    color: #333;
+    padding: 2px 5px 0px;
+    line-height: 20px;
+    float: right;
+}
+
+.comments .comment-meta .reply-popup {
+    color: #000;
+}
+
+.comments .comment-meta a {
+    margin: 0 6px;
+}
+
+.comments .reply-box {
+    display: none;
+}
+
+.comments .replied {
+    background-color: #fff;
+    /*     width: 95%; */
+    float: right;
+    margin-top: 15px;
+}
+
+.comments .comment-meta button {
+    cursor: pointer;
+}
+
+.ProfOptComment .nav {
+    justify-content: space-between;
+}
+
+.ProfOptComment ul li a {
+    padding: 0 4px;
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+}
+
+.ProfOptComment ul li a span {
+    display: block;
+    margin: 2px 0;
+}
+
+.comments-details .card-header i.fa.fa-angle-down {
+    float: right;
+    position: relative;
+    top: 4px;
+    color: #000;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.comments-details a[aria-expanded="true"] .card-header .rotate-icon {
+    -webkit-transform: rotate( 180deg);
+    transform: rotate( 180deg);
+}
+
+.comments-details a[aria-expanded="false"] .card-header .rotate-icon {
+    -webkit-transform: rotate( 0deg);
+    transform: rotate( 0deg);
+}
+.media .media-body .feedMsg p {
+    font-size: 13px;
+}
+
+/*****Responsive CSS*****/
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .feed-profile {
+        flex-direction: column;
+    }
+    .add-favorites {
+        padding: 10px 0;
+    }
+    .add-favorites .text-right {
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .comments .replied {
+        width: 100%;
+    }
+    .comments .commenter-name {
+        font-size: 14px;
+    }
+    .comments .commenter-name .comment-time {
+        font-size: 11px;
+    }
+    .comments-details .card-body {
+        padding: 0 8px;
+    }
+    .comments .commenter-pic img {
+        max-width: 40px;
+        max-height: 40px;
+        min-width: 40px;
+        min-height: 40px;
+    }
+    .comments p.comment-txt,
+    .comments .comment-meta {
+        font-size: 12px;
+    }
+    .comments .commenter-name {
+        font-size: 13px;
+        top: -5px;
+    }
+    .comments .commenter-name a {
+        display: block;
+    }
+    .comments .commenter-name .comment-time {
+        display: block;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 575px) {
+    .ProfOptComment ul li a img, .ProfOptsComments ul li a img {
+        margin-right: 10px;
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 400px) {
+    .comments .comment-meta {
+        font-size: 13px;
+    }
+    .ProfOptComment ul li a {
+        font-size: 11px;
+    }
+}
+
+
+/*****Responsive CSS*****/
+
+.FeedFormSelected{
+    box-shadow: 0px 2px 4px 1px #8c8c8ceb !important;
+    border-radius: 12px !important;
+  }
+  .feed-top-text .feed-msg p {
+    font-size: 13px;
+}
+.ankr-list li a:hover, .tag-list li a:hover {
+    text-decoration: underline;
+    color: #48037d !important;
+}
+
+/******comments*********/
+/******  || 13-11-21 || *********/
+
+.poptooltip {
+    position: relative;
+    /* display: inline-block; */
+    /* border-bottom: 1px dotted black; */
+    font-size: 12px;
+    color: #616161;
+}
+
+.poptooltip .poptooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  font-size: 11px;
+
+  
+  /* Position the poptooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.poptooltip:hover .poptooltiptext {
+  visibility: visible;
+}
+
+
+.feed-box .feed-profile, .feed-box .feed-top-text, .feed-box .ProfOptComment ul, .feed-box .ProfOptsComments ul, .feed-tag .tag-list, .feedcomments{
+    padding: 0 16px;
+}
+.feed-box .feed-profile {
+    padding-top: 16px;
+}
+
+.feed-tag a {
+    color: #652C8F !important;
+}
+.ProfOptComment ul li a img {
+    margin-right: 10px;
+}
+
+.ProfOptComment ul li a {
+    display: flex;
+    align-items: center;
+}
+.feedcomments .media-body h4 {
+    font-size: 14px;
+}
+.feedcomments .media-body p {
+    font-size: 14px;
+}
+.comment-box.add-comment {
+    display: flex;
+    align-items: center;
+}
+span.commenter-pic img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+span.commenter-name {
+    display: block;
+    width: 100%;
+    background: #efefef94;
+    border-radius: 20px;
+}
+.commentform input[type="text"]:focus {
+    outline: unset;
+}
+.commentform input[type="text"] {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    padding: 0 16px;
+    color: #000;
+}
+
+.commentform input[type="text"]::placeholder {
+    color: #000;
+}
+.commentform button[type=submit] {
+    border-radius: 50%;
+    background: transparent;
+    margin-right: 10px;
+}
+.feedcomments .feedMsg {
+    background: #efefef94;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.feedcomments .feedMsg p {
+    margin-bottom: 3px !important;
+}
+.RlyLik ul li a {
+    padding: 4px 0;
+    margin: 0 8px;
+    font-size: 12px;
+    color: #000;
+    font-weight: 500;
+}
+.RlyLik ul li a.popit{
+    font-weight: 600;
+}
+.RlyLik ul li a.popit span:hover{
+    color: red;
+}
+.RlyLik ul li a.reply:hover{
+    color: #662c92;
+}
+.RlyLik ul li a span {
+    margin-left: 2px;
+    color: #000;
+     font-weight: 500;
+}
+
+/******  || 19-11-21 || *********/
+.viewAllReply{
+    font-size: 13px;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #000;
+}
+/******  || 19-11-21 || *********/

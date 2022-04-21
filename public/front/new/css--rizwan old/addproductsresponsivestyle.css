@@ -1,0 +1,66 @@
+@media screen and (max-width: 567px)
+{
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width: 286px !important;
+}
+
+div#file-upload-form {
+    margin-top: 0px;
+}
+
+section#MobileProducts {
+    background-color: #000;
+}
+
+header#DesktopHeader {
+    display: none;
+}
+
+header#MobileHeader {
+    display: block;
+}
+
+.right-column{
+    float:none!important;
+    width:100%!important;
+}
+
+.left-column{
+    float:none;
+    width:100%;
+}
+
+.hideondesktop{
+    display: none;
+}
+
+i.fa.navbarsicon {
+    color: #fff;
+    font-size: 30px;
+    }
+
+
+span.fa.fa-search.form-control-feedback {
+  display: none;
+}
+
+a.nav-link {
+    color: #A29C9C;
+    transition: color 0.4s ease 0s;
+    font-size: 16px;
+}
+
+a.nav-link:hover {
+    color: #fff!important;
+    transition: color 0.4s ease 0s;
+    font-size: 16px;
+}
+
+.ml-sm-auto, .mx-sm-auto {
+    margin-left: auto!important;
+}
+
+
+}

@@ -65,15 +65,41 @@
     background-color: blueviolet !important;
 }
 
-.imgbox{
-        margin-left: 63px;
-}
-.imageboxs{
-    margin-left: 100px;
-}
+
+
 .description{
     margin-left: 61px;
 }
+
+.profileImg{
+    width: 201px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin: 0px auto;
+    float: none;
+}
+
+.profileName{
+    font-size: 17px;
+    font-weight: bold;
+    color:black;
+}
+.profileSubtitle{
+
+    font-family:sans-serif;
+    font-size:13px;
+    margin-bottom:20px;
+}
+
+.bannerImage{
+    margin: 0px auto;
+}
+/* .banner_img{
+    margin:0px auto;
+    float:none;
+} */
+
 @media only screen and (max-device-width:1199px) {
     .imagebox, .imagebox img {
         min-height: 200px;
@@ -94,29 +120,24 @@
     @media only screen and (max-device-width: 575px) {
         .imagebox {
             font-size: 16px;
-            margin-left: 50px;
             width: 288px !important;
         }
         .imagebox,
         .imagebox img {
             max-height: 350px;
             min-height: 350px;
+            margin-left: 10px;
         }
     }
     @media only screen and (max-device-width: 400px) {
     .imagebox, .imagebox img {
         max-height: 250px;
-        min-height: 250px;
-        margin-left:22px;
+
+        margin-left: -2px;
     }
     }
 
-    @media only screen and (max-device-width: 1147px) {
-        .imageboxs{
-            width: 323px !important;
-            margin-left: -6px;
-        }
-        }
+
     @media only screen and (max-device-width: 1147px) {
         .description{
             margin-left: 11px;

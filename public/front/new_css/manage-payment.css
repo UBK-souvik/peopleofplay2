@@ -1,0 +1,54 @@
+.fontFourteen {
+    font-size: 14px;
+}
+
+.fontThirteen {
+    font-size: 13px;
+}
+
+.PaymentProfile {
+    border-radius: 100%;
+}
+
+
+/*model*/
+
+#editCardInfoPopop .modal-dialog .modal-content .modal-header,
+#viewInvoiceInfoPopop .modal-dialog .modal-content .modal-header {
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#viewInvoiceInfoPopop .modal-dialog .modal-content button.close,
+#editCardInfoPopop .modal-dialog .modal-content button.close {
+    font-size: 33px !important;
+    color: #000;
+}
+
+#viewInvoiceInfoPopop .modal-dialog .modal-content .modal-title,
+#editCardInfoPopop .modal-dialog .modal-content .modal-title {
+    font-size: 20px !important;
+    font-weight: 600;
+}
+
+#card-element {
+    height: 2em !important;
+    padding-top: 8px !important;
+    margin-bottom: 18px;
+}
+
+.btnAll,
+.edit-btn-style {
+    background-color: #FFCA2C;
+    color: #000!important;
+}
+
+.btnAll,
+.edit-btn-style {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10.5px 30px;
+}
+
+
+/*model*/

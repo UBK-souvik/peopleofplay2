@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Edit Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  <link rel="stylesheet" href="css/HomePagestyle.css">
+  <link rel="stylesheet" href="css/Homestyle.css">
+  <link rel="stylesheet" href="css/membership.css">
+  <link rel="stylesheet" href="css/productpagestyle.css">
+  <link rel="stylesheet" href="css/productscss.css">
+  <link rel="stylesheet" href="css/registrationstyle.css">
+  <link rel="stylesheet" href="css/responsiveaddevents.css">
+  <link rel="stylesheet" href="css/responsiveevents.css">
+  <link rel="stylesheet" href="css/responsiveheaderpart.css">
+  <link rel="stylesheet" href="css/responsiveHomepage.css">
+  <link rel="stylesheet" href="css/responsivelogin.css">
+  <link rel="stylesheet" href="css/responsiveProductHomepage.css">
+  <link rel="stylesheet" href="css/responsiveregistration.css">
+  <link rel="stylesheet" href="css/responsivestyle.css">
+  <link rel="stylesheet" href="css/styleedit.css">
+  <link rel="stylesheet" href="css/stylemessage.css">
+  <link rel="stylesheet" href="css/eventstyle.css">
+  <link rel="stylesheet" href="css/editresponsivestyle.css">
+  <link rel="stylesheet" href="css/addeventstyle.css">
+  <link rel="stylesheet" href="css/addproductsresponsivestyle.css">
+  <link rel="stylesheet" href="css/addawardstyle.css">
+  <link rel="stylesheet" href="css/productpagestyle.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/dropzone.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body class="header-background">
+  <section id="MobileProductsEdit">
+ <header class="MobileHeader">
+        <nav class="navbar navbar-expand-lg navbar-dark Topbar">
+          <div class="container">
+              <!-- Dashboard toggle -->
+              <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#dashboardMobile" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                 <a class="dashboardp"><i class="fa fa-tachometer navbarsicontop" aria-hidden="true"></i>&nbsp;My dashboard</a>
+              </button>
+              <a href="login.html" class="dashboardplogin"><i class="fa fa-sign-out navbarsicontop" aria-hidden="true"></i>&nbsp;Login</a>
+               <div class="collapse navbar-collapse" id="dashboardMobile">
+                  <ul class="navbar-nav ml-auto">
+                    <hr class="bg-white">
+                       <li class="nav-item active">
+                     <a href="ShowBoatHomePage.html" class="nav-linkdashboard"><i class="fa fa-user fa-icon1dashboard" aria-hidden="true"></i>View Profile</a>
+                  </li>
+                  <hr class="linemargin">
+                  <li class="nav-item">
+                    <a href="editProfile.html" class="nav-linkdashboard"><i class="fa fa-pencil fa-icon1dashboard" aria-hidden="true"></i>Edit Profile</a>
+                  </li>
+                  <hr class="linemargin">
+                   <li class="nav-item">
+                    <a href="#" data-toggle="modal" data-target="#gridSystemModal" class="nav-linkdashboard"><i class="fa fa-shopping-cart fa-icon1dashboard" aria-hidden="true"></i>Products</a>
+                  </li>
+                  <hr class="linemargin">
+                   <li class="nav-item">
+                    <a href="#" class="nav-linkdashboard"><i class="fa fa-calendar fa-icon1dashboard" aria-hidden="true"></i>Events</a>
+                  </li>
+                  <hr class="linemargin">
+                   <li class="nav-item">
+                     <a data-toggle="modal" href="message.html" data-target="#Modalmessage" class="nav-linkdashboard"><i class="fa fa-envelope fa-icon1dashboard" aria-hidden="true"></i>Message</a>
+                  </li>
+                  <hr class="linemargin">
+                  <li class="nav-item">
+                    <a class="nav-linkdashboard" href="#"><i class="fa fa-unlock-alt fa-icon1dashboard"  aria-hidden="true"></i>Change Password</a>
+                  </li>
+                  <hr class="linemargin">
+                   <li class="nav-item">
+                    <a href="#" class="nav-linkdashboard"><i class="fa fa-sign-out fa-icon1dashboard " aria-hidden="true"></i>Logout</a>
+                  </li>
+                  <hr class="linemargin">
+                  </ul>
+              </div>
+        </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black mt-2">
+          <div class="container">
+              <a href="ShowBoatHomePage.html" class=" navbar-brand d-block px-3 py-2 text-uppercase text-center text-bold text-white Logostyle">People<span class="span-text-grey">of</span>play</a></a>
+
+              <!-- Menu toggle -->
+              <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fa fa-bars navbarsicon" aria-hidden="true"></i>
+              </button>
+              
+          <div class="collapse navbar-collapse" id="menu">
+                  <ul class="navbar-nav mr-auto">
+                     <hr class="linemarginmenu">
+                      <li class="nav-item active">
+                    <a class="nav-link" href="#">Toys, Games & launches <span class="sr-only">(current)</span></a>
+                  </li>
+                  <hr class="linemarginmenu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inventors, Events & Photos</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">News & Community</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">Watchlist</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">PoPPro</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                  <li class="nav-item text-white"><i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  <i class="fa fa-instagram" aria-hidden="true"></i></li>
+                </ul>
+                <hr class="linemarginmenu">
+                <form class="form-inline my-2 my-lg-0">
+                  <span class="fa fa-search form-control-feedback"></span>
+                      <input class="form-control" type="text" placeholder="Search Site" aria-label="Search">
+                </form>
+              
+              </div>
+          </div>
+        </nav>
+    </header>
+  </section>
+<section id="ProductsEdit">
+     <header class="DesktopHeader">
+      <div class="container">
+        <div class="box-width">
+          <div class="row pt-5">
+            <div class="col col-md-3">
+              <a href="#" class="d-block px-3 py-2 text-uppercase text-center text-bold text-white Logostyle">People<span class="span-text-grey">of</span>play</a>
+              </div>
+              <div class="col col-md-9">
+                <div class="d-flex align-items-center">
+                  <div class="form-group has-search">
+                    <span class="fa fa-search form-control-feedback"></span>
+                    <input class="form-control" type="text" placeholder="Search Site" aria-label="Search">
+                </div>
+                <ul class="d-flex text-white li-text">
+                  <li>PoPPro</li>
+                  <li>Help</li>
+                </ul>
+                </div>
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="col">
+              <ul class="d-flex flex-row justify-content-around second-icon-text text-white text-center">
+                <div class="text-center text-md-right mobilehidden">
+                    <ul class="list-unstyled list-inline">
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                         <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                          <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                         <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                          <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                           <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                        <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                           <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                           <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                     
+                    </ul>
+        </div>
+                  <li class="li-color">Toys, Games & launches</li>
+                  <li class="li-color">Inventors, Events & Photos</li>
+                  <li class="li-color">News & Community</li>
+                  <li class="li-color">Watchlist</li>
+                  <a href="LoginPage.html"><li class="li-color">Login</li></a>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+</section>
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="container-width">
+          <div class="left-column background-left">
+             <div class="First-column bg-white">
+             <div class="container">
+                <div class="row">
+                  <div class="col">
+                      <form id="file-upload-form" class="uploader">
+                        <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+
+                        <label for="file-upload" id="file-drag">
+                          <img id="file-image" src="#" alt="Preview" class="hidden">
+                          <div id="start">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                            <div></div>
+                            <div id="notimage" class="hidden">Please select an image</div>
+                            <span id="file-upload-btn" class="btn edit-btn-style">Add User Image</span>
+                          </div>
+                          <div id="response" class="hidden">
+                            <div id="messages"></div>
+                            <progress class="progress" id="file-progress" value="0">
+                              <span>0</span>%
+                            </progress>
+                          </div>
+                        </label>
+                      </form>
+                  </div>
+                </div>
+                <hr>
+                 <form action="/action_page.php">
+                  <div class="row">
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label for="UserID">User ID</label>
+                            <input id="UserID" type="text" name="name" class="form-control" placeholder="">
+                        </div>
+                        <div class="form-group">
+                          <label for="User Name">User Name</label>
+                          <input id="User name" type="text" name="name" class="form-control" placeholder="">
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6">
+                         <label for="UserRoles">User Roles</label>
+                          <div class="form-group">
+                            <input id="UserRoles" type="text" name="roles" class="form-control" placeholder="">
+                         </div>
+                           <div class="form-group">
+                             <label for="Gender">Gender</label>
+                            <input id="Gender" type="text" name="Gender" class="form-control" placeholder="">
+                         </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6">
+                          <div class="form-group">
+                            <label for="dateofbirth">Date of birth</label>
+                             <input id="dateofbirth" type="date" name="dateofbirth" class="form-control">
+                          </div>
+
+                          <div class="form-group">
+                             <label for="UserAge">User Age</label>
+                              <input id="UserAge" type="text" name="age" class="form-control" placeholder="">
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6">
+                            <div class="form-group">
+                              <label for="Userdescription">User description</label>
+                              <textarea class="form-control" rows="1" id="Userdescription" placeholder=""></textarea>
+                            </div>
+                            <div class="form-group">
+                              <label for="Email ID">Email ID</label>
+                             <input id="EmailID" type="emailID" name="EmailID" class="form-control" placeholder="">
+                           </div>
+                      </div>
+                  </div>
+                   <h3 class="Tile-style social my-3">Contact Info</h3>
+                   <div class="row">
+                      <div class="col-md-3">
+                         <div class="form-group mt-3">
+                            <label for="Agent Name">Enter Agent Name</label>
+                            <input id="AgentName" type="text" name="name" class="form-control" placeholder="">
+                          </div>
+                          <div class="form-group">
+                            <label for="AgentEmailID">Enter Agent Email ID Name</label>
+                            <input id="AgentEmailID" type="emailID" name="EmailID" class="form-control">
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="Manager Name">Enter Manager Name</label>
+                          <div class="form-group">
+                            <input id="ManagerName" type="text" name="name" class="form-control" placeholder="">
+                          </div>
+                          <div class="form-group">
+                             <label for="ManagerEmailID">Enter Manager Email ID</label>
+                            <input id="ManagerEmailID" type="email" name="EmailID" class="form-control" placeholder="">
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                         <label for="Legal Name">Enter Legal Name</label>
+                        <div class="form-group">
+                            <input id="LegalName" type="text" name="name" class="form-control" placeholder="">
+                          </div>
+                          <div class="form-group">
+                             <label for="LegalEmailID">Enter Legal Email ID</label>
+                            <input id="LegalEmailID" type="email" name="EmailID" class="form-control" placeholder="">
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="CompanyName">Enter Company Name</label>
+                            <input id="CompanyName" type="text" name="name" class="form-control" placeholder="">
+                          </div>
+                          <div class="form-group">
+                             <label for="CompanyEmailID">Enter Company Email ID</label>
+                            <input id="CompanyEmailID" type="email" name="EmailID" class="form-control" placeholder="">
+                          </div>
+                      </div>
+                   </div>
+            <h3 class="Tile-style social my-3">Gallery</h3>
+              <div class="row">
+                <div class="col-md-12">
+                    <h3 class="Second-Tile">Numbers of Photos</h3>
+                      <div class="row">
+                      <div class="col-md-12">
+                         <div class="field" align="left">
+                          <h3>Upload your images</h3>
+                          <input type="file" id="file-inputmulti" multiple />
+                  <input type="button" onClick=removeAllImage() value="Remove All Image" clas="remove"> 
+                  <div id="thumb-output"></div>
+                          </div>
+                      </div>
+                      </div>
+                    
+                     </div>
+                      <div class="col-md-12 mt-3">
+                            <h4 class="Second-Tile">Numbers of Videos</h4>
+                               <div class="row">
+                                <div class="col-md-3">
+                                   <input type="file" 
+                                     class="filepond"
+                                     name="filepond"
+                                     multiple
+                                     data-max-file-size="3MB"
+                                     data-max-files="3" />
+                                    </div>
+                                   <div class="col-md-9 form-group">
+
+                                    <!-- Button trigger modal -->
+                                <img id="thumb1" src="images/Awards/cel1.jpg" class="img-fluid img-thumbnail thumbnail-size" data-toggle="modal" data-target="#exampleModalLong">
+                                 <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="">
+                                       <img id="myImg" src="images/Awards/cel1.jpg" class="img-fluid modal-content">
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn edit-btn-style" data-dismiss="modal">Close</button>
+                                      <button type="button" class="btn edit-btn-style" data-dismiss="modal" aria-label="Close">Delete</button>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="col-md-12 mt-3">
+                      <h3 class="Second-Tile">Number of Articles</h3>
+                       <div class="row">
+                        <div class="col-md-3">
+                           <div class="form-group">
+                               <div class="custom-file mt-3">
+                                  <input type="file" class="custom-file-input " id="customFile" name="filename">
+                                  <label class="custom-file-label" for="customFile">Choose file</label>
+                                 </div>
+                                 <div class="mt-3">
+                                  <button type="submit" class="btn edit-btn-style rounded-0" onclick="chooseFile();">Add</button>
+                                </div>
+                              </div>
+                            </div>
+                           <div class="col-md-9 form-group">
+
+                            <!-- Button trigger modal -->
+                        <img id="thumb1" src="images/Awards/cel1.jpg" class="img-fluid img-thumbnail thumbnail-size" data-toggle="modal" data-target="#exampleModalLong">
+                        
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="">
+
+                                 <img id="myImg" src="images/Awards/cel1.jpg" class="img-fluid modal-content">
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn edit-btn-style" data-dismiss="modal">Close</button>
+                                <button id="" onclick="chooseDelete();" type="button" class="btn edit-btn-style" data-dismiss="modal" aria-label="Close">Delete</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                  </div>
+                 <hr class="my-3">
+                    <div class="row">
+                  <div class="col-md-3">
+                   <div class="form-group mt-3">
+                    <label for="PostalAddress">Postal Address</label>
+                          <textarea class="form-control" rows="1" id="PostalAddress" placeholder=""></textarea>
+                       </div>
+                       <div class="form-group">
+                         <label for="City">City</label>
+                         <input id="City" type="text" name="city" class="form-control" placeholder="">
+                      </div>
+                      <div class="form-group">
+                         <label for="State">State</label>
+                        <input id="State" type="text" name="State" class="form-control" placeholder="">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                       <div class="form-group mt-3">
+                         <label for="Postcode/Zipcode">Postcode/Zipcode</label>
+                          <input id="PostcodeZipcode" type="number" name="PostcodeZipcode" class="form-control" placeholder="">
+                       </div>
+                       <div class="form-group">
+                         <label for="Country">Country</label>
+                         <input id="Country" type="text" name="Country" class="form-control" placeholder="">
+                       </div>
+                       <div class="form-group">
+                         <label for="Website">Website</label>
+                        <input id="Website" type="text" name="Website" class="form-control" placeholder="">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                   <div class="form-group mt-3">
+                     <label for="BusinessAddress">Business Address</label>
+                          <textarea class="form-control" rows="1" id="BusinessAddress" placeholder=""></textarea>
+                       </div>
+                       <div class="form-group">
+                         <label for="City">City</label>
+                         <input id="City" type="text" name="city" class="form-control" placeholder="">
+                      </div>
+                      <div class="form-group">
+                         <label for="State">State</label>
+                        <input id="State" type="text" name="State" class="form-control" placeholder="">
+                      </div>
+                  </div>
+                   <div class="col-md-3">
+                       <div class="form-group mt-3">
+                         <label for="PostcodeZipcode">Postcode/Zipcode</label>
+                          <input id="PostcodeZipcode" type="number" name="PostcodeZipcode" class="form-control">
+                       </div>
+                       <div class="form-group">
+                         <label for="Country">Country</label>
+                         <input id="Country" type="text" name="Country" class="form-control" placeholder="">
+                       </div>
+                       <div class="form-group">
+                         <label for="Website">Website</label>
+                        <input id="Website" type="text" name="Website" class="form-control" placeholder="">
+                  </div>
+                    </div>
+            </div>
+             <h3 class="Tile-style social my-3">Awards</h3>
+              <div class="row">
+                  <div class="col-md-3">
+                      <span class="btn edit-btn-style fileinput-button">
+                          <span>Upload Awards</span>
+                          <input type="file" name="files[]" id="files" multiple accept="image/jpeg, image/png, image/gif,"><br />
+                      </span>
+                    </div>
+                    <div class="col-md-9 form-group">
+                      <output id="Filelist" data-toggle="modal" data-target="#exampleModalLong" onclick="onClick(this)" class="modal-hover-opacity"></output>
+                      <!-- Modal -->
+                        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="">
+                                <img id="Filelist" class="img-fluid modal-content" src="#"></output>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn edit-btn-style" data-dismiss="modal">Close</button>
+                                <button type="button" id="deleteImage" class="btn edit-btn-style deleteImage">Delete</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Modal -->
+                    </div>
+               </div>
+               <h3 class="Tile-style social my-3">Social Media</h3>
+              <div class="row">
+                  <div class="col-md-3">
+                      <div class="form-group">
+                        <label for="Amazon">Amazon</label>
+                        <input type="url" id="Amazon" name="Amazon" placeholder="Amazon URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="Bandcamp">Bandcamp</label>
+                        <input type="url" id="Bandcamp" name="Bandcamp" placeholder="Bandcamp URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="Beatport">Beatport</label>
+                        <input type="url" id="Beatport" name="Beatport" placeholder="Beatport URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="Blogger">Blogger</label>
+                        <input type="url" id="Blogger" name="Blogger" placeholder="Blogger URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="Deezer">Deezer</label>
+                        <input type="url" id="Deezer" name="Deezer" placeholder="Deezer URL here" class="form-control">
+                      </div>
+                       <div class="form-group">
+                         <label for="DeviantArt">DeviantArt</label>
+                        <input type="url" id="DeviantArt" name="DeviantArt" placeholder="DeviantArt URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="Flickr">Flickr</label>
+                        <input type="url" id="Flickr" name="Flickr" placeholder="Flickr URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="GooglePlay">GooglePlay</label>
+                        <input type="url" id="GooglePlay" name="GooglePlay" placeholder="GooglePlay URL here" class="form-control">
+                      </div>
+                  </div>
+                  <div class="col-md-3 Login-Style rounded w-12">
+                     <div class="form-group">
+                       <label for="Houzz">Houzz</label>
+                        <input type="url" id="Houzz" name="Houzz" placeholder="Houzz URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="iTunes">iTunes</label>
+                        <input type="url" id="iTunes" name="iTunes" placeholder="iTunes URL here" class="form-control">
+                      </div>
+                      <div class="form-group mt-3">
+                       <label for="LinkedIn">LinkedIn</label>
+                        <input type="url" id="LinkedIn" name="LinkedIn" placeholder="LinkedIn URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="Odnoklassniki">Odnoklassniki</label>
+                        <input type="url" id="Odnoklassniki" name="Odnoklassniki" placeholder="Odnoklassniki URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="RSS">RSS</label>
+                        <input type="url" id="RSS" name="RSS" placeholder="RSS URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="Snapchat">Snapchat</label>
+                        <input type="url" id="Snapchat" name="Snapchat" placeholder="Snapchat URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="SoundCloud">SoundCloud</label>
+                        <input type="url" id="SoundCloud" name="SoundCloud" placeholder="SoundCloud URL here" class="form-control">
+                      </div>
+                       <div class="form-group">
+                         <label for="Spotify">Spotify</label>
+                        <input type="url" id="Spotify" name="Spotify" placeholder="Spotify URL here" class="form-control">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="form-group">
+                       <label for="Tidal">Tidal</label>
+                        <input type="url" id="Tidal" name="Tidal" placeholder="Tidal URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="TikTok">TikTok</label>
+                        <input type="url" id="TikTok" name="TikTok" placeholder="TikTok URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="TripAdvisor">TripAdvisor</label>
+                        <input type="url" id="TripAdvisor" name="TripAdvisor" placeholder="TripAdvisor URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="Vimeo">Vimeo</label>
+                        <input type="url" id="Vimeo" name="Vimeo" placeholder="Vimeo URL here" class="form-control">
+                      </div>
+                       <div class="form-group">
+                         <label for="Vkontakte">Vkontakte</label>
+                        <input type="url" id="Vkontakte" name="Vkontakte" placeholder="Vkontakte URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="Yelp">Yelp</label>
+                        <input type="url" id="Yelp" name="Yelp" placeholder="Yelp URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="Facebook">Facebook</label>
+                        <input type="url" id="Facebook" name="" placeholder="Facebook URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="Twitter">Twitter</label>
+                        <input type="url" id="Twitter" name="Twitter" placeholder="Twitter URL here" class="form-control">
+                      </div>
+                  </div>
+                   <div class="col-md-3">
+                     <div class="form-group">
+                       <label for="Youtube">Youtube</label>
+                        <input type="url" id="Youtube" name="Youtube" placeholder="Youtube URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="Pinterest">Pinterest</label>
+                        <input type="url" id="Pinterest" name="Pinterest" placeholder="Pinterest URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="Tumblr">Tumblr</label>
+                        <input type="url" id="Tumblr" name="Tumblr" placeholder="Tumblr URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="Instagram">Instagram</label>
+                        <input type="url" id="Instagram" name="Instagram" placeholder="Instagram URL here" class="form-control">
+                      </div>
+                       <div class="form-group">
+                         <label for="Behance">Behance</label>
+                        <input type="url" id="Behance" name="Behance" placeholder="Behance URL here" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <label for="Coroflot">Coroflot</label>
+                        <input type="url" id="Coroflot" name="Coroflot" placeholder="Coroflot URL here" class="form-control">
+                      </div>
+                     
+                    
+                       </div>
+                   </div>
+                    <button type="button" class="btn edit-btn-style rounded-0 text-center mt-3">Update</button>
+                         </div>
+          </form>
+
+</div>
+
+</div>
+
+</div>
+</div>
+          <div class="right-column px-3">
+            <div class="hideondesktop">
+            <ul class="list-align align-items-start mt-3">
+              <li class="dashboard-icon">Dashboard</li>
+              <hr>
+              <div class="mt-4">
+                <a href="ShowBoatHomePage.html"><li class="dashboard-icon1"><i class="fa fa-user fa-icon1 mr-3" aria-hidden="true"></i>View Profile</li></a>
+                <a href="editProfile.html"><li class="dashboard-icon1"><i class="fa fa-pencil fa-icon1 mr-3" aria-hidden="true"></i>Edit Profile</li></a>
+                <a href="#" data-toggle="modal" data-target="#gridSystemModal"><li class="dashboard-icon1"><i class="fa fa-shopping-cart fa-icon1 mr-3" aria-hidden="true"></i>Products</li></a>
+                <a href="#"><li class="dashboard-icon1"><i class="fa fa-calendar fa-icon1 mr-3" aria-hidden="true"></i>Events</li></a>
+                <a data-toggle="modal" href="message.html" data-target="#Modalmessage"><li class="dashboard-icon1"><i class="fa fa-envelope fa-icon1 mr-3" aria-hidden="true"></i>Message</li></a>
+                <a href="#"><li class="dashboard-icon1"><i class="fa fa-unlock-alt fa-icon1 mr-3" aria-hidden="true"></i>Change Password</li></a>
+                <a href="#"><li class="dashboard-icon1"><i class="fa fa-sign-out fa-icon1 mr-3" aria-hidden="true"></i>Logout</li></a>
+              </div>
+            </ul>
+            <hr>
+          </div>
+            <ul class="list-align align-items-start mt-3 pl-5">
+              <a href="#"><li>Play-o-graphy</li></a>
+              <a href="#"><li>Vedios</li></a>
+            </ul>
+            <hr>
+            <div class="text-center p-text">
+              <p>People of Play picks: September</p>
+              <img src="images/gallery9.jpg" class="img-fluid text-center my-2">
+            </div>
+
+            <p class="side-paragraph pt-3">A story of survival and resilience leads to joy for generations of children. <br><br>
+            What do popsicles, motorized bicycles, and Anne Frank have to do with one another? They are all part of the path that led Ora and Theo Coster to the stage at the 2012 TAGIE Awards to be honored for Lifetime Achievement. Theirs is an inspiring story that spans continents, decades.…and the terror of wars. <br><br>
+
+            Their most famous creation: <span class="span-style">Guess Who?<span>
+
+
+              </p>
+ 
+          <!-- Section -->
+            <div class="text-center p-text">
+              <p>Top 10 Toys</p>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table">
+              <tr>
+                  <th scope="row">Razor scooter</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Fairy Garden</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">in store</td>
+                </tr>
+                <tr>
+                  <th scope="row">Bilderhoos</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Edwin the Duck</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Enigmaze</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">in store</td>
+                </tr>
+                <tr>
+                  <th scope="row">Fashion Angels</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Mr. Game</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Lionel Trains</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Lite Poppers</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">in store</td>
+                </tr>
+                <tr>
+                  <th scope="row">Kelele</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+            </table>
+            </div>
+            <span class="span-style">See more popular toys & games >></span>
+            <hr>    
+
+
+            <!-- Section -->
+            <div class="text-center p-text">
+              <p>White Papers</p>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table">
+              <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                </table>
+
+            </div>
+            <div class="text-center">
+            <button type="button" class="btn btn-style rounded-0 text-center">Sign Up</button>
+          </div>
+            <hr>  
+              <div class="text-center p-text">
+              <p>Blogger of the Month</p>
+              <img src="images/gallery7.jpg" class="img-fluid text-center my-2"><br><span class="span-style">Keri Wilmot<span>
+
+            </div>
+            <hr>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FChicagoToyAndGameWeek%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="140px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+            <hr>
+            <center><a href="https://twitter.com/intent/tweet?screen_name=ChicagoToyAndGameWeek&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large" data-dnt="true" data-show-count="true">Tweet to @ChicagoToyAndGameWeek</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+            <hr>
+            <div class="card">
+              <img class="card-img-top" src="images/gallery7.jpg">
+                  <div class="card-header bg-white">ManufacturingStories</div>
+                <div class="card-body bg-white">Beth Engelman – Mommy on a Shoestring | ChiTAG (Chicago Toy and Game) Week – ManufacturingStories®</div>
+                <div class="card-footer bg-white"><div class="image-width1 d-flex flex-row justifly-content-center">
+                    <img src="images/pint.jpg" class="rounded-circle mr-3">
+                     <div class="">
+                      <p class="p-text2"><b>Mary Couzin - Chicago Toy & Game Fair CEO</b><br>Mary Couzin - Chicago Toy & Game Fair CEO
+                      </p>
+                       </div>
+                    </div></div>
+             </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                  <div class="image-width1 d-flex flex-row justifly-content-center">
+                    <img src="images/card.jpg" class="img-fluid mr-3">
+                     <div class="">
+                      <p class="p-text1">Marvel to launch Black Widow figurine<br><span class="span-style">lego.com</span>
+                      </p>
+                       </div>
+                    </div>
+                    <div class="image-width1 d-flex flex-row justifly-content-center my-3">
+                    <img src="images/card.jpg" class="img-fluid mr-3">
+                     <div class="">
+                      <p class="p-text1">Old game with a new twist
+                      <br><span class="span-style">3ds.com</span>
+                      </p>
+                       </div>
+                    </div>
+                    <div class="image-width1 d-flex flex-row justifly-content-center">
+                    <img src="images/card.jpg" class="img-fluid mr-3">
+                     <div class="">
+                      <p class="p-text1">Busy hatching another animal!
+                      <br><span class="span-style">hasbro.com</span>
+                      </p>
+                       </div>
+                    </div>
+                    <hr>
+                </div>
+              </div>
+          </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="container page-footer font-small mdb-color text-white">
+
+  <!-- Footer Links -->
+  <div class="text-center text-md-left footer-background">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left px-3 pt-3">
+
+
+    <!-- Grid column -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3 imagecenter">
+        <h6 class="text-uppercase mb-4">People Of Play everywhere</h6>
+        <p class="paragraphdesign">Find launch times, watch trailers, browse photos, track your Watchlist and rate your favorite toys, games and inventors on your phone or tablet!
+        </p>
+       <ul class="d-flex footerimg">
+          <li class="border mr-1"><img src="images/footergoogle.png"></li>
+          <li class="border"><img src="images/footerapp.png"></li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mt-3 h4footer">
+          <h4>Contact us</h4>
+          <hr class="bg-white">
+          <ul>
+            <li><a href="#!">Contact us</a></li>
+             <li><a href="#!">info@chitag.com</a></li>
+              <li><a href="#!">+1-847-677-8277</a></li>
+          </ul>
+           
+        </div>
+         <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mt-3 h4footer">
+              <h4>About us</h4>
+               <hr class="bg-white">
+              <ul>
+            <li><a href="#!">About ChiTAG Group</a></li>
+             <li><a href="#!">The Importance of Play</a></li>
+              <li><a href="#!">Charities we Support</a></li>
+          </ul>
+          </div>
+         <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mt-3 h4footer">
+          <h4>Newsletters</h4>
+           <hr class="bg-white">
+           <ul>
+            <li><a href="#!">Importance of Play</a></li>
+             <li><a href="#!">Business of Play</a></li>
+              <li><a href="#!">Play in Education</a></li>
+              <li><a href="#!">Media & Social Influencers</a></li>
+          </ul>
+           
+         </div>
+         <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mt-3 h4footer">
+          <h4>Play with us</h4>
+           <hr class="bg-white">
+           <ul>
+            <li><a href="#!">Advertise</a></li>
+             <li><a href="#!">Exhibit at the Fair</a></li>
+              <li><a href="#!">Join the YIC</a></li>
+              <li><a href="#!">Sponsor</a></li>
+               <li><a href="#!">City Partnership</a></li>
+              <li><a href="#!">Internship</a></li>
+               <li><a href="#!">Volunteer</a></li>
+                </ul>
+                 </div>
+       </div>
+       <hr class="bg-white">
+        <div class="row d-flex align-items-center">
+      
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8 pl-4">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">Copyright
+          <a href="HomePage.html">
+            © 2017 a Chicago Toy &amp; Game Group company
+          </a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+               <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+               <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                 <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </a>
+            </li>
+              <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                 <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+              </a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                 <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+           
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Grid column -->
+    </div>
+  
+
+ 
+
+    <!-- Grid row -->
+   
+</footer>
+
+ <script>
+  function onClick(element) {
+  document.getElementById("Filelist").src = element.src;
+  document.getElementById("modal").style.display = "block";
+}
+ </script>
+
+<script>
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#deletebutton").removeAttr("src");
+  });
+});
+
+</script>
+
+<script>
+
+// multiple Images uploads
+//I added event handler for the file upload control to access the files properties.
+document.addEventListener("DOMContentLoaded", init, false);
+
+//To save an array of attachments
+var AttachmentArray = [];
+
+//counter for attachment array
+var arrCounter = 0;
+
+//to make sure the error message for number of files will be shown only one time.
+var filesCounterAlertStatus = false;
+
+//un ordered list to keep attachments thumbnails
+var ul = document.createElement("ul");
+ul.className = "thumb-Images thumbnail-sizehu";
+ul.id = "imgList";
+
+function init() {
+  //add javascript handlers for the file upload event
+  document
+    .querySelector("#files")
+    .addEventListener("change", handleFileSelect, false);
+}
+
+//the handler for file upload event
+function handleFileSelect(e) {
+  //to make sure the user select file/files
+  if (!e.target.files) return;
+
+  //To obtaine a File reference
+  var files = e.target.files;
+
+  // Loop through the FileList and then to render image files as thumbnails.
+  for (var i = 0, f; (f = files[i]); i++) {
+    //instantiate a FileReader object to read its contents into memory
+    var fileReader = new FileReader();
+
+    // Closure to capture the file information and apply validation.
+    fileReader.onload = (function(readerEvt) {
+      return function(e) {
+        //Apply the validation rules for attachments upload
+        ApplyFileValidationRules(readerEvt);
+
+        //Render attachments thumbnails.
+        RenderThumbnail(e, readerEvt);
+
+        //Fill the array of attachment
+        FillAttachmentArray(e, readerEvt);
+      };
+    })(f);
+
+    // Read in the image file as a data URL.
+    // readAsDataURL: The result property will contain the file/blob's data encoded as a data URL.
+    // More info about Data URI scheme https://en.wikipedia.org/wiki/Data_URI_scheme
+    fileReader.readAsDataURL(f);
+  }
+  document
+    .getElementById("files")
+    .addEventListener("change", handleFileSelect, false);
+}
+
+//To remove attachment once user click on x button
+jQuery(function($) {
+  $("div").on("click", ".img-wrap .close", function() {
+    var id = $(this)
+      .closest(".img-wrap")
+      .find("img")
+      .data("id");
+
+
+    //to remove the deleted item from array
+    var elementPos = AttachmentArray.map(function(x) {
+      return x.FileName;
+    }).indexOf(id);
+    if (elementPos !== -1) {
+      AttachmentArray.splice(elementPos, 1);
+    }
+
+    //to remove image tag
+    $(this)
+      .parent()
+      .find("img")
+      .not()
+      .remove();
+
+    //to remove div tag that contain the image
+    $(this)
+      .parent()
+      .find("div")
+      .not()
+      .remove();
+
+    //to remove div tag that contain caption name
+    $(this)
+      .parent()
+      .parent()
+      .find("div")
+      .not()
+      .remove();
+
+    //to remove li tag
+    var lis = document.querySelectorAll("#imgList li");
+    for (var i = 0; (li = lis[i]); i++) {
+      if (li.innerHTML == "") {
+        li.parentNode.removeChild(li);
+      }
+    }
+  });
+});
+
+//Apply the validation rules for attachments upload
+function ApplyFileValidationRules(readerEvt) {
+  //To check file type according to upload conditions
+  if (CheckFileType(readerEvt.type) == false) {
+    alert(
+      "The file (" +
+        readerEvt.name +
+        ") does not match the upload conditions, You can only upload jpg/png/gif files"
+    );
+    e.preventDefault();
+    return;
+  }
+
+  //To check file Size according to upload conditions
+  if (CheckFileSize(readerEvt.size) == false) {
+    alert(
+      "The file (" +
+        readerEvt.name +
+        ") does not match the upload conditions, The maximum file size for uploads should not exceed 300 KB"
+    );
+    e.preventDefault();
+    return;
+  }
+
+  //To check files count according to upload conditions
+  if (CheckFilesCount(AttachmentArray) == false) {
+    if (!filesCounterAlertStatus) {
+      filesCounterAlertStatus = true;
+      alert(
+        "You have added more than 10 files. According to upload conditions you can upload 10 files maximum"
+      );
+    }
+    e.preventDefault();
+    return;
+  }
+}
+
+//To check file type according to upload conditions
+function CheckFileType(fileType) {
+  if (fileType == "image/jpeg") {
+    return true;
+  } else if (fileType == "image/png") {
+    return true;
+  } else if (fileType == "image/gif") {
+    return true;
+  } else {
+    return false;
+  }
+  return true;
+}
+
+//To check file Size according to upload conditions
+function CheckFileSize(fileSize) {
+  if (fileSize < 300000) {
+    return true;
+  } else {
+    return false;
+  }
+  return true;
+}
+
+//To check files count according to upload conditions
+function CheckFilesCount(AttachmentArray) {
+  //Since AttachmentArray.length return the next available index in the array,
+  //I have used the loop to get the real length
+  var len = 0;
+  for (var i = 0; i < AttachmentArray.length; i++) {
+    if (AttachmentArray[i] !== undefined) {
+      len++;
+    }
+  }
+  //To check the length does not exceed 10 files maximum
+  if (len > 9) {
+    return false;
+  } else {
+    return true;
+  }
+}
+
+//Render attachments thumbnails.
+function RenderThumbnail(e, readerEvt) {
+  var li = document.createElement("li");
+  ul.appendChild(li);
+  li.innerHTML = [
+    '<div class="img-wrap"> <span class="">&times;</span>' +
+      '<img class="thumb img-thumbnail thumbnail-size" src="',
+    e.target.result,
+    '" title="',
+    escape(readerEvt.name),
+    '" data-id="',
+    readerEvt.name,
+    '"/>' + "</div>"
+  ].join("");
+
+  var div = document.createElement("div");
+  div.className = "FileNameCaptionStyle";
+  li.appendChild(div);
+  div.innerHTML = [readerEvt.name].join("");
+  document.getElementById("Filelist").insertBefore(ul, null);
+}
+
+//Fill the array of attachment
+function FillAttachmentArray(e, readerEvt) {
+  AttachmentArray[arrCounter] = {
+    AttachmentType: 1,
+    ObjectType: 1,
+    FileName: readerEvt.name,
+    FileDescription: "Attachment",
+    NoteText: "",
+    MimeType: readerEvt.type,
+    Content: e.target.result.split("base64,")[1],
+    FileSizeInBytes: readerEvt.size
+  };
+  arrCounter = arrCounter + 1;
+}
+
+
+//End Multiple Images Upload
+
+</script>
+
+
+
+<script>
+
+// File Upload
+// 
+function ekUpload(){
+  function Init() {
+
+    console.log("Upload Initialised");
+
+    var fileSelect    = document.getElementById('file-upload'),
+        fileDrag      = document.getElementById('file-drag'),
+        submitButton  = document.getElementById('submit-button');
+
+    fileSelect.addEventListener('change', fileSelectHandler, false);
+
+    // Is XHR2 available?
+    var xhr = new XMLHttpRequest();
+    if (xhr.upload) {
+      // File Drop
+      fileDrag.addEventListener('dragover', fileDragHover, false);
+      fileDrag.addEventListener('dragleave', fileDragHover, false);
+      fileDrag.addEventListener('drop', fileSelectHandler, false);
+    }
+  }
+
+  function fileDragHover(e) {
+    var fileDrag = document.getElementById('file-drag');
+
+    e.stopPropagation();
+    e.preventDefault();
+
+    fileDrag.className = (e.type === 'dragover' ? 'hover' : 'modal-body file-upload');
+  }
+
+  function fileSelectHandler(e) {
+    // Fetch FileList object
+    var files = e.target.files || e.dataTransfer.files;
+
+    // Cancel event and hover styling
+    fileDragHover(e);
+
+    // Process all File objects
+    for (var i = 0, f; f = files[i]; i++) {
+      parseFile(f);
+      uploadFile(f);
+    }
+  }
+
+  // Output
+  function output(msg) {
+    // Response
+    var m = document.getElementById('messages');
+    m.innerHTML = msg;
+  }
+
+  function parseFile(file) {
+
+    console.log(file.name);
+    output(
+      '<strong>' + encodeURI(file.name) + '</strong>'
+    );
+    
+    // var fileType = file.type;
+    // console.log(fileType);
+    var imageName = file.name;
+
+    var isGood = (/\.(?=gif|jpg|png|jpeg)/gi).test(imageName);
+    if (isGood) {
+      document.getElementById('start').classList.add("hidden");
+      document.getElementById('response').classList.remove("hidden");
+      document.getElementById('notimage').classList.add("hidden");
+      // Thumbnail Preview
+      document.getElementById('file-image').classList.remove("hidden");
+      document.getElementById('file-image').src = URL.createObjectURL(file);
+    }
+    else {
+      document.getElementById('file-image').classList.add("hidden");
+      document.getElementById('notimage').classList.remove("hidden");
+      document.getElementById('start').classList.remove("hidden");
+      document.getElementById('response').classList.add("hidden");
+      document.getElementById("file-upload-form").reset();
+    }
+  }
+
+  function setProgressMaxValue(e) {
+    var pBar = document.getElementById('file-progress');
+
+    if (e.lengthComputable) {
+      pBar.max = e.total;
+    }
+  }
+
+  function updateFileProgress(e) {
+    var pBar = document.getElementById('file-progress');
+
+    if (e.lengthComputable) {
+      pBar.value = e.loaded;
+    }
+  }
+
+  function uploadFile(file) {
+
+    var xhr = new XMLHttpRequest(),
+      fileInput = document.getElementById('class-roster-file'),
+      pBar = document.getElementById('file-progress'),
+      fileSizeLimit = 1024; // In MB
+    if (xhr.upload) {
+      // Check if file is less than x MB
+      if (file.size <= fileSizeLimit * 1024 * 1024) {
+        // Progress bar
+        pBar.style.display = 'inline';
+        xhr.upload.addEventListener('loadstart', setProgressMaxValue, false);
+        xhr.upload.addEventListener('progress', updateFileProgress, false);
+
+        // File received / failed
+        xhr.onreadystatechange = function(e) {
+          if (xhr.readyState == 4) {
+            // Everything is good!
+
+            // progress.className = (xhr.status == 200 ? "success" : "failure");
+            // document.location.reload(true);
+          }
+        };
+
+        // Start upload
+        xhr.open('POST', document.getElementById('file-upload-form').action, true);
+        xhr.setRequestHeader('X-File-Name', file.name);
+        xhr.setRequestHeader('X-File-Size', file.size);
+        xhr.setRequestHeader('Content-Type', 'multipart/form-data');
+        xhr.send(file);
+      } else {
+        output('Please upload a smaller file (< ' + fileSizeLimit + ' MB).');
+      }
+    }
+  }
+
+  // Check for the various File API support.
+  if (window.File && window.FileList && window.FileReader) {
+    Init();
+  } else {
+    document.getElementById('file-drag').style.display = 'none';
+  }
+}
+ekUpload();
+</script>
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/dropzone.js"></script>
+<script src="js/dropzone.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script  type="text/javascript" src="js/lightgallery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+</body>
+</html>

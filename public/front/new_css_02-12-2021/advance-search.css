@@ -1,0 +1,98 @@
+h3.Tile-style {
+    color: #000 !important;
+}
+
+.event_table tr td img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+div#advance_search_div {
+    padding: 20px;
+}
+
+.wrap-text {
+    color: #000 !important;
+    padding: 20px 0px 0px;
+}
+
+div#advance_search_div {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.event_table .dac_name {
+    color: #000;
+    font-size: 14px;
+}
+
+.sidetitleProducttitle1 {
+    font-size: 24px!important;
+    font-weight: 400!important;
+    font-family: 'Roboto', sans-serif !important;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+table.table.event_table.HomeSearch td {
+    vertical-align: middle;
+}
+
+.advancedSearchPage .select2-container .select2-selection--single {
+    height: 36px;
+}
+
+.advancedSearchPage .select2-container--default .select2-selection--single {
+    box-shadow: unset !important;
+    border-radius: 4px !important;
+    border: 1px solid #ced4da !important;
+}
+
+.advancedSearchPage .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 32px;
+}
+
+.advancedSearchPage .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 34.5px;
+}
+
+.advancedSearchPage .select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-size: 13px;
+}
+
+.AdvceSearch .tags-input input:focus {
+    width: 100%;
+    border: 1px solid #ccc !important;
+    padding: 0.375rem 0.75rem !important;
+}
+
+.AdvceSearch .tags-input input {
+    border: 1px solid #ccc !important;
+}
+
+.SkillsExample {
+    color: red;
+    font-size: 12px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+.TopicHead h4 {
+    font-size: 18px;
+}
+
+.AdvSearchCheckBox {
+    margin: 6px 0;
+}
+
+.AdvSearchCheckBox div {
+    white-space: nowrap;
+}
+
+@media only screen and (max-device-width: 400px) {
+    .AdvSearchCheckBox {
+        flex-direction: column;
+    }
+}

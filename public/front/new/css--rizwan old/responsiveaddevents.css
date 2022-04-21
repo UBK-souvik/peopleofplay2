@@ -1,0 +1,20 @@
+@media screen and (max-width: 567px) {
+
+
+
+  .has-search .form-control {
+    padding-left: 2.375rem;
+    width: 286px !important;
+}
+
+
+header#DesktopHeaderAddAwards {
+    display: none!important;
+}
+
+header#MobileFirstHeaderAddAwards {
+    display: block!important;
+    flex-direction: row;
+}
+
+}

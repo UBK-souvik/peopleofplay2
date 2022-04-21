@@ -67,7 +67,6 @@
 
 <script type="text/javascript">
     admin_show_standard_ckeditor_new('description');
-
     jQuery(function($) {
       $(document).on('click','#createBtn',function(e){
 

@@ -1,0 +1,103 @@
+.popPaySection .fontTwentyTwo {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.popPaySection .fontFifteen {
+    font-size: 15px;
+}
+
+.fontFourteen {
+    font-size: 14px;
+}
+
+.popPaySection .paddingTopFourtyFive {
+    padding-top: 20px;
+}
+
+.CouponCode .btn-success {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #FFCA2C;
+    border-color: #FFCA2C;
+}
+
+.CouponCode .btn-success:hover,
+.btnAll:hover {
+    background-color: #efbe2b;
+}
+
+.OrderSummary {
+    border-left: 1px solid #afafaf;
+    padding-top: 20px
+}
+
+.PaymentIcons img {
+    width: 75%;
+}
+
+button#customButton_save {
+    margin: 1.5rem auto !important;
+}
+/******payment icon******/
+
+.PaymentIconDetails li a img {
+    max-width: 57px;
+    min-width: 57px;
+    object-fit: cover;
+}
+
+.PaymentIconDetails li a {
+    padding: 0px 6px 14px 0px;
+}
+
+.PaymentIconDetails li:last-child a {
+    padding-right: 0;
+}
+
+
+/******payment icon******/
+
+
+/******media query******/
+
+@media (max-width: 1420px) {
+    .PaymentIconDetails li a img {
+        max-width: 45px;
+        min-width: 45px;
+        object-fit: cover;
+    }
+    .popPaySection .fontTwentyTwo {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .OrderSummary {
+        border-left: unset;
+    }
+    .PaymentIconDetails li a img {
+        max-width: 54px;
+        min-width: 54px;
+    }
+}
+
+@media (max-width: 992px) {
+    .OrderSummary {
+        border-left: unset;
+    }
+    .PaymentIconDetails li a img {
+        max-width: 54px;
+        min-width: 54px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .PaymentIconDetails {
+        justify-content: space-between;
+    }
+}
+
+
+/******media query******/

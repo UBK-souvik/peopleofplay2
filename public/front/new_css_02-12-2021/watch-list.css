@@ -1,0 +1,49 @@
+.PopFavorites .awardNomineeImg {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.PopFavorites .kawardpage_section .first_box {
+    border: 1px solid lightgrey;
+}
+
+.PopFavorites .boxWidth {
+    width: 50%;
+}
+
+.PopFavorites .paddingTwenty {
+    padding: 20px;
+}
+
+.PopFavorites .readMore {
+    white-space: nowrap;
+}
+
+.PopFavorites .kawardpage_section .alinks_header {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.PopFavorites .removeWatchList i.fa.fa-times-circle-o {
+    font-size: 24px;
+}
+
+@media only screen and (max-device-width: 1199px) {
+    .PopFavorites .boxWidth {
+        width: 100%;
+    }
+    .PopFavorites .kawardpage_section .first_box {
+        align-items: center;
+    }
+}
+
+@media only screen and (max-device-width: 400px) {
+    .PopFavorites .awardNomineeImg {
+        width: 80px;
+        height: 80px;
+    }
+}

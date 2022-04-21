@@ -1,0 +1,133 @@
+.klogin_Style {
+    box-shadow: 0px 2px 8px 2px #8c8c8c;
+}
+
+.klogin_Style,
+.k_black {
+    background-color: #fff;
+}
+
+
+/* .Logostyle {
+    background-color: #000;
+    font-family: 'Roboto', sans-serif !important;
+    border: 3px solid #672997;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: #672997;
+} */
+
+
+/* .formstyle {
+    border: 1px solid #672997;
+    padding: 30px;
+    border-radius: 0;
+} */
+
+.RedButton {
+    background-color: #FFCA2C !important;
+    border: 1px solid #FFCA2C!important;
+    border-radius: 0;
+    box-shadow: 0px 2px 4px 1px #8c8c8ceb;
+    color: #000;
+    font-weight: 600;
+}
+
+.ForgetPwd {
+    color: #000 !important;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 15px!important;
+}
+
+.ForgetPwd a,
+.signup_legal a {
+    color: #672997;
+    text-decoration: none;
+}
+
+.signup_legal a:hover {
+    text-decoration: underline;
+}
+
+.textPurple {
+    color: #672997;
+}
+
+.intl-tel-input.allow-dropdown {
+    width: 100%;
+}
+
+#registration-form .select2-container .select2-selection--single {
+    min-height: 36px;
+    width: 100% !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #ced4da;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #717171;
+    line-height: 33px;
+    font-size: 13px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    margin-top: 2px;
+}
+
+.login_logo .LogoStyle img {
+    width: 120px;
+}
+
+.PeoplePlaySignIn p {
+    font-size: 1.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #000;
+}
+
+.formStyle label {
+    font-size: .875rem;
+    color: #000;
+    font-weight: 500;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #662c92;
+    cursor: pointer;
+}
+.custom-control-input:focus~.custom-control-label::before {
+    box-shadow: unset;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    background-color: #662c92;
+    cursor: pointer;
+}
+.custom-control-input:active~.custom-control-label::before {
+    color: #fff;
+    background-color: #b190c9;
+}
+.custom-checkbox .custom-control-label{
+    cursor: pointer;
+}
+
+
+
+#rc-imageselect {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;}
+@media screen and (max-height: 575px){
+#rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;}
+}
+@media only screen and (max-width: 500px) {
+.g-recaptcha {
+transform:scale(0.77);
+transform-origin:0 0;
+}
+}
+
+
+

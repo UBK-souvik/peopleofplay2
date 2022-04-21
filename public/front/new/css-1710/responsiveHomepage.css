@@ -1,0 +1,205 @@
+@media screen and (max-width: 567px) {
+
+
+
+  .has-search .form-control {
+    padding-left: 2.375rem;
+    width: 286px !important;
+}
+
+
+.btnLogin{
+    width:100%;
+}
+.left-column {
+    background-color: #000!important;
+    
+}
+
+.h1Home h1 {
+    font-size: 24px !important;
+    letter-spacing: 0.5px;
+}
+
+.paragraphdesign {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.wrap-text h3 {
+    font-size:20px;
+}
+.overlayimages {
+    width: 27% !important;
+    height: 50% !important;
+    font-size: 10px;
+}
+
+.overlayimages1 {
+    width: 27% !important;
+    height: 56% !important;
+    font-size: 10px;
+}
+
+.desktopveiw{
+    display: none !important;
+}
+
+
+.mobileveiw{
+    display: block !important;
+}
+
+.overlayimages2 {
+    width: 45% !important;
+    height: 42% !important;
+    font-size: 10px;
+}
+
+.overlayimages3 {
+    width: 27% !important;
+    height: 35% !important;
+    font-size: 10px;
+}
+
+.overlayimages4 {
+    width: 27% !important;
+    height: 35% !important;
+    font-size: 10px;
+}
+header.DesktopHeader {
+    display: none;
+    background: #111;
+}
+
+header.MobileHeader {
+    display: block;
+    flex-direction: row;
+    background: #111;
+}
+
+.h1Home h1{
+	
+    
+    font-size: 21px;
+}
+
+.overlayimages {
+   
+    width: 34%;
+    height: 32%;
+    }
+
+    .Gallery-text-overlay-Image {
+    margin: 0px 5px;
+}
+
+.left-column {
+   
+    padding: 0px 15px 30px 15px;
+}
+
+.right-column{
+ padding:15px 0px;
+}
+
+.overlayimages1 {
+    
+    width: 32%;
+    height: 34%;
+   }
+
+
+.MailingList {
+    padding: 15px;
+    background-color: #141414 !important;
+}
+.small1 {
+    font-size: 48%;
+   
+}
+
+.MailingList h1 {
+    letter-spacing: 0.1em;
+    font-family:"DIN Neuzeit Grotesk LT W01 BdCn", sans-serif;
+    line-height: 1em;
+    text-align: center;
+    font-size: 29px;
+}
+
+.MailingList h2 {
+    letter-spacing: 0.05em;
+    font-family:"DIN Neuzeit Grotesk LT W01 BdCn", sans-serif;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 19px;
+    padding: 10px 0px;
+}
+
+.btn-subscribe {
+    
+    font-family:"DIN Neuzeit Grotesk LT W01 BdCn", sans-serif;
+}
+
+.form-control {
+    font-family:"DIN Neuzeit Grotesk LT W01 BdCn", sans-serif;
+}
+
+.overlayimages2 {
+    color: white;
+    width: 50%;
+    height: 31%;
+    position: absolute;
+    bottom: 0%;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.overlayimages3 {
+   
+    width: 33%;
+    
+    
+}
+
+.overlayimages4 {
+width: 23%;
+    height: 44%;
+}
+
+
+.overlayimages2 b{
+    font-size: 13px;
+}
+
+.small1 {
+    font-size: 65%;
+   
+}
+
+header#DesktopHeaderHome {
+  
+    display: none !important;
+}
+
+footer h6{
+	margin:10px;
+}
+
+ul.d-flex.imagecenter {
+    flex-direction: column;
+   
+    margin: 10px;
+}
+
+button.btn.btn-style1 {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+button.btn.btn-style1:hover {
+    margin: 0px;
+}
+
+}

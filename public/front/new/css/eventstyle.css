@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: .5px;
+    text-decoration: none
+}
+
+header#DesktopFirstEvent {
+    display: block;
+    width: 100%
+}
+
+header#MobileFirstHeaderEvent {
+    display: none;
+    width: 100%
+}
+
+.Gallery-overlay {
+    justify-content: space-evenly
+}
+
+button.btn.btn-style1 {
+    background-color: #3d8e99;
+    border: solid #fff 0;
+    cursor: pointer!important;
+    color: #000;
+    font-weight: 700;
+    padding: 10px 50px;
+    margin: 30px
+}
+
+button.btn.btn-style1:hover {
+    background-color: #a29c9c;
+    border-color: #fff;
+    font-weight: 700;
+    padding: 10px 50px;
+    margin: 30px
+}
+
+.MailingList h1 {
+    letter-spacing: .1em;
+    font-family: Oswald, sans-serif;
+    line-height: 1em;
+    text-align: center;
+    font-size: 55px
+}
+
+.MailingList h2 {
+    letter-spacing: .05em;
+    font-family: 'Bree Serif', serif;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0
+}
+
+.subscribefield {
+    border-width: 2.7868852459016393px!important;
+    border-color: #a29c9c!important;
+    background-color: #141414!important;
+    color: #a29c9c!important;
+    border-radius: 0!important;
+    margin-bottom: 10px
+}
+
+.btn-subscribe {
+    background-color: #121212!important;
+    color: #fff
+}
+
+footer {
+    font-family: Oswald, sans-serif
+}
+
+.NextbackgroundColor {
+    background-color: #121212;
+    color: #fff
+}

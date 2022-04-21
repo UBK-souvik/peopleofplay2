@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    letter-spacing: 0.5px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {}
+
+
+.Tile-style {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+}
+
+input::placeholder {
+    font-size: 15px !important;
+}
+
+
+
+
+
+.Login-Style {
+    background-color: #fff !important;
+}
+
+.formstyle {
+
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .4) inset;
+}
+
+.btnLogin {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .4) inset;
+    background: #f0c14b !important;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+.btnLogin:hover {
+    background-color: #111 !important;
+    border-style: 2px solid #fff !important;
+    color: #fff !important;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .4) inset;
+}
+
+.modal-body {
+    border: 1px solid #c2cbd4 !important;
+    padding: 30px !important;
+    margin: 30px !important;
+    border-radius: 10px;
+}
+
+

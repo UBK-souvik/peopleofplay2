@@ -55,11 +55,42 @@
                                             </div>
                                          </div>
                                         <div class="form-group">
-                                            <label for="fun_fact1" class="col-sm-2 control-label">Button Text</label>
+                                            <label for="fun_fact1" class="col-sm-2 control-label">Button One Text</label>
                                             <div class="col-sm-6">
                                                <input required type="text" class="form-control" name="button_text" placeholder="" value="<?php echo e(@$event_header->button_text); ?>">
                                             </div>
                                          </div>
+                                        <div class="form-group">
+                                            <label for="fun_fact1" class="col-sm-2 control-label">Button Two Text</label>
+                                            <div class="col-sm-6">
+                                               <input required type="text" class="form-control" name="button_two_text" placeholder="" value="<?php echo e(@$event_header->button_two_text); ?>">
+                                            </div>
+                                         </div>
+                                        <div class="form-group">
+                                            <label for="fun_fact1" class="col-sm-2 control-label">Button Three Text</label>
+                                            <div class="col-sm-6">
+                                               <input required type="text" class="form-control" name="button_three_text" placeholder="" value="<?php echo e(@$event_header->button_three_text); ?>">
+                                            </div>
+                                         </div>
+                                        <div class="form-group">
+                                            <label for="fun_fact1" class="col-sm-2 control-label">Button One Link</label>
+                                            <div class="col-sm-6">
+                                               <input required type="text" class="form-control" name="button_one_link" placeholder="" value="<?php echo e(@$event_header->button_one_link); ?>">
+                                            </div>
+                                         </div>
+                                        <div class="form-group">
+                                            <label for="fun_fact1" class="col-sm-2 control-label">Button Two Link</label>
+                                            <div class="col-sm-6">
+                                               <input required type="text" class="form-control" name="button_two_link" placeholder="" value="<?php echo e(@$event_header->button_two_link); ?>">
+                                            </div>
+                                         </div>
+                                        <div class="form-group">
+                                            <label for="fun_fact1" class="col-sm-2 control-label">Button Three Link</label>
+                                            <div class="col-sm-6">
+                                               <input required type="text" class="form-control" name="button_three_link" placeholder="" value="<?php echo e(@$event_header->button_three_link); ?>">
+                                            </div>
+                                         </div>
+
                                     </div>
                                 </div>
 

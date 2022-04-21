@@ -1,0 +1,163 @@
+.PopFeedField .custom-file,
+.MediaMention .custom-file {
+    position: relative;
+    display: inline-block;
+    height: calc(2.25rem + 2px);
+    margin-bottom: 0;
+    margin: 0 auto;
+    width: unset;
+}
+
+.PopFeedField .div-image-upload-gallery-class,
+.MediaMention .div-image-upload-gallery-class {
+    margin: 0;
+}
+
+.PopFeedField .PostModel .PostBody input[type=file],
+.MediaMention .PostModel .PostBody input[type=file] {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    display: inline;
+    margin-left: 6px;
+}
+
+.PopFeedField .PostModel label,
+.MediaMention .PostModel label {
+    font-size: 18px !important;
+    color: #3f5563;
+    font-weight: 600;
+}
+
+.PopFeedField .custom-file__label,
+.MediaMention .custom-file__label {
+    position: relative;
+    display: block;
+    width: 50%;
+    min-width: 150px;
+    min-height: 45px;
+    margin: 10px 0;
+    padding: 0;
+    border: 1px solid #FFCA2C;
+    color: #000;
+    line-height: 45px;
+    text-align: center;
+    text-transform: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 14px;
+    background: #FFCA2C;
+    box-shadow: 0px 2px 4px 1px #8c8c8ceb;
+}
+
+.PopFeedField .custom-file__input,
+.MediaMention .custom-file__input {
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.PopFeedField #div-image-gallery-preview-id img,
+.MediaMention #div-image-gallery-preview-id img {
+    width: 100%;
+}
+
+.PopFeedField .galleryperview,
+.MediaMention .galleryperview {
+    border: 1px solid lightgrey;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+
+.PopFeedField #Title,
+.PopFeedField #Caption,
+.PopFeedField .tag-input,
+.PopFeedField .select2-selection,
+.PopFeedField #VideoUrl,
+.PopFeedField #AddNewPost,
+.PopFeedField .CategorySelecter,
+.MediaMention #Title,
+.MediaMention #link,
+.MediaMention #Caption,
+.MediaMention .tag-input,
+.MediaMention .select2-selection,
+.BlogDescription {
+    box-shadow: 0px 2px 4px 1px #8c8c8ceb !important;
+    border-radius: 12px !important;
+    border: 1px solid #aaa;
+}
+
+.videogallery {
+    margin-bottom: 28px;
+}
+
+.PopFeedField .tagsinput:focus {
+    outline: unset !important;
+    border: none !important;
+}
+
+.PopFeedField .select2-container--default .select2-selection--multiple .select2-selection__rendered,
+.MediaMention .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    padding: 6px 10px;
+}
+
+.PopFeedField .tagsinput div input,
+.MediaMention .tagsinput div input {
+    padding: 8px 10px;
+    border: 1px solid #aaa;
+}
+
+.PopFeedField .select2-container .select2-search--inline .select2-search__field,
+.MediaMention .select2-container .select2-search--inline .select2-search__field {
+    margin-top: 0px;
+    width: 100% !important;
+}
+
+.PopFeedField .select2-container .select2-search--inline .select2-search__field::placeholder,
+.MediaMention .select2-container .select2-search--inline .select2-search__field::placeholder,
+.PopFeedField #VideoUrl::placeholder {
+    color: #000;
+}
+
+.PopFeedField .select2-container--default .select2-selection--multiple .select2-selection__choice,
+.MediaMention .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+.PopFeedField .First-column,
+.MediaMention .MediaBlog {
+    box-shadow: unset !important;
+    border-radius: unset !important;
+}
+
+.MediaBlog .select2-container {
+    width: 100% !important;
+}
+
+#feedForm .select2-container {
+    width: 100% !important;
+}
+
+.popFeedSelectIcons img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+/*.popFeedSelect {
+    border: 8px solid #ccc;
+    border-radius: 18px;
+    padding: 26px 0;
+}*/
+.popFeedPara p {
+    font-size: 24px;
+}
+.loadingType {
+    width: 34px;
+}
+.ModelLoader {
+    width: 60px;
+}

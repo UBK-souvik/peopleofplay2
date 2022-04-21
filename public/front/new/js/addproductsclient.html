@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Add Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  <link rel="stylesheet" href="css/HomePagestyle.css">
+  <link rel="stylesheet" href="css/Homestyle.css">
+  <link rel="stylesheet" href="css/membership.css">
+  <link rel="stylesheet" href="css/productpagestyle.css">
+  <link rel="stylesheet" href="css/productscss.css">
+  <link rel="stylesheet" href="css/registrationstyle.css">
+  <link rel="stylesheet" href="css/responsiveaddevents.css">
+  <link rel="stylesheet" href="css/responsiveevents.css">
+  <link rel="stylesheet" href="css/responsiveheaderpart.css">
+  <link rel="stylesheet" href="css/responsiveHomepage.css">
+  <link rel="stylesheet" href="css/responsivelogin.css">
+  <link rel="stylesheet" href="css/responsiveProductHomepage.css">
+  <link rel="stylesheet" href="css/responsiveregistration.css">
+  <link rel="stylesheet" href="css/responsivestyle.css">
+  <link rel="stylesheet" href="css/styleedit.css">
+  <link rel="stylesheet" href="css/stylemessage.css">
+  <link rel="stylesheet" href="css/eventstyle.css">
+  <link rel="stylesheet" href="css/editresponsivestyle.css">
+  <link rel="stylesheet" href="css/addeventstyle.css">
+  <link rel="stylesheet" href="css/addproductsresponsivestyle.css">
+  <link rel="stylesheet" href="css/addawardstyle.css">
+  <link rel="stylesheet" href="css/productpagestyle.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/dropzone.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body class="header-background">
+  <section id="MobileProducts">
+      <header class="MobileHeader">
+        <nav class="navbar navbar-expand-lg navbar-dark Topbar">
+          <div class="container">
+              <!-- Dashboard toggle -->
+              <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#dashboardMobile" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                 <a class="dashboardp"><i class="fa fa-tachometer navbarsicontop" aria-hidden="true"></i>&nbsp;My dashboard</a>
+              </button>
+              <a href="login.html" class="dashboardplogin"><i class="fa fa-sign-out navbarsicontop" aria-hidden="true"></i>&nbsp;Login</a>
+          <div class="collapse navbar-collapse" id="dashboardMobile">
+                  <ul class="navbar-nav ml-auto">
+                    <hr class="bg-white">
+                       <li class="nav-item active">
+                     <a href="ShowBoatHomePage.html" class="nav-linkdashboard"><i class="fa fa-user fa-icon1dashboard" aria-hidden="true"></i>View Profile</a>
+                  </li>
+                  <hr class="linemargin">
+                  <li class="nav-item">
+                    <a href="editProfile.html" class="nav-linkdashboard"><i class="fa fa-pencil fa-icon1dashboard" aria-hidden="true"></i>Edit Profile</a>
+                  </li>
+                  <hr class="linemargin">
+                   <li class="nav-item">
+                    <a href="#" data-toggle="modal" data-target="#gridSystemModal" class="nav-linkdashboard"><i class="fa fa-shopping-cart fa-icon1dashboard" aria-hidden="true"></i>Products</a>
+                  </li>
+                  <hr class="linemargin">
+                   <li class="nav-item">
+                    <a href="#" class="nav-linkdashboard"><i class="fa fa-calendar fa-icon1dashboard" aria-hidden="true"></i>Events</a>
+                  </li>
+                  <hr class="linemargin">
+                  <li class="nav-item">
+                   <a href="addBlogpage.html" class="nav-linkdashboard"><i class="fa fa-pencil-square fa-icon1dashboard" aria-hidden="true"></i>Blog</a>
+                 </li>
+                 <hr class="linemargin">
+                 <li class="nav-item">
+                  <a href="addDidyouknowpage.html" class="nav-linkdashboard"><i class="fa fa-bullhorn fa-icon1dashboard" aria-hidden="true"></i>Did you Know</a>
+                </li>
+                  <hr class="linemargin">
+                   <li class="nav-item">
+                     <a data-toggle="modal" href="message.html" data-target="#Modalmessage" class="nav-linkdashboard"><i class="fa fa-envelope fa-icon1dashboard" aria-hidden="true"></i>Message</a>
+                  </li>
+                  <hr class="linemargin">
+                  <li class="nav-item">
+                    <a class="nav-linkdashboard" href="#"><i class="fa fa-unlock-alt fa-icon1dashboard"  aria-hidden="true"></i>Change Password</a>
+                  </li>
+                  <hr class="linemargin">
+                   <li class="nav-item">
+                    <a href="#" class="nav-linkdashboard"><i class="fa fa-sign-out fa-icon1dashboard " aria-hidden="true"></i>Logout</a>
+                  </li>
+                  <hr class="linemargin">
+                  </ul>
+              </div>
+        </div>
+      </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black mt-2">
+          <div class="container">
+              <a href="ShowBoatHomePage.html" class=" navbar-brand d-block px-3 py-2 text-uppercase text-center text-bold text-white Logostyle">People<span class="span-text-grey">of</span>play</a></a>
+
+              <!-- Menu toggle -->
+              <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fa fa-bars navbarsicon" aria-hidden="true"></i>
+              </button>
+
+          <div class="collapse navbar-collapse" id="menu">
+                  <ul class="navbar-nav mr-auto">
+                     <hr class="linemarginmenu">
+                      <li class="nav-item active">
+                    <a class="nav-link" href="#">Toys, Games & launches <span class="sr-only">(current)</span></a>
+                  </li>
+                  <hr class="linemarginmenu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inventors, Events & Photos</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">News & Community</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">Watchlist</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">PoPPro</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                  <li class="nav-item text-white"><i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  <i class="fa fa-instagram" aria-hidden="true"></i></li>
+                </ul>
+                <hr class="linemarginmenu">
+                <form class="form-inline my-2 my-lg-0">
+                  <span class="fa fa-search form-control-feedback"></span>
+                      <input class="form-control" type="text" placeholder="Search Site" aria-label="Search">
+                </form>
+
+              </div>
+          </div>
+      </nav>
+    </header>
+  </section>
+<section id="Products">
+     <header class="DesktopHeader">
+      <div class="container">
+        <div class="box-width">
+          <div class="row pt-5">
+            <div class="col col-md-3">
+              <a href="#" class="d-block px-3 py-2 text-uppercase text-center text-bold text-white Logostyle">People<span class="span-text-grey">of</span>play</a>
+              </div>
+              <div class="col col-md-9">
+                <div class="d-flex align-items-center">
+                  <div class="form-group has-search">
+                    <span class="fa fa-search form-control-feedback"></span>
+                    <input class="form-control" type="text" placeholder="Search Site" aria-label="Search">
+                </div>
+                <ul class="d-flex text-white li-text">
+                  <li>PoPPro</li>
+                  <li>Help</li>
+                </ul>
+                </div>
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="col">
+              <ul class="d-flex flex-row justify-content-around second-icon-text text-white text-center">
+                <div class="text-center text-md-right mobilehidden">
+                    <ul class="list-unstyled list-inline">
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                         <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                          <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                         <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                      </li>
+
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                          <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                           <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                        <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                           <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                        </a>
+                      </li>
+
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                           <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                      </li>
+
+                    </ul>
+        </div>
+                  <li class="li-color">Toys, Games & launches</li>
+                  <li class="li-color">Inventors, Events & Photos</li>
+                  <li class="li-color">News & Community</li>
+                  <li class="li-color">Watchlist</li>
+                  <a href="LoginPage.html"><li class="li-color">Login</li></a>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+</section>
+
+<main>
+  <div class="container">
+     <div class="row">
+      <div class="col-md-12">
+        <div class="container-width">
+          <div class="left-column">
+            <div class="First-column">
+             <form action="/action_page.php" class="">
+                <div id="FirstRow_Product" class="row mt-3">
+                  <div class="col-md-4">
+                             <div class="form-group">
+                                   <div id="file-upload-formten" class="uploaderten">
+                                  <input id="file-uploadten" type="file" name="fileUpload" accept="image/*" />
+                                  <label for="file-uploadten" id="file-dragten" class="label1">
+                                    <img id="file-imageten" src="#" alt="Preview" class="hidden">
+                                    <div id="startten">
+                                      <i class="fa fa-download" aria-hidden="true"></i>
+                                      <div></div>
+                                      <div id="notimageten" class="hidden"></div>
+                                      <span id="file-upload-btnten" class="btn edit-btn-style">Add Product Image</span>
+                                    </div>
+                                    <div id="responseten" class="hidden">
+                                      <div id="messagesten"></div>
+                                      <progress class="progress" id="file-progressten" value="0">
+                                        <span>0</span>%
+                                      </progress>
+                                    </div>
+                                  </label>
+                              </div>
+                            </div>
+                <div class="form-group">
+                      <label for="ProductID">Product ID</label>
+                        <input id="ProductID" type="number" name="Product" class="form-control" placeholder="">
+                    </div>
+                </div>
+                 <div class="col-md-6 colmargin">
+                  <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                         <label for="ProductName">Product Name</label>
+                          <input id="ProductName" type="text" name="name" class="form-control" placeholder="">
+                         </div>
+                       </div>
+                  </div>
+                   <div class="row">
+                      <div class="col-md-6">
+                          <div class="form-group">
+                           <label for="Category">Category</label>
+                            <select name="Type" class="custom-select">
+                                <option selected>Select</option>
+                                <option value="Action Figures & Statues">Action Figures & Statues</option>
+                                <option value="Arts & Crafts">Arts & Crafts</option>
+                                <option value="Baby & Toddler Toys">Baby & Toddler Toys</option>
+                                <option value="Building Toys">Building Toys</option>
+                                <option value="Dolls & Accessories">Dolls & Accessories</option>
+                                <option value="Dress Up & Pretend Play">Dress Up & Pretend Play</option>
+                                <option value="Kids' Electronics">Kids' Electronics</option>
+                                <option value="Grocery & >>>>">Grocery & >>>></option>
+                                <option value="Grown-Up Toys">Grown-Up Toys</option>
+                                <option value="Hobbies">Hobbies</option>
+                                <option value="Kids' Furniture, Décor & Storage">Kids' Furniture, Décor & Storage</option>
+                                <option value="Learning & Education">Learning & Education</option><option value="Novelty & Gag Toys">Novelty & Gag Toys</option>
+                                <option value="Party Supplies">Party Supplies</option>
+                                <option value="Puppets">Puppets</option>
+                                <option value="Puzzles">Puzzles</option>
+                                <option value="Sports & Outdoor Play">Sports & Outdoor Play</option>
+                                <option value="Stuffed Animals & Plush Toys">Stuffed Animals & Plush Toys</option>
+                                <option value="Toy Remote Control & Play Vehicles">Toy Remote Control & Play Vehicles</option>
+                                <option value="Tricycles, Scooters & Wagons">Tricycles, Scooters & Wagons</option>
+                                <option value="Video Games">Video Games</option>
+                           </select>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                         <div class="form-group">
+                         <label for="Sub-Categories">Sub-Categories</label>
+                          <input id="Sub-Categories" type="text" name="Sub-Categories" class="form-control" placeholder="">
+                         </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                  <div class="form-group">
+                       <label for="Productdescription">Product description</label>
+                        <textarea class="form-control" rows="5" id="Productdescription" placeholder=""></textarea>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="row">
+                      <div class="col-md-6">
+                          <div class="form-group">
+                      <label for="ProductPrice">Product Price</label>
+                        <input id="ProductPrice" type="number" name="ProductPrice" class="form-control" placeholder="">
+                    </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="form-group">
+                       <label for="Buy">Buy</label>
+                         <input id="Buy" type="text" name="Buy" class="form-control" placeholder="">
+                    </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                  <div class="col-md-6">
+                <div class="form-group">
+                    <label for="Suggested retail">Suggested retail</label>
+                    <input id="Suggestedretail" type="number" name="Suggested retail" class="form-control" placeholder="">
+                </div>
+              </div>
+                  <div class="col-md-6">
+
+                 <div class="form-group">
+                    <label for="Amazon.com">Amazon.com</label>
+                    <input id="Amazoncom" type="url" name="Amazoncom" class="form-control" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                 <div class="form-group">
+                    <label for="Ebay.com">Ebay.com</label>
+                    <input id="Ebaycom" type="url" name="Ebay com" class="form-control" placeholder="">
+                </div>
+               </div>
+             </div>
+
+                 </div>
+                  <div class="col-md-2">
+                     <div class="form-group">
+                       <label for="Category">Rating</label>
+                        <select name="Type" class="custom-select">
+                            <option selected>Select</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+</div>
+                  </div>
+
+
+                <h3 class="Tile-style social my-3">Image gallery</h3>
+                         <div class="row">
+                            <div class="col-md-4">
+                                <button type="button" class="btn edit-btn-style" data-toggle="modal" data-target="#ModalLoginForm">
+                                    Add Image
+                                </button>
+                                <div id="ModalLoginForm" class="modal fade">
+                                  <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                         <!--  <div class="modal-header">
+                                            <div class="row">
+                                              <div class="col-md-3 col">
+                                                <img src="images/editprofileimage/placeholder.jpg" class="img-fluid">
+                                              </div>
+                                              <div class="col-md-9 col">
+
+                                                <div class="d-flex flex-row justify-content-between align-items-center">
+                                                 <h4 class="font-weight-bold">Add Image</h4>
+                                                 <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+
+                                               </div>
+
+                                              </div>
+                                            </div>
+
+                                          </div> -->
+                                              <div class="modal-body modal-product">
+
+                                                  <form role="form" method="POST" action="">
+                                                      <input type="hidden" name="_token" value="">
+
+                                                    <!--   <img src="images/uploadimg.jpg" class=" img-fluid uploadimgplus"> -->
+                                                      <div class="wrapalldiv">
+                                                          <div class="form-group text-center">
+                                                           <div id="file-upload-formsecond" class="uploadersecond">
+                                                          <input id="file-uploadsecond" type="file" name="fileUpload" accept="image/*" />
+                                                          <label for="file-uploadsecond" id="file-dragsecond" class="label1">
+                                                            <img id="file-imagesecond" src="#" alt="Preview" class="hidden">
+                                                            <div id="startsecond">
+                                                              <i class="fa fa-download" aria-hidden="true"></i>
+                                                              <div></div>
+                                                              <div id="notimagesecond" class="hidden"></div>
+                                                              <span id="file-upload-btnsecond" class="btn edit-btn-style">Add  Image</span>
+                                                            </div>
+                                                            <div id="responsesecond" class="hidden">
+                                                              <div id="messagessecond"></div>
+                                                              <progress class="progress" id="file-progresssecond" value="0">
+                                                                <span>0</span>%
+                                                              </progress>
+                                                            </div>
+                                                          </label>
+                                                      </div>
+                                                    </div>
+
+                                                      <label for="Category" class="bg-default text-uppercase">About This Image</label>
+                                                      <hr>
+                                                       <div class="form-group">
+                                                        <label for="Title">Title</label>
+                                                           <input id="Title" type="text" name="Title" class="form-control" placeholder="">
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label for="Caption">Caption</label>
+                                                           <textarea class="form-control" rows="5" id="Caption" placeholder=""></textarea>
+                                                      </div>
+                                                       <div class="form-group">
+                                                        <label for="Person Tag">Person Tag</label>
+                                                          <input id="Person Tag" type="search" name="Person Tag" class="form-control searchaward1">
+                                                         </div>
+                                                        <div class="form-group">
+                                                         <label for="Product Tag">Product Tag</label>
+                                                          <input id="Producttag" type="search" name="Product Tag" class="form-control searchaward1">
+                                                         </div>
+                                                          <div class="form-group">
+                                                         <label for="Award Tag">Award Tag</label>
+                                                          <input id="Award Tag" type="search" name="Award Tag" class="form-control searchaward1">
+                                                         </div>
+                                                          <div class="form-group">
+                                                         <label for="Company Tag">Company Tag</label>
+                                                          <input id="CompanyTag" type="search" name="Company Tag" class="form-control searchaward1">
+                                                         </div>
+                                                         <div class="form-group">
+                                                         <label for="Other Tag">Other Tag</label>
+                                                          <input id="OtherTag" type="search" name="Other Tag" class="form-control searchaward1">
+                                                         </div>
+                                                      <div class="form-group">
+                                                        <label for="Url">Url</label>
+                                                           <input id="Url" type="url" name="Url" class="form-control" placeholder="">
+                                                      </div>
+                                                      </div>
+                                                        <div class="modal-footer border-top-0 d-flex justify-content-center">
+                                                          <button type="submit" class="btn edit-btn-style">Save</button>
+                                                        </div>
+                                                        </form>
+                                                      </div>
+                                                  </div><!-- /.modal-content -->
+                                              </div><!-- /.modal-dialog -->
+                                          </div><!-- /.modal -->
+                            </div>
+                         </div>
+                          <hr>
+
+<h3 class="Tile-style social my-3">Collaborators</h3>
+         <div id="Four_Product" class="row">
+          <div class="col-md-12">
+               <div class="row">
+                 <div class="col-md-12">
+                    <form action="/file-upload" class="dropzone thumbnailHeight">
+                        <div class="fallback">
+                          <input name="file" type="file" multiple />
+                        </div>
+                    </form>
+                  </div>
+                </div>
+               <div class="row mt-3">
+                 <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="User Name">User Name</label>
+                           <input id="UserName" type="text" name="User Name" class="form-control" placeholder="">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                         <label for="User Roles">User Roles</label>
+                          <input id="UserRoles" type="text" name="User Roles" class="form-control" placeholder="">
+                      </div>
+                  </div>
+              </div>
+         </div>
+       </div>
+        <h3 class="Tile-style social my-3">Classification</h3>
+         <div id="Five_Product" class="row">
+              <div class="col-md-6">
+                 <div class="form-group">
+                       <label for="Delivery Mechanism">Delivery Mechanism</label>
+                        <select name="Type" class="custom-select">
+                        <option selected>Select</option>
+                        <option value="Video">Video</option>
+                        <option value="Card">Card</option>
+                        <option value="Board game">Board game</option>
+                        <option value="Digital">Digital</option>
+                        <option value="Electronic">Electronic</option>
+                        <option value="App">App</option>
+                       <option value="Animal">Animal</option>
+                        <option value="Figurine">Figurine</option>
+                        <option value="Doll">Doll</option>
+                        <option value="Plush">Plush</option>
+                        <option value="Model">Model</option>
+                        <option value="Puppet">Puppet</option>
+                        <option value="Instrument and Noisemaker">Instrument and Noisemaker</option>
+                        <option value="Robot">Robot</option>
+                        <option value="Weapon and Blaster">Weapon and Blaster</option>
+                        <option value="Vehicle (Train, Aeroplanes, Automobiles, Bicycle, Carriage)">Vehicle (Train, Aeroplanes, Automobiles, Bicycle, Carriage)</option>
+                        <option value="Water">Water</option>
+                        <option value="Book">Book</option>
+                        <option value="Paper">Paper</option>
+                        <option value="Crayon, Chalk, Marker, Pencil and Paint">Crayon, Chalk, Marker, Pencil and Paint</option>
+                        <option value="Playset">Playset</option>
+                        <option value="Playset">Costume and Accessory</option>
+                        <option value="Playset">Compounds (putty, dough, clay, sand)</option>
+                      </select>
+                  </div>
+                   <div class="form-group">
+                       <label for="Toy Type">Toy Type</label>
+                        <select name="Type" class="custom-select">
+                        <option selected>Select</option>
+                        <option value="Designer Art">Designer Art</option>
+                        <option value="Vinyl">Vinyl</option>
+                        <option value="Room Décor">Room Décor</option>
+                        <option value="Mechanical">Mechanical</option>
+                        <option value="Mascot">Mascot</option>
+                        <option value="Construction">Construction</option>
+                       <option value="Practical Jokes">Practical Jokes</option>
+                        <option value="Physical Activity and Dexterity">Physical Activity and Dexterity</option>
+                        <option value="Action Figure">Action Figure</option>
+                        <option value="Furniture">Furniture</option>
+                        <option value="Globes and Maps">Globes and Maps</option>
+                       </select>
+                  </div>
+                  <div class="form-group">
+                      <label for="Launched">Launched</label>
+                         <input id="Launched" type="number" name="Launched" class="form-control" placeholder="">
+                  </div>
+
+             </div>
+             <div class="col-md-6">
+              <div class="form-group">
+                      <label for="Inventor">Inventor</label>
+                         <input id="Inventor" type="text" name="Inventor" class="form-control" placeholder="">
+                  </div>
+                  <div class="form-group">
+                      <label for="Team">Team</label>
+                         <input id="Team" type="text" name="Inventor" class="form-control" placeholder="">
+                  </div>
+
+             </div>
+           </div>
+            <h3 class="Tile-style social my-3">Offical Link</h3>
+            <div id="Five_Product" class="row">
+             <div class="col-md-6">
+                  <div class="form-group">
+                   <label for="Propose Offical Link">Url Link</label>
+                    <input type="url" id="ProposeOfficalLink" name="Propose Offical Link" placeholder="URL here" class="form-control">
+                   </div>
+                 </div>
+                  <div class="col-md-6">
+                     <div class="form-group">
+                   <label for="Propose Offical Link">Url Link</label>
+                    <input type="url" id="ProposeOfficalLink" name="Propose Offical Link" placeholder="URL here" class="form-control">
+                   </div>
+                 </div>
+             </div>
+
+                         <h3 class="Tile-style social my-3">Social Media</h3>
+            <div id="Five_Product" class="row">
+             <div class="col-md-6">
+                  <div class="form-group">
+                   <label for="Propose Offical Link">Url Link</label>
+                    <input type="url" id="ProposeOfficalLink" name="Propose Offical Link" placeholder="URL here" class="form-control">
+                   </div>
+                 </div>
+                  <div class="col-md-6">
+                     <div class="form-group">
+                   <label for="Propose Offical Link">Url Link</label>
+                    <input type="url" id="ProposeOfficalLink" name="Propose Offical Link" placeholder="URL here" class="form-control">
+                   </div>
+                 </div>
+             </div>
+
+      <h3 class="Tile-style social my-3">Video</h3>
+         <div id="Eight_Product" class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                    <form action="/file-upload" class="dropzone">
+                          <div class="fallback">
+                            <input name="file" type="file" multiple />
+                          </div>
+                        </form>
+                      <!--<button class="fileuploadervedio-btn">Select a Video File</button>-->
+                      <br>
+                </div>
+              </div>
+
+
+          </div>
+
+        <h3 class="Tile-style social my-3">In Depth Reviews</h3>
+         <div id="Eight_Product" class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                          <label for="Review">Review</label>
+                          <textarea class="form-control" rows="5" id="Review" placeholder=""></textarea>
+                      </div>
+              </div>
+         </div>
+
+          <h3 class="Tile-style social my-3">Related Product</h3>
+         <div id="Eight_Product" class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                    <label for="Product Images">Product Images</label>
+                     <form action="/file-upload" class="dropzone">
+                        <div class="fallback">
+                          <input name="file" type="file" data-dz-remove multiple />
+                        </div>
+                    </form>
+                </div>
+              </div>
+         </div>
+
+   <h2 class="Tile-style social my-3">Google Analytics/Statistics</h2>
+             <h3 class="Tile-style social my-3">Play Stats</h3>
+         <div id="Eleven_Product" class="row">
+              <div class="col-md-4">
+                  <div class="form-group">
+                        <label for="Average Rating">Average Rating</label>
+                        <input id="AverageRating" type="number" name="Average Rating" class="form-control" placeholder="">
+                   </div>
+                   <div class="form-group">
+                        <label for="Number of Ratings">Number of Ratings</label>
+                        <input id="NumberofRatings" type="number" name="Number of Ratings" class="form-control" placeholder="">
+                   </div>
+               </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                        <label for="Standard Deviation">Standard Deviation</label>
+                        <input id="StandardDeviation" type="text" name="Standard Deviation" class="form-control" placeholder="">
+                   </div>
+                   <div class="form-group">
+                        <label for="Comments">Comments</label>
+                        <textarea class="form-control" rows="1" id="Comments" placeholder=""></textarea>
+                   </div>
+               </div>
+                 <div class="col-md-4">
+                  <div class="form-group">
+                        <label for="Fans">Fans</label>
+                        <input id="Fans" type="text" name="Fans" class="form-control" placeholder="">
+                   </div>
+                   <div class="form-group">
+                        <label for="Page Views">Page Views</label>
+                        <input id="PageViews" type="text" name="Page Views" class="form-control" placeholder="">
+                   </div>
+               </div>
+         </div>
+           <div id="Twelve_Product" class="row">
+             <div class="col-md-4">
+                <h3 class="Tile-style social my-3">Play Ranks</h3>
+                   <div class="form-group">
+                          <label for="Overall Rank">Overall Rank</label>
+                          <input id="OverallRank" type="number" name="Overall Rank" class="form-control" placeholder="">
+                      </div>
+                    <div class="form-group">
+                          <label for="Party Rank">Party Rank</label>
+                          <input id="PartyRank" type="number" name="Party Rank" class="form-control" placeholder="">
+                    </div>
+             </div>
+              <div class="col-md-4">
+                   <h3 class="Tile-style social my-3">Play Stats</h3>
+                     <div class="form-group">
+                          <label for="All Time Plays">All Time Plays</label>
+                          <input id="AllTimePlays" type="number" name="All Time Plays" class="form-control" placeholder="">
+                      </div>
+                    <div class="form-group">
+                          <label for="This month">This month</label>
+                          <input id="Thismonth" type="number" name="This month" class="form-control" placeholder="">
+                    </div>
+              </div>
+             <div class="col-md-4">
+                     <h3 class="Tile-style social my-3">Parts Exchange</h3>
+                     <div class="form-group">
+                    <label for="Has Parts">Has Parts</label>
+                      <select name="Has Parts" class="custom-select">
+                        <option selected>Select</option>
+                        <option value="Yes">Yes</option>
+                        <option value="Yes">No</option>
+                       </select>
+                </div>
+                <div class="form-group">
+                    <label for="Wants Parts">Wants Parts</label>
+                      <select name="Wants Parts" class="custom-select">
+                        <option selected>Select</option>
+                        <option value="Yes">Yes</option>
+                        <option value="Yes">No</option>
+                       </select>
+                </div>
+
+                </div>
+           </div>
+           <h3 class="Tile-style social my-3">Collection Stats</h3>
+            <div id="Thirteen_Product" class="row">
+              <div class="col-md-4">
+                  <div class="form-group">
+                        <label for="Own">Own</label>
+                        <input id="Own" type="text" name="Own" class="form-control" placeholder="">
+                   </div>
+                   <div class="form-group">
+                        <label for="Previously Owned">Previously Owned</label>
+                        <input id="PreviouslyOwned" type="text" name="Previously Owned" class="form-control" placeholder="">
+                   </div>
+               </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                        <label for="For Trade">For Trade</label>
+                        <input id="ForTrade" type="text" name="For Trade" class="form-control" placeholder="">
+                   </div>
+                   <div class="form-group">
+                        <label for="Want In Trade">Want In Trade</label>
+                        <input id="Want In Trade" type="text" name="For Trade" class="form-control" placeholder="">
+                   </div>
+               </div>
+                 <div class="col-md-4">
+                  <div class="form-group">
+                        <label for="Wishlist">Wishlist</label>
+                        <input id="Wishlist" type="text" name="Wishlist" class="form-control" placeholder="">
+                   </div>
+               </div>
+         </div>
+
+ <button type="button" class="btn edit-btn-style rounded-0 text-center mt-3">Add</button>
+
+
+          </div>
+
+
+    </div>
+      <div class="right-column px-3">
+        <div class="">
+            <ul class="list-align align-items-start mt-3">
+              <li class="dashboard-icon">Dashboard</li>
+              <hr>
+              <div class="mt-4">
+                <a href="ShowBoatHomePage.html"><li class="dashboard-icon1"><i class="fa fa-user fa-icon1 mr-3" aria-hidden="true"></i>View Profile</li></a>
+                <a href="editProfile.html"><li class="dashboard-icon1"><i class="fa fa-pencil fa-icon1 mr-3" aria-hidden="true"></i>Edit Profile</li></a>
+                <a href="addproductsclient.html" data-toggle="modal" data-target="#gridSystemModal"><li class="dashboard-icon1"><i class="fa fa-shopping-cart fa-icon1 mr-3" aria-hidden="true"></i>Products</li></a>
+                <a href="addevents.html"><li class="dashboard-icon1"><i class="fa fa-calendar fa-icon1 mr-3" aria-hidden="true"></i>Events</li></a>
+                <a href="addBlogpage.html"><li class="dashboard-icon1"><i class="fa fa-pencil-square mr-3" aria-hidden="true"></i>Blog</li></a>
+                <a href="addDidyouknowpage.html"><li class="dashboard-icon1"><i class="fa fa-bullhorn mr-3" aria-hidden="true"></i>Did You Know</li></a>
+                <a data-toggle="modal" href="message.html" data-target="#Modalmessage"><li class="dashboard-icon1"><i class="fa fa-envelope fa-icon1 mr-3" aria-hidden="true"></i>Message</li></a>
+                <a href="#"><li class="dashboard-icon1"><i class="fa fa-unlock-alt fa-icon1 mr-3" aria-hidden="true"></i>Change Password</li></a>
+                <a href="#"><li class="dashboard-icon1"><i class="fa fa-sign-out fa-icon1 mr-3" aria-hidden="true"></i>Logout</li></a>
+              </div>
+            </ul>
+            <hr>
+          </div>
+            <ul class="list-align align-items-start mt-3 pl-5">
+              <a href="#"><li>Play-o-graphy</li></a>
+              <a href="#"><li>Videos</li></a>
+            </ul>
+            <hr>
+            <div class="text-center p-text">
+              <p>People of Play picks: September</p>
+              <img src="images/gallery9.jpg" class="img-fluid text-center my-2">
+            </div>
+
+            <p class="side-paragraph pt-3">A story of survival and resilience leads to joy for generations of children. <br><br>
+            What do popsicles, motorized bicycles, and Anne Frank have to do with one another? They are all part of the path that led Ora and Theo Coster to the stage at the 2012 TAGIE Awards to be honored for Lifetime Achievement. Theirs is an inspiring story that spans continents, decades.…and the terror of wars. <br><br>
+
+            Their most famous creation: <span class="span-style">Guess Who?<span>
+
+
+              </p>
+
+          <!-- Section -->
+            <div class="text-center p-text">
+              <p>Top 10 Toys</p>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table">
+              <tr>
+                  <th scope="row">Razor scooter</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Fairy Garden</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">in store</td>
+                </tr>
+                <tr>
+                  <th scope="row">Bilderhoos</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Edwin the Duck</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Enigmaze</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">in store</td>
+                </tr>
+                <tr>
+                  <th scope="row">Fashion Angels</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Mr. Game</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Lionel Trains</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Lite Poppers</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">in store</td>
+                </tr>
+                <tr>
+                  <th scope="row">Kelele</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+            </table>
+            </div>
+            <span class="span-style">See more popular toys & games >></span>
+            <hr>
+
+
+            <!-- Section -->
+            <div class="text-center p-text">
+              <p>White Papers</p>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table">
+              <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                </table>
+
+            </div>
+            <div class="text-center">
+            <button type="button" class="btn btn-style rounded-0 text-center">Sign Up</button>
+          </div>
+            <hr>
+              <div class="text-center p-text">
+              <p>Blogger of the Month</p>
+              <img src="images/gallery7.jpg" class="img-fluid text-center my-2"><br><span class="span-style">Keri Wilmot<span>
+
+            </div>
+            <hr>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FChicagoToyAndGameWeek%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="140px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+            <hr>
+            <center><a href="https://twitter.com/intent/tweet?screen_name=ChicagoToyAndGameWeek&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large" data-dnt="true" data-show-count="true">Tweet to @ChicagoToyAndGameWeek</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+            <hr>
+            <div class="card">
+              <img class="card-img-top" src="images/gallery7.jpg">
+                  <div class="card-header bg-white">ManufacturingStories</div>
+                <div class="card-body bg-white">Beth Engelman – Mommy on a Shoestring | ChiTAG (Chicago Toy and Game) Week – ManufacturingStories®</div>
+                <div class="card-footer bg-white"><div class="image-width1 d-flex flex-row justifly-content-center">
+                    <img src="images/pint.jpg" class="rounded-circle mr-3">
+                     <div class="">
+                      <p class="p-text2"><b>Mary Couzin - Chicago Toy & Game Fair CEO</b><br>Mary Couzin - Chicago Toy & Game Fair CEO
+                      </p>
+                       </div>
+                    </div></div>
+             </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                  <div class="image-width1 d-flex flex-row justifly-content-center">
+                    <img src="images/card.jpg" class="img-fluid mr-3">
+                     <div class="">
+                      <p class="p-text1">Marvel to launch Black Widow figurine<br><span class="span-style">lego.com</span>
+                      </p>
+                       </div>
+                    </div>
+                    <div class="image-width1 d-flex flex-row justifly-content-center my-3">
+                    <img src="images/card.jpg" class="img-fluid mr-3">
+                     <div class="">
+                      <p class="p-text1">Old game with a new twist
+                      <br><span class="span-style">3ds.com</span>
+                      </p>
+                       </div>
+                    </div>
+                    <div class="image-width1 d-flex flex-row justifly-content-center">
+                    <img src="images/card.jpg" class="img-fluid mr-3">
+                     <div class="">
+                      <p class="p-text1">Busy hatching another animal!
+                      <br><span class="span-style">hasbro.com</span>
+                      </p>
+                       </div>
+                    </div>
+                    <hr>
+                </div>
+              </div>
+          </div>
+</div>
+</div>
+</div>
+</form>
+</div>
+
+</main>
+
+<footer class="container page-footer font-small mdb-color text-white">
+
+  <!-- Footer Links -->
+  <div class="text-center text-md-left footer-background">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left px-3 pt-3">
+
+
+    <!-- Grid column -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3 imagecenter">
+        <h6 class="text-uppercase mb-4">People Of Play everywhere</h6>
+        <p class="paragraphdesign">Find launch times, watch trailers, browse photos, track your Watchlist and rate your favorite toys, games and inventors on your phone or tablet!
+        </p>
+       <ul class="d-flex footerimg">
+          <li class="border mr-1"><img src="images/footergoogle.png"></li>
+          <li class="border"><img src="images/footerapp.png"></li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mt-3 h4footer">
+          <h4>Contact us</h4>
+          <hr class="bg-white">
+          <ul>
+            <li><a href="#!">Contact us</a></li>
+             <li><a href="#!">info@chitag.com</a></li>
+              <li><a href="#!">+1-847-677-8277</a></li>
+          </ul>
+
+        </div>
+         <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mt-3 h4footer">
+              <h4>About us</h4>
+               <hr class="bg-white">
+              <ul>
+            <li><a href="#!">About ChiTAG Group</a></li>
+             <li><a href="#!">The Importance of Play</a></li>
+              <li><a href="#!">Charities we Support</a></li>
+          </ul>
+          </div>
+         <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mt-3 h4footer">
+          <h4>Newsletters</h4>
+           <hr class="bg-white">
+           <ul>
+            <li><a href="#!">Importance of Play</a></li>
+             <li><a href="#!">Business of Play</a></li>
+              <li><a href="#!">Play in Education</a></li>
+              <li><a href="#!">Media & Social Influencers</a></li>
+          </ul>
+
+         </div>
+         <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mt-3 h4footer">
+          <h4>Play with us</h4>
+           <hr class="bg-white">
+           <ul>
+            <li><a href="#!">Advertise</a></li>
+             <li><a href="#!">Exhibit at the Fair</a></li>
+              <li><a href="#!">Join the YIC</a></li>
+              <li><a href="#!">Sponsor</a></li>
+               <li><a href="#!">City Partnership</a></li>
+              <li><a href="#!">Internship</a></li>
+               <li><a href="#!">Volunteer</a></li>
+                </ul>
+                 </div>
+       </div>
+       <hr class="bg-white">
+        <div class="row d-flex align-items-center">
+
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8 pl-4">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">Copyright
+          <a href="HomePage.html">
+            © 2017 a Chicago Toy &amp; Game Group company
+          </a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+               <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+               <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                 <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </a>
+            </li>
+              <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                 <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                 <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Grid column -->
+    </div>
+
+
+
+
+    <!-- Grid row -->
+
+</footer>
+
+
+
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/dropzone.js"></script>
+<script src="js/dropzone.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script  type="text/javascript" src="js/lightgallery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+
+
+<script>
+
+// File Upload
+//
+function ekUploadten(){
+  function Init() {
+
+    console.log("Upload Initialised");
+
+    var fileSelect    = document.getElementById('file-uploadten'),
+        fileDrag      = document.getElementById('file-dragten'),
+        submitButton  = document.getElementById('submit-buttonten');
+
+    fileSelect.addEventListener('change', fileSelectHandler, false);
+
+    // Is XHR2 available?
+    var xhr = new XMLHttpRequest();
+    if (xhr.upload) {
+      // File Drop
+      fileDrag.addEventListener('dragover', fileDragHover, false);
+      fileDrag.addEventListener('dragleave', fileDragHover, false);
+      fileDrag.addEventListener('drop', fileSelectHandler, false);
+    }
+  }
+
+  function fileDragHover(e) {
+    var fileDrag = document.getElementById('file-dragten');
+
+    e.stopPropagation();
+    e.preventDefault();
+
+    fileDrag.className = (e.type === 'dragover' ? 'hover' : 'modal-body file-upload');
+  }
+
+  function fileSelectHandler(e) {
+    // Fetch FileList object
+    var files = e.target.files || e.dataTransfer.files;
+
+    // Cancel event and hover styling
+    fileDragHover(e);
+
+    // Process all File objects
+    for (var i = 0, f; f = files[i]; i++) {
+      parseFile(f);
+      uploadFile(f);
+    }
+  }
+
+  // Output
+  function output(msg) {
+    // Response
+    var m = document.getElementById('messagesten');
+    m.innerHTML = msg;
+  }
+
+  function parseFile(file) {
+
+    console.log(file.name);
+    output(
+      '<strong>' + encodeURI(file.name) + '</strong>'
+    );
+
+    // var fileType = file.type;
+    // console.log(fileType);
+    var imageName = file.name;
+
+    var isGood = (/\.(?=gif|jpg|png|jpeg)/gi).test(imageName);
+    if (isGood) {
+      document.getElementById('startten').classList.add("hidden");
+      document.getElementById('responseten').classList.remove("hidden");
+      document.getElementById('notimageten').classList.add("hidden");
+      // Thumbnail Preview
+      document.getElementById('file-imageten').classList.remove("hidden");
+      document.getElementById('file-imageten').src = URL.createObjectURL(file);
+    }
+    else {
+      document.getElementById('file-imageten').classList.add("hidden");
+      document.getElementById('notimageten').classList.remove("hidden");
+      document.getElementById('startten').classList.remove("hidden");
+      document.getElementById('responseten').classList.add("hidden");
+      document.getElementById("file-upload-formten").reset();
+    }
+  }
+
+  function setProgressMaxValue(e) {
+    var pBar = document.getElementById('file-progressten');
+
+    if (e.lengthComputable) {
+      pBar.max = e.total;
+    }
+  }
+
+  function updateFileProgress(e) {
+    var pBar = document.getElementById('file-progressten');
+
+    if (e.lengthComputable) {
+      pBar.value = e.loaded;
+    }
+  }
+
+  function uploadFile(file) {
+
+    var xhr = new XMLHttpRequest(),
+      fileInput = document.getElementById('class-roster-fileten'),
+      pBar = document.getElementById('file-progressten'),
+      fileSizeLimit = 400; // In MB
+    if (xhr.upload) {
+      // Check if file is less than x MB
+      if (file.size <= fileSizeLimit * 400 * 400) {
+        // Progress bar
+        pBar.style.display = 'inline';
+        xhr.upload.addEventListener('loadstartten', setProgressMaxValue, false);
+        xhr.upload.addEventListener('progressten', updateFileProgress, false);
+
+        // File received / failed
+        xhr.onreadystatechange = function(e) {
+          if (xhr.readyState == 4) {
+            // Everything is good!
+
+            // progress.className = (xhr.status == 200 ? "success" : "failure");
+            // document.location.reload(true);
+          }
+        };
+
+        // Start upload
+        xhr.open('POST', document.getElementById('file-upload-formten').action, true);
+        xhr.setRequestHeader('X-File-Name', file.name);
+        xhr.setRequestHeader('X-File-Size', file.size);
+        xhr.setRequestHeader('Content-Type', 'multipart/form-data');
+        xhr.send(file);
+      } else {
+        output('Please upload a smaller file (< ' + fileSizeLimit + ' MB).');
+      }
+    }
+  }
+
+  // Check for the various File API support.
+  if (window.File && window.FileList && window.FileReader) {
+    Init();
+  } else {
+    document.getElementById('file-dragten').style.display = 'none';
+  }
+}
+ekUploadten();
+</script>
+
+<script>
+
+// File Upload
+//
+function ekUploadsecond(){
+  function Init() {
+
+    console.log("Upload Initialised");
+
+    var fileSelect    = document.getElementById('file-uploadsecond'),
+        fileDrag      = document.getElementById('file-dragsecond'),
+        submitButton  = document.getElementById('submit-buttonsecond');
+
+    fileSelect.addEventListener('change', fileSelectHandler, false);
+
+    // Is XHR2 available?
+    var xhr = new XMLHttpRequest();
+    if (xhr.upload) {
+      // File Drop
+      fileDrag.addEventListener('dragover', fileDragHover, false);
+      fileDrag.addEventListener('dragleave', fileDragHover, false);
+      fileDrag.addEventListener('drop', fileSelectHandler, false);
+    }
+  }
+
+  function fileDragHover(e) {
+    var fileDrag = document.getElementById('file-dragsecond');
+
+    e.stopPropagation();
+    e.preventDefault();
+
+    fileDrag.className = (e.type === 'dragover' ? 'hover' : 'modal-body file-upload');
+  }
+
+  function fileSelectHandler(e) {
+    // Fetch FileList object
+    var files = e.target.files || e.dataTransfer.files;
+
+    // Cancel event and hover styling
+    fileDragHover(e);
+
+    // Process all File objects
+    for (var i = 0, f; f = files[i]; i++) {
+      parseFile(f);
+      uploadFile(f);
+    }
+  }
+
+  // Output
+  function output(msg) {
+    // Response
+    var m = document.getElementById('messagessecond');
+    m.innerHTML = msg;
+  }
+
+  function parseFile(file) {
+
+    console.log(file.name);
+    output(
+      '<strong>' + encodeURI(file.name) + '</strong>'
+    );
+
+    // var fileType = file.type;
+    // console.log(fileType);
+    var imageName = file.name;
+
+    var isGood = (/\.(?=gif|jpg|png|jpeg)/gi).test(imageName);
+    if (isGood) {
+      document.getElementById('startsecond').classList.add("hidden");
+      document.getElementById('responsesecond').classList.remove("hidden");
+      document.getElementById('notimagesecond').classList.add("hidden");
+      // Thumbnail Preview
+      document.getElementById('file-imagesecond').classList.remove("hidden");
+      document.getElementById('file-imagesecond').src = URL.createObjectURL(file);
+    }
+    else {
+      document.getElementById('file-imagesecond').classList.add("hidden");
+      document.getElementById('notimagesecond').classList.remove("hidden");
+      document.getElementById('startsecond').classList.remove("hidden");
+      document.getElementById('responsesecond').classList.add("hidden");
+      document.getElementById("file-upload-formsecond").reset();
+    }
+  }
+
+  function setProgressMaxValue(e) {
+    var pBar = document.getElementById('file-progresssecond');
+
+    if (e.lengthComputable) {
+      pBar.max = e.total;
+    }
+  }
+
+  function updateFileProgress(e) {
+    var pBar = document.getElementById('file-progresssecond');
+
+    if (e.lengthComputable) {
+      pBar.value = e.loaded;
+    }
+  }
+
+  function uploadFile(file) {
+
+    var xhr = new XMLHttpRequest(),
+      fileInput = document.getElementById('class-roster-filesecond'),
+      pBar = document.getElementById('file-progresssecond'),
+      fileSizeLimit = 400; // In MB
+    if (xhr.upload) {
+      // Check if file is less than x MB
+      if (file.size <= fileSizeLimit * 400 * 400) {
+        // Progress bar
+        pBar.style.display = 'inline';
+        xhr.upload.addEventListener('loadstartsecond', setProgressMaxValue, false);
+        xhr.upload.addEventListener('progresssecond', updateFileProgress, false);
+
+        // File received / failed
+        xhr.onreadystatechange = function(e) {
+          if (xhr.readyState == 4) {
+            // Everything is good!
+
+            // progress.className = (xhr.status == 200 ? "success" : "failure");
+            // document.location.reload(true);
+          }
+        };
+
+        // Start upload
+        xhr.open('POST', document.getElementById('file-upload-formsecond').action, true);
+        xhr.setRequestHeader('X-File-Name', file.name);
+        xhr.setRequestHeader('X-File-Size', file.size);
+        xhr.setRequestHeader('Content-Type', 'multipart/form-data');
+        xhr.send(file);
+      } else {
+        output('Please upload a smaller file (< ' + fileSizeLimit + ' MB).');
+      }
+    }
+  }
+
+  // Check for the various File API support.
+  if (window.File && window.FileList && window.FileReader) {
+    Init();
+  } else {
+    document.getElementById('file-dragsecond').style.display = 'none';
+  }
+}
+ekUploadsecond();
+</script>
+
+<script  type="text/javascript" src="js/lightgallery.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#lightgallery').lightGallery();
+    });
+</script>
+</body>
+</html>

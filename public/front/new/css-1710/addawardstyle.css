@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+.left-column{
+    background-color: #fff;
+   
+}
+
+header#DesktopHeaderAddAwards {
+    display: block;
+    width:100%;
+}
+
+header#MobileFirstHeaderAddAwards {
+    display: none;
+    width:100%;
+}
+
+/*.edit-btn-style-table
+{
+    padding: 4px 8px!important;
+    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+    background: #f0c14b!important;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+*/
+/*.edit-btn-style-table:hover
+{
+    background-color: #111!important;
+    border-style: 2px solid #fff!important;
+    color:#fff!important;
+    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+}*/

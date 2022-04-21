@@ -1,0 +1,444 @@
+@media screen and (max-width: 567px) {
+
+
+
+  .has-search .form-control {
+    padding-left: 2.375rem;
+    width: 286px;
+
+}
+
+label.labelamazon {
+    width: 170px;
+    height: auto;
+}
+
+.row.borderline {
+    border: 1px solid #f0f0f0;
+    margin: 30px;
+    padding-top: 15px !important;
+}
+
+
+
+header#DesktopProductPage {
+    display: none;
+}
+
+header#MobileHeaderProductPage {
+    display: block;
+    flex-direction: row;
+}
+
+.overlayimages5 {
+    color: white;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0%;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 10px !important;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+   font-size: 9px!important;
+}
+
+.overlayimages6 {
+    color: white;
+    width: 48.5%;
+    height: 23%;
+    position: absolute;
+    bottom: 0%;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 10px !important;
+    font-family: '"DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;', sans-serif;
+    font-size: 17px;
+}
+
+.overlayimages7 {
+    width: 92%;
+    height: 33%;
+}
+
+.image-width img {
+    width: 100%;
+    height: auto;
+}
+
+.left-column {
+    background-color: #fff!important;
+    padding: 5px !important;
+}
+
+.paragraph h2 {
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    font-family: '"DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;', sans-serif;
+}
+
+div#grid {
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragraphdesign {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.desktopveiw{
+    display: none;
+}
+
+
+
+.mobileveiw{
+    display: block;
+}
+
+.wrap-text h3 {
+    font-size:20px;
+}
+
+.span-style1 {
+    color: #3D8E99 !important;
+    font-size: 14px;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+}
+
+i.fa.fa-star.checkedsstar.starRating {
+    font-size: 23px;
+    margin-left: 0px;
+}
+
+i.fa.fa-star.fa-star1 {
+    font-size: 23px;
+    margin-left: -4px;
+}
+
+.ratingValueleft {
+    line-height: 10.5px;
+    margin-top: 6px;
+}
+
+.star-rating-text {
+    display: block;
+    /* padding-top: 2px; */
+   
+    text-align: left;
+    white-space: normal;
+    /* margin-left: 5px; */
+    color: #6b6b6b;
+}
+
+.ratings_wrapper {
+    display: inline-flex;
+    float: right;
+    margin-top: 25px;
+    text-align: end;
+}
+
+.norating {
+    display: flex;
+    border-left: 1px solid #6b6b6b;
+    height: fit-content;
+    margin:0px;
+    padding:0px;
+}
+
+.ratingValue7 {
+    font-size: 15px;
+    margin-left: 22px;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+}
+
+.grey {
+    color: #6b6b6b;
+    font-size: 10px;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+}
+
+.carousel .item img {
+    max-width: 45%;
+    max-height: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.imgsize {
+    max-width: 12% !important;
+    height: auto;
+    margin: 10px;
+}
+
+.sidetitleProduct {
+    font-size: 14px;
+    color: #888888;
+    font-weight: 400;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+    text-transform: capitalize;
+}
+
+.card .carousel-item {
+  height: 232px !important;
+}
+
+ul.pagination {
+    flex-direction: row-reverse !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px !important;
+}
+
+.row.gallery-bottom {
+    text-align: center;
+}
+
+.footerimg{
+
+    flex-direction: row;
+        justify-content: center;
+}
+
+.MailingList h1 {
+    /* letter-spacing: 0.1em; */
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+    line-height: 1em;
+    text-align: center;
+    font-size: 29px !important;
+}
+.MailingList h2 {
+    letter-spacing: 0.05em;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 19px  !important;
+    /* padding: 10px 0px; */
+}
+
+.MailingList {
+    padding: 15px 15px 0px 15px !important;
+    background-color: #141414 !important;
+}
+
+h4.jumbotron-heading.text-left {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+td.verticalalign {
+    vertical-align: middle !important;
+    font-family: open sans;
+    font-size: 10px!important;
+}
+
+input#check2 {
+    margin-top: -9px;
+}
+
+.table-responsive.tablepadding {
+    padding: 15px !important;
+}
+
+html,body {
+    box-sizing: border-box;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: auto;
+}
+
+thead.titlestyle th{
+    font-size: 15px !important;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+}
+
+.blogparagraph h5 {
+    font-size: 25px !important;
+    margin-top: 15px;
+}
+
+
+}
+
+@media only screen and (max-width: 967px) {
+li.li-color {
+    font-size: small;
+}
+
+
+.MailingList h1 {
+    letter-spacing: 0.1em;
+    font-family: '"DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;', sans-serif;
+    line-height: 1em;
+    text-align: center;
+    font-size: 23px!important;
+}
+
+.MailingList h2 {
+    letter-spacing: 0.05em;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0px;
+}
+
+
+
+.list-inline-item:not(:last-child) {
+    margin-right: -2rem !important;
+    padding-right: 12px;
+}
+
+
+.mobilehidden{
+    display: none;
+}
+
+.table-responsive.tablepadding {
+    padding: 30px !important;
+}
+.Logostyle {
+    background-color: #000;
+    font-family: '"DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;', sans-serif;
+    border: 3px solid #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.image-width {
+   display: block !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* .Jengatext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* ul.d-flex.flex-row.ul-text-color {
+    justify-content: center;
+} */
+
+
+
+.p-text {
+    font-size: 14px;
+   
+}
+
+a.btn.edit-btn-style-Watchlist.rounded-0.mt-3 {
+    -webkit-appearance: button;
+    display: block;
+}
+.owl-item.bbbwidth {
+    width: 375px !important;
+    margin: 0px !important;
+}
+
+.bbb_viewed_image {
+    width: 406px !important;
+    height:auto !important;
+}
+
+.bbb_viewed_price, .bbb_viewed_name a {
+    font-size: 20px;
+    
+}
+.Social-align{
+    justify-content: space-between;
+}
+
+button.btn.btn-style1.rounded-0.btnspace {
+   
+    width: -webkit-fill-available;
+}
+
+div.Gallery-text-overlay:nth-child(3) {
+    padding-right: 0px;
+}
+
+/* label.labelamazon img {
+    height: 70px !important;
+} */
+
+p.sidetitleProduct.bgcolor {
+    background-color: #f0c14b;
+    color: #000;
+    padding: 3px;
+    font-size: 13px;
+}
+/* div.Gallery-text-overlay.vediogallery:nth-child(3) {
+     padding-right: 10px;
+} */
+
+.imgauthorsize {
+    width: 6%;
+}
+
+.Social-align.Collaborator{
+    justify-content: flex-start;
+}
+
+.Gallery-text-overlay.gallerybox p {
+    border: 1px solid #f0c14b;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 15px;
+}
+.grid-container {
+    grid-template-columns: auto !Important ;
+   
+}
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .span-text-grey .spansmall {
+      
+        font-size: small;
+    }
+
+    .imgauthorsize {
+        width: 6%;
+       
+    }
+    .row.borderline {
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .has-search .form-control {
+        padding-left: 2.375rem;
+        width: 269px !important;
+    }
+
+    .btn-floating i {
+        display: flex !important;
+        color: #fff !important;
+        /* justify-content: space-around; */
+        /* justify-content: start; */
+        margin: 0px!important;
+        padding: 0px!important;
+        font-size: x-small;
+        width: 0px!important;
+        height: 0px !important;
+    }
+    
+    }

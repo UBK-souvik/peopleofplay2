@@ -1,0 +1,2221 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+     -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+#listing_specs table { 
+    display: table;
+}
+
+.First-column{
+    padding: 30px;
+}
+
+@font-face {font-family: "DIN Neuzeit Grotesk LT W01 BdCn";
+  src: url("bb2e1211dfd31103079dbce7c49e1d4e.eot"); 
+  src: url("bb2e1211dfd31103079dbce7c49e1d4e.eot?#iefix") format("embedded-"DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;type"), /* IE6-IE8 */
+  url("bb2e1211dfd31103079dbce7c49e1d4e.woff2") format("woff2"), 
+  url("bb2e1211dfd31103079dbce7c49e1d4e.woff") format("woff"),
+  url("bb2e1211dfd31103079dbce7c49e1d4e.ttf") format("truetype"), 
+  url("bb2e1211dfd31103079dbce7c49e1d4e.svg#DIN Neuzeit Grotesk LT W01 BdCn") format("svg"); 
+}
+
+
+/*@import url('https://fonts.googleapis.com/css2?family="DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family="DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 10.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 11.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 12.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 13.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 14.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 2.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 3.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 4.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 5.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 6.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 7.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 8.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 9.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('BAHNSCHRIFT.woff') format('woff');
+}*/
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1200px!important;
+}
+}
+
+p.sidetitleProduct.bgcolor {
+    background-color: #f0c14b;
+    color: #000;
+    padding: 3px;
+    
+}
+
+.star-rating ul.list-inline {
+    margin: 0;
+    padding: 0;
+}
+
+.Gallery-text-overlay-Image1 {
+    margin-right: 10px;
+}
+
+
+.imgsize{
+    max-width:12% !important;
+    height:auto;
+}
+
+.header-background{
+    background-color: #181818!important;
+}
+
+.left-column {
+    background-color: #fff;
+    
+}
+
+/*.right-column {
+    background-color: #fff;
+    padding: 10px;
+}*/
+
+.Tile-style {
+    font-size: 24px!important;
+  font-weight: normal!important;
+      font-family: inherit!important;
+      margin-bottom: 12px!important;
+    }
+
+header# {
+    display: block;
+    width:100%;
+}
+
+header# {
+    display: none;
+    width:100%;
+}
+
+.overlayimages5 {
+    color: white;
+   width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0%;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 10px !important;
+    font-family:"DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 17px;
+}
+
+.overlayimages6 {
+    color: white;
+       width: 45.1%;
+    height: 13%;
+    position: absolute;
+    bottom: 0%;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 10px !important;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+
+
+.desktopveiw{
+    display: block;
+}
+
+
+
+.mobileveiw{
+    display: none;
+}
+
+
+.Gallery-text-overlay {
+    padding-right: 10px;
+}
+
+.overlayimages7 {
+     color: white;
+    width: 93%;
+    height: 30%;
+    position: absolute;
+    bottom: 0%;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 0px;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+    font-size: 12px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+/*.Gallery-overlay {
+    justify-content: space-evenly;
+}*/
+
+
+
+.First-column {
+    background-color: #fff!important;
+    padding:0px ;
+}
+button.btn.btn-style1{
+    background-color: rgba(61, 142, 153, 1);
+    border: solid rgba(255, 255, 255, 1) 0px;
+    cursor: pointer !important;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 50px;
+    margin:30px;
+}
+
+button.btn.btn-style1:hover {
+    background-color: rgba(162, 156, 156, 1);
+    border-color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    padding: 10px 50px;
+     margin:30px;
+}
+
+.MailingList{
+    padding:70px 30px!important;
+     background-color: #141414 !important;
+     border-bottom: 1px solid #A29C9C;
+}
+
+.MailingList h1{
+    letter-spacing: 0.1em;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+    line-height: 1em;
+    text-align: center;
+    font-size: 36px;
+}
+
+.MailingList h2{
+    letter-spacing: 0.05em;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+   line-height: 1.4em;
+    text-align: center;
+    font-size: 20px;
+    padding:10px 0px;
+}
+
+.MailingList .form-group{
+    width: 90%!important;
+    margin: 0 auto;
+    text-align: center;
+}
+.subscribefield{
+    border-width: 2.7868852459016393px !important;
+    border-color: #A29C9C !important;
+    background-color: #121212 !important;
+    color: #A29C9C !important;
+    border-radius: 0px!important;
+    margin-bottom: 10px;
+}
+
+.btn-subscribe{
+    background-color: rgba(176,56,32,1) !important;
+    border-color: 1px solid #fff;
+    border-width: 2.7868852459016393px;
+    color: #FFFFFF;
+    border: 1px solid #fff;
+    color: #fff!important;
+}
+
+footer{
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+
+}
+
+
+.NextbackgroundColor {
+    background-color: #121212;
+    color: #fff;
+    /*padding: 10px;*/
+}
+
+h3{
+     font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+}
+
+.txtp{
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+    padding-left: 50px;
+    font-size: 20px;
+   
+}
+
+.teambackgroundcolor
+{
+    background-color: #FAFAFA !important;
+}
+
+.Whitebackgroundcolor{
+    background-color: #fff !important;
+}
+
+.edit-btn-style-qty {
+    padding: 4px 6px!important;
+    box-shadow: none;
+    background: rgba(0, 0, 0, .1)!important;
+    border-color: none 
+}
+.edit-btn-style-Add
+{
+   
+    border-radius: 0px !important;
+   box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+    background: #f0c14b!important;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+
+.facarticon {
+    margin: 7px 85px 0px -37px;
+    vertical-align: middle;
+}
+
+a.btn.edit-btn-style-Add {
+    padding: 0px 37px;
+    font-size: 18px;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+}
+
+.edit-btn-style-Add-right{
+padding: 0px 49px !important;
+}
+
+.boxprice.border.active {
+    border-color: #f0c14b!important;
+    padding: 10px;
+    display: inline-block;
+}
+
+.boxprice {
+ padding: 10px;
+ display: inline-block;
+}
+
+.fas {
+    font-weight: 900;
+    background-color: #fff;
+    padding: 10px;
+    margin-left: -37px;
+    margin-right: 45px;
+    }
+
+.fas:hover {
+
+    background-color: #000;
+    color:#fff;
+
+    }
+
+.fas1 {
+    font-weight: 900;
+    background-color: #fff;
+    padding: 10px 18px;
+    margin-left: -49px;
+    margin-right: 52px;
+}
+
+span.font-small {
+    font-size: 11px;
+}
+
+.checkedsstar{
+    color: #f0c14b;
+}
+
+.starRating{
+    
+    font-size: 11px;
+    height: 40px;
+    line-height: 13px;
+    padding: 2px 0 0 34px;
+    width: 58px;
+}
+
+.ratings_wrapper .starRating .ratingValue {
+    margin-bottom: -2px;
+    white-space: nowrap;
+}
+
+.ratingValue7 {
+     font-size: 25px;
+    margin-left: 30px;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+}
+
+.ratings_wrapper .starRating .grey {
+    color: #6b6b6b;
+    font-size: 10px;
+}
+
+i.fa.fa-star.checkedsstar.starRating {
+    font-size: 30px;
+    margin-left: 2px;
+}
+
+i.fa.fa-star.fa-star1 {
+    font-size: 30px;
+    margin-left: 2px;
+}
+
+.ratings_wrapper{
+    display:inline-flex;
+    float: right;
+    margin-top: 25px;
+}
+
+.grey {
+    color: #6b6b6b;
+    font-size: 15px;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+}
+
+
+
+.ratingValueright{
+    float: right;
+}
+
+.star-rating-text {
+    display: block;
+    /* padding-top: 2px; */
+    font: normal 12px/15px "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;, sans-serif;
+    text-align: left;
+    white-space: normal;
+    margin-left: 5px;
+    color: #6b6b6b;
+}
+
+.smallview{
+    font-size:10px;
+    color:silver;
+}
+
+.norating {
+    display: flex;
+    border-left: 1px solid #6b6b6b;
+    margin: 0px 5px;
+    padding: 0px 5px;
+    margin-right: 25px;
+    height: fit-content;
+}
+
+span.countingview {
+    margin-left: 31px;
+    font-size: 8px;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+}
+
+.badge-wrapper {
+    margin: 5px 0 10px;
+     font-size: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+}
+
+.badge-wrapper .p13n-best-seller-badge {
+    margin-right: 4px;
+    background-color: #f0c14b;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height: 14px;
+    font-weight: 400;
+
+
+}
+
+.a-icon-addon {
+    background-image: none!important;
+    border-radius: 3px 0 0 3px;
+    background-color: #f0c14b;
+    font-size: 11px;
+    line-height: 1.05;
+    padding: 4px 5px 4px 6px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    top: 1px;
+}
+
+
+
+.Jengatext{
+    display:flex;
+}
+
+.badge-wrapper span.jenga-name {
+    color: #111;
+    display: inline;
+    margin-left: 5px;
+}
+
+.a-icon-addon:before {
+    bottom: 0;
+    border-style: dashed;
+    border-width: 6px;
+    border-color: rgba(255,255,255,0);
+    border-bottom: 6px solid #f0c14b; 
+    border-top-width: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    border-bottom-width: 10px;
+}
+
+.a-icon-addon:after,.a-icon-addon:before {
+    content: "";
+    position: absolute;
+    right: -5px;
+    border-left-width: 0;
+}
+
+.a-icon-addon:after {
+    top: 0;
+    border-style: dashed;
+    border-width: 6px;
+    border-color: rgba(255,255,255,0);
+    border-top: 6px solid #f0c14b;
+    border-bottom-width: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    border-top-width: 10px;
+     font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+}
+
+.p13n-best-seller-badge:after {
+    border-top-color: #f0c14b!important;
+}
+
+
+/*.edit-btn-style
+{
+    padding: 5px 10px!important;
+    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+    background: #111!important;
+    border-color: #a88734 #9c7e31 #846a29;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+    font-size:25px !important;
+    color: #fff!important;
+    font-size: 18px!important;
+    border-radius: 0;
+
+}*/
+
+/*.edit-btn-style:hover
+{
+    background-color: #111!important;
+    border-style: 2px solid #fff!important;
+    color:#fff!important;
+    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+}
+*/
+.edit-btn-style-Watchlist
+{
+    
+    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+    background: #f0c14b!important;
+    border-color: #a88734 #9c7e31 #846a29;
+     font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+   
+    padding: 10px 125px 0px 4px!important;
+}
+
+  a.btn.edit-btn-style-Watchlist.rounded-0 {
+    margin-top: -20px;
+
+}
+
+.edit-btn-style-Watchlist:hover
+{
+    background-color: #111!important;
+    border-style: 2px solid #fff!important;
+    color:#fff!important;
+    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+
+}
+
+a.btn.edit-btn-style-Watchlist.rounded-0.btn-lg.btn-block.my-3 {
+    text-align: justify;
+}
+
+.span-style {
+    color: #3D8E99 !important;
+    font-size: 13px;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important; sans!important;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+}
+
+.card-header {
+    font-size: 13px !important;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;, sans-serif !important;
+    background-color: rgba(0,0,0,0)!important;
+}
+
+.span-style1 {
+    color: #3D8E99 !important;
+    font-size: 13px;
+    font-weight: 400;
+     font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important; sans!important;
+    }
+
+    .span-style2{
+    color: #3D8E99 !important;
+    font-size: 14px;
+     font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important; sans!important;
+     padding-left: 16px;
+    }
+
+   .Gallery-overlay{
+    justify-content: start;
+   }
+
+/*.rowpadding{
+    padding: 15px 0px;
+}*/
+
+.sidetitle{
+    font-size: 13px;
+    color: #888888;
+    font-weight: 400;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+   text-transform: capitalize;
+}
+
+.sidetitleProduct{
+    font-size: 13px;
+    color: #888888;
+    font-weight: 400;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+   text-transform: capitalize;
+}
+
+.sidetitleProducttitle {
+    font-size: 25px;
+    color: #888888;
+    font-weight: 200 !important;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+    text-transform: capitalize;
+}
+
+.sidetitleProducttitle1 {
+    font-size: 24px!important;
+  font-weight: normal!important;
+      font-family: inherit!important;
+      text-align: left;
+    /*font-size: 25px;
+    font-weight: 200 !important;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+    text-transform: capitalize;
+        text-align: left;
+        color: #1a1a1a;*/
+}
+
+.sidetitlePrice{
+    font-size: 23px;
+    color: #888888;
+    font-weight: 400;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+   
+}
+
+.ratingValueleft {
+    line-height: 10.5px;
+    margin-top: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+i.fa.fa-angle-down {
+    color: #f0c14b!important;
+}
+
+/* Related Product*/
+
+
+
+
+.carousel .item {
+    min-height: 330px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.carousel .item img {   
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    /*position: absolute;*/
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.carousel .item h4 {
+  
+    font-size: 15px;
+    margin: 10px 0;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+}
+
+.carousel .item .btn {
+    color: #333;
+    border-radius: 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-top: 5px;
+    line-height: 16px;
+}
+.carousel .item .btn:hover, .carousel .item .btn:focus {
+    color: #fff;
+    background: #000;
+    border-color: #000;
+    box-shadow: none;
+}
+.carousel .item .btn i {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.carousel .thumb-wrapper {
+    text-align: center;
+   /*padding: 15px;
+    margin: 15px;*/
+    top: 0px;
+    bottom: 0px;
+}
+.carousel .thumb-content {
+    padding: 15px 0px;
+}
+.carousel .carousel-control {
+    height: 100px;
+    width: 40px;
+    margin: auto 0;
+    background: none;
+}
+.carousel .carousel-control i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -16px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: none;
+    font-weight: bold;
+}
+.carousel .item-price {
+    font-size: 13px;
+    padding: 2px 0;
+}
+.carousel .item-price strike {
+    color: #999;
+    margin-right: 5px;
+}
+.carousel .item-price span {
+    color: #86bd57;
+    font-size: 110%;
+}
+.carousel .carousel-control.left i {
+    margin-left: -3px;
+}
+.carousel .carousel-control.left i {
+    margin-right: -3px;
+}
+.carousel .carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+    border-radius: 50%;
+    border-color: transparent;
+}
+.carousel-indicators li {   
+    background: rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators li.active {    
+    color:#ffc000 !important;
+}
+.star-rating li {
+   
+    padding: 3px;
+
+}
+
+
+.imgwidth{
+    width:80%;
+}
+
+strike {
+    text-decoration: line-through;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: -1.5rem !important;
+}
+.star-rating i {
+    font-size: 14px;
+    color: #ffc000;
+}
+
+.p-text {
+    font-size: 13px;
+    /*line-height: 1.5em;*/
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important; sans !important;
+    color: #111;
+}
+
+
+
+
+ .padding {
+     padding: 5rem
+ }
+
+.card .card1 {
+     position: relative;
+     display: flex;
+     width: 600px;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     border: 1px solid #d2d2dc;
+     border-radius: 11px;
+     -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+     -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+     box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+ }
+
+ .card .card1 .card-body {
+     padding: 1rem 1rem
+ }
+
+ .card-body {
+     flex: 1 1 auto;
+     padding: 1.25rem
+ }
+
+ p {
+     font-size: 0.875rem;
+     margin-bottom: .5rem;
+     line-height: 1.5rem
+ }
+
+ h4 {
+     line-height: .2 !important
+ }
+
+ .items1 {
+     width: 90%;
+     margin: 0px auto;
+     margin-top: 100px
+ }
+
+ .slick-slide {
+     margin: 10px
+ }
+
+ .media iframe,
+ .media-content {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     border: 0;
+     border-radius: inherit;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+     background-color: rgba(120, 120, 120, .1);
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center
+ }
+
+ .media-content:before {
+     content: '';
+     position: absolute;
+     height: 10%;
+     width: 90%;
+     left: 5%;
+     bottom: 0;
+     background: inherit;
+     background-position-y: 100%;
+     filter: blur(10px)
+ }
+
+ .circle .media-content:before {
+     width: 40%;
+     left: 30%
+ }
+
+ .profile-image {
+     width: 100%;
+     height: 200px;
+     border-top-left-radius: 11px !important;
+     border-top-right-radius: 11px
+ }
+
+ .card-title {
+     font-size: 19px;
+     font-weight: 200
+ }
+
+
+
+h4.sidetitleProduct.white-text.bg-white.mb-0 {
+    padding: 25px;
+}
+
+
+.card {
+  margin: 0 auto;
+}
+.card .carousel-item {
+  height: 150px;
+}
+
+.card.productbox {
+    padding: 0px;
+    margin: inherit;
+}
+
+
+
+.card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
+.card .carousel-caption h3 {
+  color: #3d3d3d;
+}
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+.navi a {
+    text-decoration:none;
+}
+a > .ico {
+    background-color: grey;
+    padding: 10px;
+    
+}
+a:hover > .ico {
+    background-color: #666;
+}
+
+
+.row.productrow {
+    margin: 0px;
+}
+
+.carousel .item .img-box {
+    min-height: 120px;
+    width: 100%;
+    position: relative;
+    /* padding-bottom: 15px; */
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+ul.pagination {
+    flex-direction: row-reverse;
+}
+
+
+.mix{
+      padding: 10px;
+}
+
+.item-img-wrap {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.item-img-wrap img {
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    width: 100%;
+}
+
+/************************image hover effect*******************/
+.item-img-wrap {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.item-img-wrap img {
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  width: 137px;
+}
+
+.item-img-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.item-img-overlay span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(http://bootstraplovers.com/templates/assan-2.2/main-template/img/plus.png) no-repeat center center rgba(0, 0, 0, 0.7);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -moz-transition: opacity 250ms linear;
+  -o-transition: opacity 250ms linear;
+  -webkit-transition: opacity 250ms linear;
+  transition: opacity 250ms linear;
+}
+
+.item-img-wrap:hover .item-img-overlay span {
+  opacity: 1;
+}
+
+.item-img-wrap:hover img {
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+/*************pagination***********/
+.gallery-bottom .pagination {
+  margin-top: 0px;
+}
+
+.pagination > li > a, .pagination > li > span {
+  background-color: none;
+  padding: 3px 9px;
+  color: #000;
+  border: 0px;
+}
+
+.pagination > li > a {
+  margin-right: 5px;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color: #f0c14b!important;
+}
+  
+.shift{
+    margin-left:15px;
+}
+
+  .Advertisement{
+    width:100%;
+    height:300px;
+    background: #f4f4f4;
+    color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Gallery-text-overlay.hiddenimg {
+    visibility: hidden;
+}
+
+.embed-responsive.embed-responsive-16by9.marginvedio {
+    /* margin: -2px 10px; */
+    margin-left: 5px;
+
+
+}
+
+.modal-body.ImageGalleryModal {
+    background-color: #111;
+    margin: 0px !important;
+    padding: 30px;
+    border: none !important;
+    padding: 60px 30px !important;
+    border-radius: initial;
+}
+
+a.pagelink {
+    color: #fff;
+}
+
+a.pagelink:hover {
+    color: #fff;
+}
+
+.blogparagraph h5 {
+    text-transform: uppercase;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+    letter-spacing: 0.1em;
+    color: #A29C9C;
+}
+
+.blogparagraph h4 {
+    text-transform: capitalize;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+    letter-spacing: normal;
+    color: #141414;
+  }
+
+  .blogparagraph h6 {
+     text-transform: uppercase;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+    letter-spacing: 0.1em;
+    color: #A29C9C;
+  }
+
+  p.p-blogtext {
+    font-size: 14px;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important; sans;
+    /* margin-top: 3px; */
+    padding-top: 19px;
+    letter-spacing: 0.1em;
+}
+
+
+
+
+.wrapimageandtext img  {
+    margin-right: 15px;
+}
+
+i.fa.fa-download.faicon {
+    color: #A29C9C;
+}
+
+.wrapimageandtext p  {
+    font-size: 14px;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important; sans;
+  
+    padding-top: 19px;
+    letter-spacing: 0.1em;
+}
+
+
+
+.wraptitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h4.jumbotron-heading.text-left {
+    margin-right: 15px;
+}
+
+.table-responsive.tablepadding {
+    padding: 30px 70px;
+}
+
+thead.titlestyle th {
+    font-size: 18px !important;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;;
+    vertical-align: top!important;
+}
+
+td.verticalalign {
+    vertical-align: middle !important;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important; sans;
+}
+
+.container {
+   padding: 0px !important;
+}
+
+table.table thead.titlestyle tbody tr {
+    -webkit-box-shadow: 2px 2px 2px 2px black !important;
+}
+
+tbody .tbody_productlist{
+    line-height: 0px !important; 
+}
+
+.h4footer h4{
+font-size: medium !important;
+}
+
+.right-column.backgroundrightforblog {
+    background-color: #fff !important;
+    border: 1px dashed #f4f4f4;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width: 676px;
+}
+
+body{
+  background-color: #152836
+}
+h2{color:#fff;margin-bottom:40px;text-align:center;font-weight:100;}
+.demo-gallery > ul {
+  margin-bottom: 0;
+}
+.demo-gallery > ul > li {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    width: 200px;
+}
+.demo-gallery > ul > li a { 
+  border: 3px solid #FFF;
+  border-radius: 3px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+.demo-gallery > ul > li a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+}
+.demo-gallery > ul > li a:hover > img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+.demo-gallery > ul > li a:hover .demo-gallery-poster > img {
+  opacity: 1;
+}
+.demo-gallery > ul > li a .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.15s ease 0s;
+  -o-transition: background-color 0.15s ease 0s;
+  transition: background-color 0.15s ease 0s;
+}
+.demo-gallery > ul > li a .demo-gallery-poster > img {
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+.demo-gallery > ul > li a:hover .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.demo-gallery .justified-gallery > a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+}
+.demo-gallery .justified-gallery > a:hover > img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+.demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+  opacity: 1;
+}
+.demo-gallery .justified-gallery > a .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.15s ease 0s;
+  -o-transition: background-color 0.15s ease 0s;
+  transition: background-color 0.15s ease 0s;
+}
+.demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+.demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.demo-gallery .video .demo-gallery-poster img {
+  height: 48px;
+  margin-left: -24px;
+  margin-top: -24px;
+  opacity: 0.8;
+  width: 48px;
+}
+.demo-gallery.dark > ul > li a {
+  border: 3px solid #04070a;
+}
+.home .demo-gallery {
+  padding-bottom: 80px; 
+}
+
+.left-column.postcolumn {
+    padding: 17px;
+}
+
+label#file-drag {
+    margin: 0px!important;
+}
+
+label#file-drag-second {
+    margin: 0px!important;
+}
+
+.uploader div {
+    margin: 0 0 .5rem 0; 
+    color: #5f6982; 
+}
+
+
+
+.avatar-upload1 {
+    position: relative;
+    max-width: 205px;
+    margin: 50px auto;
+    .avatar-edit1 {
+        position: absolute;
+        right: 12px;
+        z-index: 1;
+        top: 10px;
+        input {
+            display: none;
+            + label {
+                display: inline-block;
+                width: 34px;
+                height: 34px;
+                margin-bottom: 0;
+                border-radius: 100%;
+                background: #FFFFFF;
+                border: 1px solid transparent;
+                box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+                cursor: pointer;
+                font-weight: normal;
+                transition: all .2s ease-in-out;
+                &:hover {
+                    background: #f1f1f1;
+                    border-color: #d6d6d6;
+                }
+                &:after {
+                    content: "\f040";
+                    font-family: 'FontAwesome';
+                    color: #757575;
+                    position: absolute;
+                    top: 10px;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                    margin: auto;
+                }
+            }
+        }
+    }
+    .avatar-preview1 {
+        width: 192px;
+        height: 192px;
+        position: relative;
+        border-radius: 100%;
+        border: 6px solid #F8F8F8;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+        > div {
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
+
+
+.avatar-upload1 .avatar-edit1 input + label {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+
+.avatar-upload1 .avatar-edit1 input + label:after {
+    content: "\f040";
+    font-family: 'FontAwesome';
+    color: #757575;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.avatar-upload1 .avatar-preview1 {
+    width: 192px;
+    height: 192px;
+    position: relative;
+    border-radius: 100%;
+    border: 6px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-upload1 .avatar-preview1 > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar-upload1 {
+    position: relative;
+    max-width: 205px;
+    margin: 50px auto;
+}
+
+.avatar-upload1 .avatar-edit1 {
+    position: absolute;
+    right: 12px;
+    z-index: 1;
+    top: 10px;
+}
+
+.avatar-upload1 .avatar-edit1 input {
+    display: none;
+}
+
+.imgauthorsize{
+    width: 3%;
+    margin-right: 13px;
+}
+
+.marginauthor{
+    margin-right: -7px;
+}
+
+div.Gallery-text-overlay-Image1 {
+    width: 200px;
+}
+
+div.Gallery-text-overlay-Image1:nth-child(4) {
+    margin: 0px;
+}
+
+
+
+div.Gallery-text-overlay.vediosection4:nth-child(4) {
+    padding: 0px;
+}
+
+
+
+div.Gallery-text-overlay:nth-child(6) {
+    padding-right: 0px;
+}
+
+div.Gallery-text-overlay .gallerybottom:nth-child(5) {
+    padding-right: 0px;
+}
+
+div.Gallery-text-overlay-Image {
+    width: 200px;
+}
+
+.Gallery-text-overlay img {
+    width: 300px;
+}
+
+
+
+ div {
+     display: block;
+     position: relative;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box
+ }
+
+ ul {
+     list-style: none;
+     margin-bottom: 0px
+ }
+
+ p {
+     /*font-family: 'Rubik', sans-serif;*/
+     font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif;
+     font-size: 14px;
+     line-height: 1.7;
+     font-weight: normal;
+     color: #000;
+     -webkit-font-smoothing: antialiased;
+     -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+     text-shadow: rgba(0, 0, 0, .01) 0 0 1px
+ }
+
+ p a {
+     display: inline;
+     padding: 2px;
+     position: relative;
+     color: #000;
+     /* border-bottom: solid 1px #ffa07f; */
+     -webkit-transition: all 200ms ease;
+     -moz-transition: all 200ms ease;
+     -ms-transition: all 200ms ease;
+     -o-transition: all 200ms ease;
+     transition: all 200ms ease
+ }
+
+ a,
+ a:hover,
+ a:visited,
+ a:active,
+ a:link {
+     text-decoration: none;
+     -webkit-font-smoothing: antialiased;
+     -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+     text-shadow: rgba(0, 0, 0, .01) 0 0 1px
+ }
+
+/* p a:active {
+     position: relative;
+     color: #FF6347
+ }
+
+ p a:hover {
+     color: #FFFFFF;
+     background: #f0c14b;
+ }
+
+ p a:hover::after {
+     opacity: 0.2
+ }*/
+
+ ::selection {}
+
+ p::selection {}
+
+
+
+
+ section {
+     display: block;
+     position: relative;
+     box-sizing: border-box
+ }
+
+ .clear {
+     clear: both
+ }
+
+ .clearfix::before,
+ .clearfix::after {
+     content: "";
+     display: table
+ }
+
+ .clearfix::after {
+     clear: both
+ }
+
+ .clearfix {
+     zoom: 1
+ }
+
+ .float_left {
+     float: left
+ }
+
+ .float_right {
+     float: right
+ }
+
+ .trans_200 {
+     -webkit-transition: all 200ms ease;
+     -moz-transition: all 200ms ease;
+     -ms-transition: all 200ms ease;
+     -o-transition: all 200ms ease;
+     transition: all 200ms ease
+ }
+
+ .trans_300 {
+     -webkit-transition: all 300ms ease;
+     -moz-transition: all 300ms ease;
+     -ms-transition: all 300ms ease;
+     -o-transition: all 300ms ease;
+     transition: all 300ms ease
+ }
+
+ .trans_400 {
+     -webkit-transition: all 400ms ease;
+     -moz-transition: all 400ms ease;
+     -ms-transition: all 400ms ease;
+     -o-transition: all 400ms ease;
+     transition: all 400ms ease
+ }
+
+ .trans_500 {
+     -webkit-transition: all 500ms ease;
+     -moz-transition: all 500ms ease;
+     -ms-transition: all 500ms ease;
+     -o-transition: all 500ms ease;
+     transition: all 500ms ease
+ }
+
+ .fill_height {
+     height: 100%
+ }
+
+ .super_container {
+     width: 100%;
+     overflow: hidden
+ }
+
+ .prlx_parent {
+     overflow: hidden
+ }
+
+ .prlx {
+     height: 130% !important
+ }
+
+ .nopadding {
+     padding: 0px !important
+ }
+
+ .button {
+     display: inline-block;
+     background: #0e8ce4;
+     border-radius: 5px;
+     height: 48px;
+     -webkit-transition: all 200ms ease;
+     -moz-transition: all 200ms ease;
+     -ms-transition: all 200ms ease;
+     -o-transition: all 200ms ease;
+     transition: all 200ms ease
+ }
+
+ .button a {
+     display: block;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 48px;
+     color: #FFFFFF;
+     padding-left: 35px;
+     padding-right: 35px
+ }
+
+ .button:hover {
+     opacity: 0.8
+ }
+
+ /*.viewed {
+     padding-top: 51px;
+     padding-bottom: 60px;
+     background: #eff6fa
+ }*/
+
+ .bbb_viewed_title_container {
+     border-bottom: solid 1px #dadada
+ }
+
+ .bbb_viewed_title {
+     margin-bottom: 14px
+ }
+
+ .bbb_viewed_nav_container {
+     position: absolute;
+     right: -5px;
+     bottom: 14px
+ }
+
+ .bbb_viewed_nav {
+     display: inline-block;
+     cursor: pointer
+ }
+
+ .bbb_viewed_nav i {
+     color: #dadada;
+     font-size: 18px;
+     padding: 5px;
+     -webkit-transition: all 200ms ease;
+     -moz-transition: all 200ms ease;
+     -ms-transition: all 200ms ease;
+     -o-transition: all 200ms ease;
+     transition: all 200ms ease
+ }
+
+ .bbb_viewed_nav:hover i {
+     color: #606264
+ }
+
+ .bbb_viewed_prev {
+     margin-right: 15px
+ }
+
+ /*.bbb_viewed_slider_container {
+     padding-top: 50px
+ }*/
+
+ .bbb_viewed_item {
+     width: 100%;
+     background: #FFFFFF;
+     border-radius: 2px;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     /*padding-left: 30px;
+     padding-right: 30px*/
+ }
+
+.bbb_viewed_image {
+    width: 134px;
+    height: 115px;
+}
+
+ .bbb_viewed_image img {
+     display: block;
+     max-width: 100%
+ }
+
+ .bbb_viewed_content {
+     width: 100%;
+     margin-top: 25px
+ }
+
+ .bbb_viewed_price {
+     font-size: 16px;
+     color: #000000;
+     font-weight: 500
+ }
+
+ .bbb_viewed_item.discount .bbb_viewed_price {
+     color: #df3b3b
+ }
+
+ .bbb_viewed_price span {
+     position: relative;
+     font-size: 12px;
+     font-weight: 400;
+     color: rgba(0, 0, 0, 0.6);
+     margin-left: 8px
+ }
+
+ .bbb_viewed_price span::after {
+     display: block;
+     position: absolute;
+     top: 6px;
+     left: -2px;
+     width: calc(100% + 4px);
+     height: 1px;
+     background: #8d8d8d;
+     content: ''
+ }
+
+ .bbb_viewed_name {
+     margin-top: 3px
+ }
+
+ .bbb_viewed_name a {
+     font-size: 14px;
+     color: #000000;
+     -webkit-transition: all 200ms ease;
+     -moz-transition: all 200ms ease;
+     -ms-transition: all 200ms ease;
+     -o-transition: all 200ms ease;
+     transition: all 200ms ease
+ }
+
+ .bbb_viewed_name a:hover {
+     color: #0e8ce4
+ }
+
+.item_marks {
+    position: absolute;
+    top: 18px;
+    left: -21px;
+}
+
+ .item_mark {
+     display: none;
+     width: 36px;
+     height: 36px;
+     border-radius: 50%;
+     color: #FFFFFF;
+     font-size: 10px;
+     font-weight: 500;
+     line-height: 36px;
+     text-align: center
+ }
+
+ .item_discount {
+     background: #df3b3b;
+     margin-right: 5px
+ }
+
+ .item_new {
+     background: #0e8ce4
+ }
+
+ .bbb_viewed_item.discount .item_discount {
+     display: inline-block
+ }
+
+ .bbb_viewed_item.is_new .item_new {
+     display: inline-block
+ }
+
+ .owl-item.bbbwidth {
+    width: 95px;
+    margin: 0px !important;
+}
+
+.owl-item.cloned.bbbwidth  {
+    width: 95px;
+    margin: 0px !important;
+}
+
+.owl-item.active.bbbwidth  {
+    width: 95px;
+    margin: 0px !important;
+}
+
+.owl-stage:nth-child(6){
+    transform: translate3d(-1126px, 0px, 0px) !important;
+}
+
+/* label.labelamazon img {
+    height: 70px;
+} */
+
+span.span-style1.space {
+    margin-top: 4px;
+    margin-left: 12px;
+}
+
+button.btn.btn-style1.rounded-0.btnspace {
+    margin: 0px;
+}
+
+.h4footer ul li a {
+    font-size: 15px!important;
+}
+
+/* label.labelamazon img {
+    height: 45px;
+} */
+
+.image-width {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.paragraph h2 {
+      text-align: left;
+      text-transform: capitalize;
+}
+
+
+.image-width.Imagewidthcontainergdescription{
+    width: 100%;
+    height: auto;
+}
+
+.image-width.Imagewidthcontainergdescription img{
+    width: 100%;
+    height: auto;
+}
+
+/* .justifly-content-center {
+    width: 100%;
+    height: 350px;
+} */
+
+.image-width.Imagewidthcontainer.justifly-content-center {
+    width: 100%;
+    height: 346px;
+}
+
+.image-width.blogImagesize.justifly-content-center {
+    width: 100%;
+    height: auto;
+}
+
+.image-width.blogImagesize img {
+    width: 100%;
+    height: auto;
+}
+
+.Gallery-text-overlay.gallerybox p {
+    border: 1px solid #f0c14b;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+}
+
+.row.borderline {
+    border: 1px solid #f0f0f0;
+    margin: 30px;
+    padding: 15px 15px 0px 15px;
+}
+
+p.p-text.p-bgcolor {
+    background-color: #f0f0f0;
+    padding: 15px;
+}
+
+p.poverlayvedio {
+    color: white;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: -8%;
+        background: rgba(0,0,0,0.5);
+        text-align: center;
+        padding: 10px !important;
+        font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 17px;
+    }
+
+p.poverlay {
+color: white;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -4%;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 10px !important;
+    font-family: "DIN Neuzeit Grotesk LT W01 BdCn", sans-serif!important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 17px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    border: 1px solid #f0f0f0;
+    padding: 15px;
+    width: 100%;
+}
+
+.grid-item img{
+   
+    width: 100%;
+    height:auto;
+}
+
+.wrapallcontent {
+    padding: 15px;
+}
+
+select#lister-sort-by-options {
+    width: fit-content;
+}
+
+.lister-widget .lister-item .wl-ribbon.poster {
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.wl-ribbon.poster.inWL {
+    background-position: -2px 0;
+}
+
+.wl-ribbon.poster{
+    background-image: url(../images/ribbon.png);
+    height: 38px;
+    /* left: 2px;
+    top: 0px; */
+    width: 38px;
+    position: absolute;
+}
+
+.First-column.borderlineadd {
+    padding: 0px 15px 15px 15px!important;
+    border: 1px solid #d3d3d3;
+    margin: 15px;
+    border-radius: .25em;
+}
+
+ul.list-unstyled.list-inline.list-inline1 {
+    font-size: 20px;
+}
+
+table.table.tablesidebar tr th td {
+    padding: 0px;
+}
+
+label.labelamazon1 {
+    width: 170px;
+    height: auto;
+}
+
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+body{
+    height:100%; /* force the BODY element to match the height of the HTML element */
+}

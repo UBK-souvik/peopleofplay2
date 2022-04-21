@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: .5px
+}
+
+body {
+    top: 0!important;
+    bottom: 0!important;
+    background-color: #e5e3ffff!important;
+}
+
+h3 {
+    font-family: Oswald, sans-serif!important
+}
+
+.ForgetPwd {
+    color: #3d8e99!important;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 15px
+}
+
+.ForgetPwd a {
+    color: #672997;
+    text-decoration: none
+}
+
+.ForgetPwd a:hover {
+    color: #3d8e99!important;
+    text-decoration: none
+}
+
+header#MobileRegistrationPageHome {
+    display: none
+}
+
+header#DesktopRegistrationPage {
+    display: block
+}
+
+.Login-Style {
+    background-color: #fff!important
+}
+
+.formstyle {
+    border: 1px solid #672997;
+    padding: 30px;
+    border-radius: 0;
+    font-family: 'Open Sans', sans-serif
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+    border-radius: 0!important
+}
+
+.btnLoginfree {
+    padding: 1.5%;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .4) inset;
+    background: #121212!important;
+    border-color: #a88734 #9c7e31 #846a29!important;
+    color: #000!important;
+    font-size: 15px!important
+}
+
+footer a {
+    color: #a29c9c!important;
+    transition: color .4s ease 0s;
+    font-size: 16px
+}
+
+footer a:hover {
+    color: #fff!important;
+    transition: color .4s ease 0s;
+    font-size: 16px
+}
+
+.btn-floating {
+    display: inline-block;
+    transition: all .2s ease-in-out;
+    width: 0
+}
+
+.btn-floating.btn-sm {
+    width: 36.15385px;
+    height: 36.15385px
+}
+
+.btn-floating i {
+    display: flex!important;
+    color: #fff!important;
+    justify-content: space-around
+}
+
+.btn-floating {
+    display: inline-block;
+    transition: all .2s ease-in-out;
+    width: 0
+}
+
+.btn-floating.btn-sm {
+    width: 36.15385px;
+    height: 36.15385px
+}
+
+.btn-floating i {
+    display: flex!important;
+    color: #fff!important;
+    justify-content: space-around
+}
+
+
+/**********24/06/2021***********/
+
+.may_main_searc_inputBoxSearch {
+    border: 1px solid #000!important;
+    border-radius: 50px !important;
+    padding: 8px 0 8px 40px !important;
+}
+
+
+/*.SearchBar:after{
+	content: "\f002";
+    font-family: "fontAwesome";
+    position: absolute;
+    color: #000;
+    font-size: 25px;
+    z-index: 999;
+    left: 12px;
+    top: 1px;
+}*/
+
+.SearchBar #SearchBarIcon {
+    position: absolute;
+    top: 9px;
+    z-index: 30;
+    left: 10px;
+}
+
+div#top-bar-ads {
+    background: #ffffff;
+    box-shadow: 0px 1px 4px 1px #8c8c8c;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.sideListTopHead .logSignUp {
+    padding: 0 0px 0 12px !important;
+    white-space: nowrap;
+}
+
+.sideListTopHead .logSignUp {
+    padding: 0 0px 0 12px !important;
+    white-space: nowrap;
+}
+
+.top_banner_class p span {
+    margin-bottom: 8px;
+    margin-right: 16px;
+}
+
+.main_header_menu.justify-content-around {
+    justify-content: unset !important;
+}
+
+.watchListLinkHead {
+    padding: none !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #4D107B;
+}
+
+.twentyThreeMargin {
+    margin-top: -15px;
+}

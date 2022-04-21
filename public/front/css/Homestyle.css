@@ -1,0 +1,338 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+.header-background{
+	background: url("../images/home.jpg");
+	background-size: cover;
+	height: 650px;
+	width: 100%;
+	background-color: #FCFCFC;
+}
+
+.box-width{
+    padding: 0px 30px;
+    
+}
+
+.Logostyle{
+   
+    background-color: #000;
+    font-family: 'Oswald', sans-serif;
+    border: 3px solid #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+
+.Logostyle a:hover{
+   
+    background-color: #fff !important;
+      
+}
+
+.span-text-grey{
+color: #A29C9C;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width:581px !important;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.li-text li{
+	   padding: 0 20px;
+    font-size: 12px;
+
+	}
+
+.fa{
+	width: 30px !important; 
+	height: 30px !important; 
+	object-fit: cover;
+	}
+
+.li-color{
+	display: inline-block;
+    padding: 0 10px;
+    color: #A29C9C;
+    transition: color 0.4s ease 0s;
+    font-size:16px;
+}
+
+
+.paragraph h2{
+ font-size:50px;
+ letter-spacing:0.05em;
+ font-family: 'Oswald', sans-serif;
+}
+
+.box-width{
+ background-color: #000;
+   font-family: 'Oswald', sans-serif;
+}
+
+.old-bv {
+    font-size: 14px;
+    background-color: #322348;
+}
+
+.left-column{
+	width:70%;
+	float: left;
+}
+
+
+
+.image-width{
+	background-color:#fff;
+	
+}
+
+.wrap-text h3{
+	  font-family: 'Oswald', sans-serif;
+}
+
+ul{
+     list-style:none;
+     color:#3D8E99;
+}
+
+.ul-text-color li{
+	color:#3D8E99;
+	font-size:13px;
+}
+
+.p-text{
+	font-size: 14px;
+}
+
+.span-style{
+	color:#3D8E99 !important;
+	font-size: 12px;
+}
+
+.span-text{
+
+}
+
+.images-size{
+	width:44% !important;
+}
+
+.images-size img{
+	width:38% !important;
+}
+
+.wrap-gallery {
+  position: relative;
+  
+}
+
+.link-text{
+	color:#3D8E99 !important;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Oswald', sans-serif;
+}
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding:10px;
+  width:24%;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing:0.05em;
+}
+
+.wrap-gallery .overlay {
+  opacity: 1;
+}
+
+.overlay1 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding:10px;
+  width:49%;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing:0.05em;
+}
+
+.wrap-gallery .overlay1 {
+  opacity: 1;
+}
+
+.Second-column{
+	background-color:#FCFCFC !important;
+	padding:15px;
+}
+.Second-column h2{
+  font-family: 'Oswald', sans-serif;
+}
+.h3-text-color{
+	color: #BFBFBF;
+	font-size:20px;
+	letter-spacing:0.08em !important;
+	font-family: 'Oswald', sans-serif;
+}
+
+.img-thumbnail {
+
+    border: 0px !important;
+    background-color:#FCFCFC !important;
+}
+
+
+.right-column{
+	width:30%;
+	float: right;
+	background-color: #EEE6E6 !important;
+  }
+
+.dashboard-icon{
+  font-size: 30px;
+  font-weight:600;
+  font-family: 'Oswald', sans-serif;
+  color:#000;
+  }
+
+
+.dashboard-icon1{
+  font-size: 18px;
+  font-weight:300;
+  font-family: 'Oswald', sans-serif;
+  color:#000;
+ 
+  }
+
+.dashboard-icon1:hover {
+color: #3D8E99!important;
+ }
+
+a:hover{
+   color: #3D8E99!important;
+  }
+
+i.fa.fa-icon {
+  font-size: 38px;
+}
+
+i.fa.fa-icon1 {
+  font-size: 18px;
+}
+
+
+.list-align{
+    line-height: 35.5px;
+    font-size: 12px;
+}
+
+.table th {
+  
+    border:none !important;
+    font-weight: 200!important;
+    font-size: 12px !important;
+    
+}
+
+.table td {
+  
+    border:none !important;
+    font-weight: 200!important;
+
+    font-size: 12px !important;
+    
+}
+
+.p-text p{
+	font-weight:400;
+	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.side-paragraph{
+	font-size:13px;
+}
+
+button.btn.btn-style{
+	background-color: rgba(176, 56, 32, 1);
+    border: solid rgba(255, 255, 255, 1) 0px;
+    cursor: pointer !important;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 70px;
+}
+
+button.btn.btn-style:hover {
+    background-color: rgba(162, 156, 156, 1);
+    border-color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    padding: 10px 70px;
+}
+
+.image-width1 {
+	
+}
+
+.p-text1{
+ font-size:13px;
+ font-family: 'Oswald', sans-serif;
+}
+
+.card-header{
+font-size:13px !important;
+ font-family: 'Oswald', sans-serif !important;
+}
+
+.card-body{
+font-size:13px !important;
+
+}
+
+.p-text2{
+font-size:10px;
+ font-family: 'Oswald', sans-serif;
+
+}

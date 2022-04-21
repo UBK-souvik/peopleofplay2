@@ -1,0 +1,1039 @@
+.popFeedBlogs{
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+.common-line-text,.one-line-text,.two-line-text,.three-line-text,.four-line-text,.five-line-text{
+    overflow: hidden;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+}
+.one-line-text{
+    -webkit-line-clamp: 1;
+}
+.two-line-text{
+    -webkit-line-clamp: 2;
+}
+.three-line-text{
+    -webkit-line-clamp: 3;
+}
+.four-line-text{
+    -webkit-line-clamp: 3;
+}
+.five-line-text{
+    -webkit-line-clamp: 5;
+}
+.feedInputs .input-group-prepend img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border: 1px solid #cdcdcd;
+}
+.feedInputs .input-group {
+    align-items: center;
+    justify-content: space-between;
+}
+.feedInputs .input-group input {
+    height: 60px;
+    border-radius: 50px !important;
+    margin-left: 20px;
+}
+.feedIconsLists .IconsLists {
+    text-align: center;
+    display: flex;
+    justify-content: end;
+}
+.feedIconsLists .viewIconsLists {
+    margin-left: auto !important;
+    max-width: 330px;
+}
+.feedIconsLists {
+    text-align: right;
+}
+.feedIconsLists .IconsLists li {
+    padding: 5px;
+    display: inline-block;
+}
+.feedIconsLists {
+    text-align: right !important;
+}
+.feedIconsLists .IconsLists li a {
+    display: block;
+    padding: 0px 10px;
+    text-decoration: none !important;
+}
+.feedIconsLists .IconsLists li a i.fa {
+    font-size: 30px;
+}
+.feedIconsLists .IconsLists li a p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.feedIconsLists .IconsLists li a.clrRed p {
+    color: #ed1b24;
+}
+.feedIconsLists .IconsLists li a.clrOrange p {
+    color: #ed6619;
+}
+.feedIconsLists .IconsLists li a.clrYellow p {
+    color: #ffde00;
+}
+.feedIconsLists .IconsLists li a.clrGreen p {
+    color: #70be44;
+}
+.feedIconsLists .IconsLists li a.clrOrange img{
+    filter: invert(54%) sepia(27%) saturate(6712%) hue-rotate(350deg) brightness(96%) contrast(94%);
+}
+.feedIconsLists .IconsLists li a.clrGreen img{
+    filter: invert(58%) sepia(69%) saturate(380%) hue-rotate(55deg) brightness(99%) contrast(92%);
+}
+.feedIconsLists .IconsLists li a img {
+    max-width: 35px;
+}
+.feedCategory h6 {
+    font-size: 11px;
+    font-weight: normal;
+    margin: 0;
+}
+.feedCategory .nav-item a {
+    color: #000;
+}
+.feedTitles .leftFeed {
+    width: calc(100% - 90px);
+}
+.feedTitles .rightFeed a.profileImg {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cdcdcd;
+    border-radius: 100px;
+    padding: 2px;
+}
+/* --------------- today start---------- */
+.feedTitles h4 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 0px !important;
+}
+/* --------------- today end----------- */
+.feedTitles p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0px;
+    color: #595959;
+}
+.feedTitles {
+    gap: 25px;
+}
+.feedVidImg {
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #cdcdcd;
+}
+a.readMore {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    font-size: 13px !important;
+    color: black !important;
+    text-decoration: underline;
+    background-color: #fff !important;
+    padding: 0px 10px;
+    line-height: 18px;
+    display: inline-block;
+    border: 0 !important;
+    margin: 0 !important;
+}
+.likeLists {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+}
+.likeLists a {
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    text-decoration: none;
+    padding: 0;
+}
+.likeLists img {
+    max-height: 25px;
+    object-fit: contain;
+}
+.likeLists a span {
+/*     text-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+    padding-left: 5px;
+    display: inline-block;
+}
+.feedVidImg iframe {
+    width: 100% !important;
+    min-height: 500px !important;
+}
+.showMore a {
+    font-size: 11px;
+    line-height: 15px;
+    color: #000000;
+    padding: 4px 10px;
+    border: 1px solid #cdcdcd;
+    border-radius: 50px;
+    background: #fed524;
+}
+/* --------------- today start---------- */
+.feedVidImg img {
+    /* width: 100%; */
+    max-height: 500px;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+}
+/* --------------- today end----------- */
+.feedVidImg a {
+    display: block;
+}
+.feedVidImg a + a, .feedVidImg a + a h5,.feedOlnyText {
+    background-color: #f8f8f8;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    margin: 0px;
+    color: #000;
+    letter-spacing: 0.3px;
+}
+.feedVidImg a + a {
+    position: absolute;
+    padding: 4px;
+}
+.feedOlnyText{
+    padding: 4px !important;
+    /* display: block !important; */
+}
+.feedImagesPosts .quizLeftImg {
+    height: auto;
+}
+.feedImagesPosts form.quiz-form a {
+    width: 100%;
+}
+.feed-tag ul.nav.tag-list {
+    word-break: break-all;
+    justify-content: start;
+    column-gap: 15px;
+    padding: 0;
+}
+.feed-tag ul.nav.tag-list a.nav-link {
+    font-size: 12px;
+    padding: 0;
+}
+.st_loader, .st_page_loader {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: auto;
+    -moz-osx-font-smoothing: grayscale;
+    border-radius: 50%;
+    border: 2px solid currentColor;
+    border-right-color: transparent;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: text-bottom;
+    animation: fa-spin .75s linear infinite !important;
+}
+.rightFeed {
+    width: 90px;
+}
+.rightFeed p.userName {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    color: #7000c5;
+    padding: 2px;
+    word-break: break-all;
+}
+span.timeDate {
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 10px;
+    color: #5f5f5f;
+}
+span.post_comment {
+    padding: 7px 10px;
+    background: #898989;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-weight: 600;
+    margin: 0 -15px 0px 0;
+    font-size: 8px;
+    display: inline-block;
+}
+span.post_comment img {
+    width: 25px;
+}
+.share_btn .sharethis-inline-share-buttons {
+    text-align: right !important;
+    margin-bottom: 15px;
+}
+.is_show, .comment_show{
+    display: none;
+}
+.pContents small.text-sm {
+    font-size: 12px;
+}
+.feedCategory .nav-item.dropdown .DropDownMenuMob {
+    transform: translate3d(0px, 25px, 0px) !important;
+    left: unset !important;
+    right: -5px;
+}
+.allPostHere a:hover {
+    text-decoration: underline !important;
+    color: #000000 !important;
+}
+.nextEvents {
+    min-height: 220px;
+    border: 1px solid #C4C4C4;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nextEvents h4 {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+.nextEvents h6, .nextEvents a {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    font-weight: 500;
+}
+.OptionalAd1, .OptionalAd2 {
+    background: #FDF0F0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid gainsboro;
+}
+.OptionalAd1 p,.OptionalAd2 p {
+    margin: 0;
+    font-size: 12px;
+}
+.OptionalAd1 {
+    height: auto;
+}
+.OptionalAd2 {
+    height: 600px;
+}
+.list_active{
+    background: #cccccc;
+    border-radius: 7px;
+}
+.list_disabled{
+    cursor: not-allowed !important;
+    pointer-events: none;
+}
+.popFeedBlogs .btn{
+	outline:0 !important;
+	box-shadow:none !important;
+	border: 0 !important;
+}
+.likeLists li a:hover {
+    text-decoration: none !important;
+}
+/* .likeLists li:last-child img {
+    filter: invert(60%) sepia(5%) saturate(4%) hue-rotate(344deg) brightness(100%) contrast(83%);
+} */
+.OptionalAd img {
+    object-fit: cover;
+}
+.feedTitles .rightFeed a.profileImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.select2-container--bootstrap.select2-container--open {
+    z-index: 99999 !important;
+}
+.ui-tooltip {
+    font-size: 10px;
+    padding: 5px;
+    background-color: black !important;
+    opacity: 1;
+    color: #fff !important;
+}
+.HoverToolTip p {
+    margin: 0;
+    padding: 5px;
+    font-size: 10px;
+    background-color: #000;
+    color: #fff;
+    min-width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 11;
+    bottom: 110%;
+    right: -15px;
+    display: none;
+}
+.HoverToolTip p:before {
+    content: "";
+    border-top: 10px solid #02070d;
+    border-right: 10px solid #00800000;
+    border-left: 10px solid #ffff0000;
+    position: absolute;
+    bottom: -8px;
+    right: 0;
+    left: 0;
+    width: 10px;
+    margin: 0 auto;
+}
+.HoverToolTip:hover p{
+    display: block;
+}
+.errCount .image-box,.errCount input,.errCount .form-control,.errCount .bootstrap-tagsinput ,
+.errCount .select2-container--bootstrap .select2-selection,.errCount textarea {
+    border: 1.5px solid #db0000;
+}
+.feedInputsInside .form-group {
+    margin-bottom: 30px;
+}
+span.errText {
+    position: absolute;
+    font-size: 11px;
+    color: #e00000;
+}
+.errCount {
+    position: relative;
+}/* model css start*/
+.popFeedsModal .modal-body img {
+    height: 100px;
+    width: auto;
+    border-radius: 0px;
+    margin-bottom: 12px;
+}
+.popFeedsModal .modalClose{
+	position: absolute;
+    right: 0;
+    border: 0 transparent;
+	padding:15px;
+	z-index: 1;
+}
+.popFeedsModal .modal-dialog, .popFeedsModal .modal-content{
+	min-height: 625px !important;
+	max-width: 872px !important;
+}
+.modalBodyArea{
+	margin:57px 0;
+}
+.popFeedsModal .modal-content{
+	padding:0 64px;
+	background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 15px;
+}
+.popFeedsModal .YTtopContant{
+	margin:0 0 32px 0;
+}
+.popFeedsModal .toContinue{
+	margin:32px 0;
+}
+.popModalContentOne .modalBtn{
+	font-family: Roboto;
+	font-size: 18px;
+	color:#FFFFFF;
+	min-width: 200px;
+	height: 53px;
+	line-height: 53px;
+	background: #662E91;
+	border-radius: 10px;
+	padding:0px 15px;
+}
+.popModalContentOne p, .popModalContentTwo p{
+	/* font-family: Lato; */
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	color: #000000;
+	margin-bottom:0;
+}
+.popModalContentTwo{
+	margin:58px 0 0;
+}
+.btnFlex {
+    justify-content: center;
+    column-gap: 50px;
+}
+.popMemberContinue, .popMemberContinueTwo {
+    padding: 0!important;
+}
+.feedCategory {
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.popFeedPost .btnAll.playBtnQuiz1 {
+    width: 250px !important;
+    margin-top: 8px !important;
+    color: #000 !important;
+    background-color: #ffca2c !important;
+    border-color: #ffca2c !important;
+}
+div#image-preview img {
+    height: -webkit-fill-available;
+    object-fit: contain;
+    height: -moz-available;
+}
+div#image-preview{
+    padding: 10px !important;
+}
+.submit_news button.btn.btn-sm.text-right {
+    border: 1px solid #1f1d92 !important;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 600;
+}
+@media (max-width: 575px){
+	.popFeedPost .btnAll.playBtnQuiz1 {
+		width: 100% !important;
+	}
+}
+@media(max-width: 991px){
+	.popFeedsModal .modal-content{
+	padding:0px;
+	}
+}
+@media(max-width: 767px) {
+	.popFeedsModal .modal-dialog, .popFeedsModal .modal-content{
+		min-height: 400px !important;
+		max-width: 872px !important;
+	}
+	.modalBodyArea{
+		margin:15px 0;
+	}
+	.popFeedsModal .YTtopContant{
+		margin:0 0 15px 0;
+	}
+	.popFeedsModal .toContinue{
+		margin:15px 0;
+	}
+	.popModalContentTwo{
+		margin:15px 0 0;
+	}
+}
+@media(max-width: 575px) {
+	.btnFlex {
+		flex-flow:wrap;
+		justify-content: center;
+		column-gap: 10px;
+		row-gap: 10px;
+	}
+	.popModalContentOne .modalBtn{
+		font-size: 14px;
+		min-width: 140px;
+		height: 35px;
+		line-height: 35px;
+	}
+	.popModalContentOne p, .popModalContentTwo p{
+		font-size: 14px;
+	}
+}
+/* model css end*/
+@media(max-width: 991px){
+    .feedInputs .input-group-prepend img {
+        width: 60px;
+        height: 60px;
+   }
+    .feedInputs .input-group input {
+        height: 45px;
+        margin-left: 15px;
+   }
+    .feedIconsLists .IconsLists li a img {
+        max-width: 25px;
+   }
+    .feedIconsLists .IconsLists li a p {
+        font-size: 14px;
+   }
+    .feedTitles {
+        gap: 10px;
+   }
+    .feedTitles h4 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+   }
+    .feedTitles p ,a.readMore{
+        font-size: 12px;
+        line-height: 15px;
+   }
+    .feedVidImg iframe {
+        min-height: 350px !important;
+   }
+}
+@media(max-width: 767px){
+    .feedVidImg iframe {
+        min-height: 400px !important;
+   }
+}
+@media(max-width: 575px){
+    .feedTitles .rightFeed a.profileImg {
+        width: 75px;
+        height: 75px;
+   }
+    .feedTitles .leftFeed {
+        width: calc(100% - 75px);
+   }
+    .feedTitles h4 {
+        font-size: 15px;
+   }
+    .feedVidImg iframe {
+        min-height: 300px !important;
+   }
+    .feedIconsLists .IconsLists li a img {
+        max-width: 20px;
+   }
+    .feedIconsLists .IconsLists li a p {
+        font-size: 13px;
+   }
+    .feedInputs .input-group-prepend img {
+        width: 50px;
+        height: 50px;
+   }
+    .feedInputs .input-group input {
+        height: 38px;
+        font-size: 14px;
+   }
+    .feedIconsLists .IconsLists {
+        justify-content: space-between;
+        max-width: 100%;
+   }
+}
+/* ---------------------------- Date:24-02-2022 ---------------------- */
+.popFeedPost .quizLeftImg img {
+    height: 200px !important;
+}
+.popFeedPost .quizLeftImg a {
+    padding: 0 !important;
+}
+.popFeedPost .feed-image-post a {
+    padding: 4px 0 !important;
+}
+.popFeedPost .quizLeftImg {
+    width: fit-content !important;
+    height: fit-content !important;
+}
+.popFeedPost .optionsBox {
+    margin-bottom: 0 !important;
+}
+.popFeedPost .labelContainer {
+    font-size: 14px !important;
+}
+.popFeedPost .btnAll {
+    font-size: 18px !important;
+    width: 310px !important;
+    font-weight: 600 !important;
+	margin-top: 8px !important;
+}
+.popFeedPost .labelContainer {
+    text-align: left !important;
+}
+.popFeedPost .textWrapLetter {
+    margin-top: 0 !important;
+	line-height: 27px !important;
+}
+
+
+
+.OptionalAd a {
+    width: 100%;
+    height: 100%;
+}
+.OptionalAd a img {
+    width: 100% !important;
+    height: 100%;
+}
+.popNewsFeed {
+    background: #E6E2E2;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #E6E2E2;
+}
+.popNewsContent h3 {
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    font-weight: normal;
+}
+.popNewsContent .newsDesc {
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    color: #000;
+    overflow: hidden;
+    max-height: 160px;
+    margin: 10px 0;
+}
+.popNewsContent .newsDescMore{
+    overflow: auto !important;
+}
+.popNewsContent .newsDesc p {
+    margin: 0;
+    display: inline-block;
+}
+.popNewsImg img {
+    min-height: 330px;
+    max-height: 330px;
+    width: 100%;
+    object-fit: cover;
+}
+.popNewsContent {
+    height: 100%;
+    padding: 40px 30px 25px 0px;
+}
+.popNewsContent .newsDesc * {
+    margin: 0;
+    color: #000;
+}
+.popNewsContent .newsDesc a {
+    position: absolute;
+    top: 90%;
+    right: 0px;
+    background-color: #e6e2e2;
+    padding: 0px 0 0 30px;
+}
+.newsLinks a {
+    display: block;
+    font-size: 12px;
+    color: #2b2b2b;
+    line-height: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.NewsGames,.NewsPostsDats {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+    align-items: center;
+}
+.NewsGames p,.NewsPostsDats h6 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000;
+    max-width: 180px;
+}
+.NewsGames p a {
+    color: #000;
+    text-decoration: underline;
+}
+.popFeedBlogs .NewsBtn {
+    background: #FFFFFF;
+    border: 1px solid #662E91 !important;
+    border-radius: 8px;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    color: #000000 !important;
+    font-weight: normal !important;
+}
+.NewsPostsDats h6 {
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.4px;
+    font-family: 'Roboto';
+}
+.byDateTopic {
+    margin: 0;
+    display: flex;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    column-gap: 20px;
+}
+.byDateTopic label, .byDateTopic a {
+    font-style: normal;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Roboto';
+    margin: 0px;
+    letter-spacing: 0.4px;
+    position: relative;
+    text-transform: uppercase;
+    padding-right: 15px;
+}
+.byDateTopic .filterBy {
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto';
+}
+.byDateTopic label {
+    /* padding-right: 2px; */
+}
+.byDateTopic label.date_label:before, .byDateTopic .menuDropdown>.dropdown>a:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 0;
+}
+.rightSideSection .RecentBlg {
+    justify-content: flex-start !important;
+}
+.daterangepicker {
+    position: fixed !important;
+    z-index: 9999 !important;
+    top: 35% !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto;
+    max-width: 245px !important;
+    box-shadow: 0px 0px 50px #a9a9a9;
+}
+.daterangepicker:before,.daterangepicker:after{
+	display:none !important;
+}
+.popNewsPosts {
+    margin-top: 30px;
+}
+.popNewsContent a:hover{
+    text-decoration: underline !important;
+    color: #000000 !important;
+}
+.youTubePlay {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 70px !important;
+}
+a.popYouVideo:hover .hoverHide,a.popYouVideo .hoverShow{
+    display: none;
+}
+a.popYouVideo:hover .hoverShow{
+    display: inline-block;
+}
+.clearFilter a {
+    font-size: 12px;
+}
+@media(max-width:1200px){
+.popNewsContent {
+    padding: 15px 15px 15px 0px;
+}
+.popNewsContent h3 {
+    font-size: 16px;
+    line-height: 20px;
+}
+.popNewsFeed>.row>.col-md-6:first-child {
+    padding-right: 0;
+}
+}
+@media(max-width:767px){
+.popNewsFeed>.row>.col-md-6:first-child {
+    padding-right: 15px;
+}
+.popNewsContent {
+    padding: 20px;
+}
+.popNewsImg img {
+    min-height: 100%;
+    max-height: 300px;
+}
+}
+@media(max-width:575px){
+.NewsGames {
+    padding: 0px 0px 10px 0px !important;
+    flex-direction: column-reverse;
+    row-gap: 10px;
+	align-items: start;
+}
+.NewsPostsDats {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+}
+.daterangepicker .drp-calendar.left {
+    padding: 0px 0 0px 0px !important;
+}
+.daterangepicker .drp-calendar.right {
+    padding: 0px !important;
+}
+.daterangepicker .drp-buttons .btn {
+    margin-left: 5px;
+    width: auto !important;
+}
+.daterangepicker .drp-selected {
+    font-size: 11px !important;
+    padding-right: 5px !important;
+}
+.NewsGames p, .NewsPostsDats h6{
+max-width: 100%;
+}
+.daterangepicker {
+    top: 10% !important;
+}
+.menuDropdown .dropdown-menu {
+    transform: translate3d(-110px, 30px, 0px) !important;
+    left: 0 !important;
+    right: unset !important;
+}
+.youTubePlay {
+    width: 50px !important;
+}
+}
+
+
+
+
+
+
+
+.popYouVideo {
+    position: relative;
+}
+.popYouVideo i.fa.fa-youtube-play {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    right: 0;
+    left: 0;
+    font-size: 65px;
+    line-height: 45px;
+    text-align: center;
+    color: rgb(33 33 33 / 80%);
+}
+a.popYouVideo:hover i.fa.fa-youtube-play{
+    color: rgb(255 0 0);
+}
+.showYouTubeVideo  .modal-dialog {
+    max-width: 700px;
+}
+.showYouTubeVideo .modal-dialog iframe {
+    height: 500px;
+    width: 100%;
+}
+.NewsPostResult.byDateTopic {
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 9px;
+    text-align: right;
+}
+.feedVidImg .popYouVideo img {
+    width: 100%;
+}
+.SocialShareBlog  .blogShare {
+    margin: 0;
+    padding: 0;
+    transform: translate3d(-100px, 30px, 0px) !important;
+    border: 0;
+    box-shadow: 0px 0px 10px #b1b1b1;
+    overflow: hidden;
+    z-index: 0 !important;
+}
+.SocialShareBlog .blogShare .dropSocialShare {
+    padding: 0;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SocialShareBlog .blogShare .dropSocialShare li a {
+    width: 32px;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    padding: 0 !important;
+}
+.SocialShareBlog .blogShare .dropSocialShare li:hover a {
+    background-color: #55acee !important;
+    color: #fff !important;
+}
+.SocialShareBlog .blogShare .dropSocialShare li a .photo_icon {
+    margin-right: 0px;
+}
+.OptionalAd3{
+    height: auto !important;
+}
+small.replyLikesCount, .likes_Count {
+    cursor: pointer;
+}
+.likes_Count {
+    font-size: 10px;
+}
+span.errText {
+    bottom: -21px;
+}
+.FromInput textarea{
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+	 resize: none;
+	padding-left:14px;
+	}
+.FromInput textarea::placeholder {
+    padding: 14px 0;
+	font-size:13px;
+	color:black;
+    
+}
+.FromInput textarea:focus{
+    outline:none;
+}
+.FromInput {
+    position:relative;
+ }
+ 
+.FromInput textarea{
+ width: 100%;
+ background: #f6f6f6;
+ border: none;
+ margin: 12px 0px 0px 15px;
+ height: 45px;
+  resize: none;
+  padding-left:0px !important;
+ 
+ }
+.FromInput textarea::placeholder {
+ padding: 5px 0 0 5px;
+ font-size:13px;
+ color:black;
+ }
+ 
+ .scrollcombtn{
+   position: absolute;
+   bottom: 8px;
+   right: 7px;
+ }
+ 
+/**********|| Meme of the day social icon Css End ||**********/
+.social_iconontop .myDropdownBtn {
+    font-size: 13px !important;
+}
+.social_iconontop .blogShare {
+    z-index: 1 !important;
+    left: -9px !important;
+}
+/**********|| Meme of the day social icon End ||**********/

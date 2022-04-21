@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+ 
+}
+
+
+.left-column{
+    background-color: #000;
+   
+}
+
+header#DesktopFirstEvent {
+    display: block;
+    width:100%;
+}
+
+header#MobileFirstHeaderEvent {
+    display: none;
+    width:100%;
+}
+
+/*
+
+.overlayimages6 {
+    color: white;
+    width: 39.8%;
+    height: 20%;
+    position: absolute;
+    bottom: 0%;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 10px !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.overlayimages7 {
+    color: white;
+    width: 42%;
+    height: 20%;
+    position: absolute;
+    bottom: 0%;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 10px !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+*/
+.Gallery-overlay {
+    justify-content: space-evenly;
+}
+
+.left-column {
+    background-color: none!important;
+   
+    }
+
+.First-column {
+    background-color: #fff!important;
+}
+button.btn.btn-style1{
+    background-color: rgba(61, 142, 153, 1);
+    border: solid rgba(255, 255, 255, 1) 0px;
+    cursor: pointer !important;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 50px;
+    margin:30px;
+}
+
+button.btn.btn-style1:hover {
+    background-color: rgba(162, 156, 156, 1);
+    border-color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    padding: 10px 50px;
+     margin:30px;
+}
+
+.MailingList{
+    padding:70px;
+     background-color: #141414 !important;
+}
+
+.MailingList h1{
+    letter-spacing: 0.1em;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1em;
+    text-align: center;
+    font-size: 55px;
+}
+
+.MailingList h2{
+    letter-spacing: 0.05em;
+    font-family: 'Bree Serif', serif;
+   line-height: 1.4em;
+    text-align: center;
+    font-size: 25px;
+    padding:10px 0px;
+}
+
+.subscribefield{
+    border-width: 2.7868852459016393px !important;
+    border-color: #A29C9C !important;
+    background-color: #141414 !important;
+    color: #A29C9C !important;
+    border-radius: 0px!important;
+    margin-bottom: 10px;
+}
+/*.subscribefield::-webkit-input-placeholder {
+   text-align: center;
+}*/
+
+.btn-subscribe{
+    background-color: #121212!important;
+    /*border: 1px solid #fff!important;*/
+    /*border-width: 2.7868852459016393px;*/
+    color: #FFFFFF;
+}
+
+footer{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+.NextbackgroundColor {
+    background-color: #121212;
+    color: #fff;
+}

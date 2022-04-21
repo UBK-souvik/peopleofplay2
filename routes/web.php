@@ -1877,6 +1877,83 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => 'admi
     /* End Event Header Routes */
 
 
+    /* Start Section Three Routes */
+    Route::get('sectionthree', [
+        'uses' => 'SectionthreeController@getIndex',
+        'as' => 'admin.sectionthree.index'
+    ]);
+
+    Route::get('sectionthree/list', [
+        'uses' => 'SectionthreeController@getList',
+        'as' => 'admin.sectionthree.list'
+    ]);
+
+    Route::get('sectionthree/create', [
+        'uses' => 'SectionthreeController@getCreate',
+        'as' => 'admin.sectionthree.create'
+    ]);
+
+    Route::post('sectionthree/create', [
+        'uses' => 'SectionthreeController@postCreate',
+        'as' => 'admin.sectionthree.create'
+    ]);
+
+    Route::get('sectionthree/update/{id?}', [
+        'uses' => 'SectionthreeController@getUpdate',
+        'as' => 'admin.sectionthree.update'
+    ]);
+
+    Route::get('sectionthree/view/{id?}', [
+        'uses' => 'SectionthreeController@getView',
+        'as' => 'admin.sectionthree.update'
+    ]);
+
+    Route::get('sectionthree/delete/{id?}', [
+        'uses' => 'SectionthreeController@getDelete',
+        'as' => 'admin.sectionthree.delete'
+    ]);
+    /* End Section Three Header Routes */
+
+
+
+    /* Start Section Three Routes */
+    Route::get('sectionprofile', [
+        'uses' => 'SectionprofileController@getIndex',
+        'as' => 'admin.sectionprofile.index'
+    ]);
+
+    Route::get('sectionprofile/list', [
+        'uses' => 'SectionprofileController@getList',
+        'as' => 'admin.sectionprofile.list'
+    ]);
+
+    Route::get('sectionprofile/create', [
+        'uses' => 'SectionprofileController@getCreate',
+        'as' => 'admin.sectionprofile.create'
+    ]);
+
+    Route::post('sectionprofile/create', [
+        'uses' => 'SectionprofileController@postCreate',
+        'as' => 'admin.sectionprofile.create'
+    ]);
+
+    Route::get('sectionprofile/update/{id?}', [
+        'uses' => 'SectionprofileController@getUpdate',
+        'as' => 'admin.sectionprofile.update'
+    ]);
+
+    Route::get('sectionprofile/view/{id?}', [
+        'uses' => 'SectionprofileController@getView',
+        'as' => 'admin.sectionprofile.update'
+    ]);
+
+    Route::get('sectionprofile/delete/{id?}', [
+        'uses' => 'SectionprofileController@getDelete',
+        'as' => 'admin.sectionprofile.delete'
+    ]);
+    /* End Section Three Header Routes */
+
+
     /* Start Event Description Routes */
     Route::get('eventdescription', [
         'uses' => 'EventDescriptionController@getIndex',

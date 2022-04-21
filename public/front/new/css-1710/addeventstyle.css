@@ -1,0 +1,146 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+.left-column{
+    background-color: #000;
+   
+}
+
+header#DesktopAddEvent {
+    display: block;
+    width:100%;
+}
+
+header#MobileAddHeaderEvent {
+    display: none;
+    width:100%;
+}
+
+
+
+/* This is copied from https://github.com/blueimp/jQuery-File-Upload/blob/master/css/jquery.fileupload.css */
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: "alpha(opacity=0)";
+  font-size: 200px;
+  direction: ltr;
+  cursor: pointer;
+}
+
+.thumb {
+  height: 80px;
+  width: 100px;
+  border: 1px solid #000;
+}
+
+ul.thumb-Images li {
+  width: 120px;
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+  height: 120px;
+}
+
+.img-wrap {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+}
+
+.img-wrap .close {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  z-index: 100;
+  background-color: #d0e5f5;
+  padding: 5px 2px 2px;
+  color: #000;
+  font-weight: bolder;
+  cursor: pointer;
+  opacity: 0.5;
+  font-size: 23px;
+  line-height: 10px;
+  border-radius: 50%;
+}
+
+.img-wrap:hover .close {
+  opacity: 1;
+  background-color: #ff0000;
+}
+
+.FileNameCaptionStyle {
+  font-size: 12px;
+}
+
+/*.close{
+    
+        padding: 9px 5px 14px!important;
+  } */
+
+  .Ulstyle li{
+    color: #141414;
+    font-size: 12px;
+  }
+
+  .searchaward {
+    border-width: 2.7868852459016393px !important;
+    border-color: #A29C9C !important;
+    background-color: transparent!important;
+    color: #A29C9C !important;
+    border-radius: 0px!important;
+    margin-bottom: 10px;
+}
+
+  .searchaward1 {
+    border: 1px solid #ced4da;
+    background-color: transparent!important;
+    color: #A29C9C !important;
+    border-radius: .25rem;
+    margin-bottom: 10px;
+}
+
+.edit-btn-style-table
+{
+    padding: 4px 8px!important;
+    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+    background: #f0c14b!important;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+.edit-btn-style-table:hover
+{
+    background-color: #111!important;
+    border-style: 2px solid #fff!important;
+    color:#fff!important;
+    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+}
+
+ select option:hover{
+    content: attr(title);
+    background: #666 !important;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    border: none;
+}

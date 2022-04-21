@@ -1,0 +1,73 @@
+.OfficeHoursMainContant .card {
+    background: transparent;
+    border: unset;
+    border-radius: 0;
+    max-width: 30%;
+    flex: 1 0 25%;
+    margin-bottom: 30px;
+    padding: 0;
+}
+.MainContantBox{
+    background: #fff;
+    border: 4px solid #000;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.CardBodyImage img {
+    max-height: 100px;
+    min-height: 100px;
+    object-fit: cover;
+}
+.OfficeHoursMainContant .card-body p {
+    margin: 20px 0!important;
+}
+.OfficeHoursMainContant .card-body {
+    padding: 0px;
+}
+
+.OfficeButtonGroup a.meetingBtn, .OfficeButtonGroup a.WebsiteBtn  {
+    margin: 4px 0;
+    transition: all 0.4 ease;
+    display: inline-block;
+}
+
+.OfficeButtonGroup a.meetingBtn{
+   background: #ffca2c;
+   color: #000;
+}
+.OfficeButtonGroup a.WebsiteBtn {
+    background: #5d2878;
+    color: #fff;
+}
+/*.OfficeButtonGroup a:hover {
+    background: #ffdd00;
+    color: #000;
+}*/
+.OfficeHoursHead h2, .OfficeHoursHead p {
+    color: #5d2878;
+}
+@media screen and (max-width: 1199px) {
+.OfficeHoursMainContant .card {
+    max-width: 44%;
+    flex: 1 0 44%;
+}
+}
+@media screen and (max-width: 991px){
+.OfficeHoursMainContant .card {
+    max-width: 44%;
+    flex: 1 0 44%;
+}
+}
+@media screen and (max-width: 575px){
+.OfficeHoursMainContant .card {
+    max-width: 100%;
+    flex: 1 0 100%;
+}
+}
+
+.defaultOfficeHour {
+    height: 188px;
+    align-items: center;
+    display: inline-flex;
+}

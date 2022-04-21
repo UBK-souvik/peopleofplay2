@@ -1,0 +1,105 @@
+.ClassifiedsSearchSection {
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 40px 14px;
+}
+
+.ClassifiedListBox {
+    box-shadow: 0px 2px 4px 2px #8c8c8c;
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 20px;
+    height: 100%;
+}
+
+.ClassifiedHeading {
+    font-size: 24px;
+}
+
+.ClassifiedListBox p {
+    font-size: 14px;
+}
+                           
+.firstSerchSection {
+    margin-bottom: 20px;
+}
+
+.mailingclassifieds .MailingList {
+    background-color: #fff!important;
+}
+.kbg_black h4, .kbg_black .close  {
+    color: #000 !important;
+}
+
+/***Classifieds Details Page CSS***/
+.ClassifiedPostDetail a.span-text-grey:hover {
+    text-decoration: underline;
+}
+
+.ClassifiedPostDetail a.span-text-grey {
+    color: #652b91;
+    font-weight: 600;
+}
+  .classifiedmodelApplication{
+   background-color: #9900FF;
+   font-weight: 600;
+   padding: 6px 27px;
+   font-size: 15px;
+   border-radius: 4px !important;
+   color: #fff;
+   }
+   .classifiedmodelApplication:hover, .ClassifiedReadMoreBtn:hover{
+   color: #fff;
+   }
+ .RelatedClassifiedRecent p {
+    font-size: 14px;
+    text-align: justify;
+}
+.ClassifiedReadMoreBtn {
+    background: #9900ff;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+.RelatedClassifiedRecent:hover h5 a {
+    color: #642a8d;
+}
+
+.RelatedClassifiedRecent h5 a {
+    color: #000;
+}
+.RelatedClassifiedPost {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px 1px #8c8c8c !important;
+    border-radius: 12px;
+    padding: 20px;
+}
+.RelatedClassifiedRecent p, .RelatedClassifiedRecent h5 {
+      overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+        -webkit-box-orient: vertical;
+}
+.RelatedClassifiedRecent p{
+    -webkit-line-clamp: 5;
+}
+.RelatedClassifiedRecent h5 {
+    -webkit-line-clamp: 2;
+}
+.ClassifiedsSearchSection select.form-control {
+    border-radius: 12px;
+}
+.ClassifiedListBox a {
+    font-weight: 500;
+}
+.ClassifiedListBox .readMore, .ClassifiedListBox .readMore:hover, .ClassifiedListBox .readMore:focus {
+    /* box-shadow: 0px 1px 4px 1px #8c8c8c; */
+    font-size: 11px;
+    border-radius: 6px;
+    background: #fff;
+    !important: ;
+    color: #000;
+    border: 1px solid #000;
+}
+
+/***Classifieds Details Page CSS***/

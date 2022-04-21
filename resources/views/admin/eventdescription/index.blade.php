@@ -23,7 +23,7 @@
                 <div class="col-md-12">
 				    <div class="box">
 				        <div class="box-body">
-				            <table class="table table-striped table-bordered table-hover dataTable" id="navigation-table">
+				            <table class="table table-striped table-bordered table-hover dataTable" id="">
 				                <thead>
 					                <tr>
                                         <th>Description Header</th>
@@ -32,6 +32,15 @@
 					                </tr>
 				                </thead>
 				                <tbody>
+                                     <?php foreach ($eventDescription as $key => $event) { ?>
+                                        <tr>
+                                          <td>{{ $event->description_header }}</td>
+                                          <td>{!!html_entity_decode($event->description_details)!!}</td>
+                                          <td><a href="{{ URL::to("admin/eventdescription/update") }}/{{ $event->id }}">
+                                            <i class="fa fa-edit fa-fw"></i></td>
+                                        </tr>
+                                     <?php } ?>
+
 				                </tbody>
 				            </table>
 				        </div>
@@ -46,58 +55,5 @@
 @endsection
 
 @section('scripts')
-<script type="text/javascript">
-	$(function() {
-        $('#navigation-table').DataTable({
-			"pageLength": 50,
-            processing: true,
-            serverSide: true,
-            ajax: '{{ route("admin.eventdescription.list") }}',
-            columns : [
-	            { "data": "description_header" },
-	            { "data": "description_details" },
 
-                {
-                    "mRender": function (data, type, row)
-                    {
-                        return '<a href="{{ URL::to("admin/eventdescription/update") }}/'+row.id+'">\
-                            <i class="fa fa-edit fa-fw"></i>\
-                        </a>\
-                        <a class="delete_admins" href="{{ URL::to("admin/eventdescription/delete") }}/'+row.id+'">\
-                            <i class="fa fa-trash fa-fw"></i>\
-                        </a>';
-                    },
-                    orderable: false
-                }
-	        ],
-            order : [[0, 'desc']]
-        });
-
-        $('#navigation-table').on('click', '.delete_admins', function(e){
-            e.preventDefault();
-            var r = confirm("{{ adminTransLang('are_you_sure_to_delete') }}");
-            if (r == false) {
-                return false;
-            }
-            var href = $(this).attr('href');
-            $.get( href, function( data ) {
-                $('#navigation-table').DataTable().ajax.reload();
-            });
-        });
-    });
-
-    var news_data_saved_flag = '{{ Session::has("news_data_saved_flag") }}';
-
-        $(document).ready(function(){
-
-        if(news_data_saved_flag!="")
-         {
-             $('#message-box-id').html('{{adminTransLang("data_saved_successfully")}}').removeClass('hide alert-danger').addClass('alert-success');
-             $("#message-box-id").fadeTo(4000, 500).slideUp(500, function(){
-             $("#message-box-id").alert('close');
-            });
-         }
-        });
-
-</script>
 @endsection

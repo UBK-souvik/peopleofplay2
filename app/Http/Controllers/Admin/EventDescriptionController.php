@@ -18,21 +18,32 @@ class EventDescriptionController extends Controller
     public function getIndex()
     {
 // echo 111;exit;
-        return view('admin.eventdescription.index');
+$eventDescription = EventDescription::all();
+
+        return view('admin.eventdescription.index',compact('eventDescription'));
     }
 
     public function getList()
     {
         // echo 1111;exit;
 
-        $event_description = \App\Models\EventDescription::select('*');
-        // print_r($event_description);exit;
-        return \DataTables::of($event_description)
-            ->editColumn('main_image', function ($query) {
-                return @imageBasePath($query->main_image) ?? null;
-            })
+        // $eventDescription = \App\Models\EventDescription::select('*');
+        $eventDescription = EventDescription::all();
 
-            ->make();
+        // print_r($eventDescription);exit;
+
+        // $taglessBody = strip_tags($event_description);
+        // print_r($taglessBody);exit;
+        // $testArray=array('jujj'=>$event_description);
+			// echo json_encode($testArray);exit;
+        return view('admin.eventdescription.index',compact('eventDescription'));
+
+        // return \DataTables::of($event_description)
+        //     ->editColumn('main_image', function ($query) {
+        //         return @imageBasePath($query->main_image) ?? null;
+        //     })
+
+        //     ->make();
     }
 
     public function getCreate()

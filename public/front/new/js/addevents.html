@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Add Event</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  <link rel="stylesheet" href="css/HomePagestyle.css">
+  <link rel="stylesheet" href="css/Homestyle.css">
+  <link rel="stylesheet" href="css/membership.css">
+  <link rel="stylesheet" href="css/productpagestyle.css">
+  <link rel="stylesheet" href="css/productscss.css">
+  <link rel="stylesheet" href="css/registrationstyle.css">
+  <link rel="stylesheet" href="css/responsiveaddevents.css">
+  <link rel="stylesheet" href="css/responsiveevents.css">
+  <link rel="stylesheet" href="css/responsiveheaderpart.css">
+  <link rel="stylesheet" href="css/responsiveHomepage.css">
+  <link rel="stylesheet" href="css/responsivelogin.css">
+  <link rel="stylesheet" href="css/responsiveProductHomepage.css">
+  <link rel="stylesheet" href="css/responsiveregistration.css">
+  <link rel="stylesheet" href="css/responsivestyle.css">
+  <link rel="stylesheet" href="css/styleedit.css">
+  <link rel="stylesheet" href="css/stylemessage.css">
+  <link rel="stylesheet" href="css/eventstyle.css">
+  <link rel="stylesheet" href="css/editresponsivestyle.css">
+  <link rel="stylesheet" href="css/addeventstyle.css">
+  <link rel="stylesheet" href="css/addproductsresponsivestyle.css">
+  <link rel="stylesheet" href="css/addawardstyle.css">
+  <link rel="stylesheet" href="css/productpagestyle.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/dropzone.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+    <body class="header-background">
+    <section id="MobileAddEvent">
+      <header class="MobileHeader">
+        <nav class="navbar navbar-expand-lg navbar-dark Topbar">
+          <div class="container">
+              <!-- Dashboard toggle -->
+              <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#dashboardMobile" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                 <a class="dashboardp"><i class="fa fa-tachometer navbarsicontop" aria-hidden="true"></i>&nbsp;My dashboard</a>
+              </button>
+              <a href="login.html" class="dashboardplogin"><i class="fa fa-sign-out navbarsicontop" aria-hidden="true"></i>&nbsp;Login</a>
+               <div class="collapse navbar-collapse" id="dashboardMobile">
+                  <ul class="navbar-nav ml-auto">
+                    <hr class="bg-white">
+                       <li class="nav-item active">
+                     <a href="ShowBoatHomePage.html" class="nav-linkdashboard"><i class="fa fa-user fa-icon1dashboard" aria-hidden="true"></i>View Profile</a>
+                  </li>
+                  <hr class="linemargin">
+                  <li class="nav-item">
+                    <a href="editProfile.html" class="nav-linkdashboard"><i class="fa fa-pencil fa-icon1dashboard" aria-hidden="true"></i>Edit Profile</a>
+                  </li>
+                  <hr class="linemargin">
+                   <li class="nav-item">
+                    <a href="#" data-toggle="modal" data-target="#gridSystemModal" class="nav-linkdashboard"><i class="fa fa-shopping-cart fa-icon1dashboard" aria-hidden="true"></i>Products</a>
+                  </li>
+                  <hr class="linemargin">
+                   <li class="nav-item">
+                    <a href="#" class="nav-linkdashboard"><i class="fa fa-calendar fa-icon1dashboard" aria-hidden="true"></i>Events</a>
+                  </li>
+                  <hr class="linemargin">
+                  <li class="nav-item">
+                   <a href="addBlogpage.html" class="nav-linkdashboard"><i class="fa fa-pencil-square fa-icon1dashboard" aria-hidden="true"></i>Blog</a>
+                 </li>
+                 <hr class="linemargin">
+                 <li class="nav-item">
+                  <a href="addDidyouknowpage.html" class="nav-linkdashboard"><i class="fa fa-bullhorn fa-icon1dashboard" aria-hidden="true"></i>Did you Know</a>
+                </li>
+                  <hr class="linemargin">
+                   <li class="nav-item">
+                     <a data-toggle="modal" href="message.html" data-target="#Modalmessage" class="nav-linkdashboard"><i class="fa fa-envelope fa-icon1dashboard" aria-hidden="true"></i>Message</a>
+                  </li>
+                  <hr class="linemargin">
+                  <li class="nav-item">
+                    <a class="nav-linkdashboard" href="#"><i class="fa fa-unlock-alt fa-icon1dashboard"  aria-hidden="true"></i>Change Password</a>
+                  </li>
+                  <hr class="linemargin">
+                   <li class="nav-item">
+                    <a href="#" class="nav-linkdashboard"><i class="fa fa-sign-out fa-icon1dashboard " aria-hidden="true"></i>Logout</a>
+                  </li>
+                  <hr class="linemargin">
+                  </ul>
+              </div>
+        </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black mt-2">
+          <div class="container">
+              <a href="HomePage.html" class=" navbar-brand d-block px-3 py-2 text-uppercase text-center text-bold text-white Logostyle">People<span class="span-text-grey">of</span>play</a></a>
+
+              <!-- Menu toggle -->
+              <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fa fa-bars navbarsicon" aria-hidden="true"></i>
+              </button>
+              
+          <div class="collapse navbar-collapse" id="menu">
+                  <ul class="navbar-nav mr-auto">
+                     <hr class="linemarginmenu">
+                      <li class="nav-item active">
+                    <a class="nav-link" href="#">Toys, Games & launches <span class="sr-only">(current)</span></a>
+                  </li>
+                  <hr class="linemarginmenu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inventors, Events & Photos</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">News & Community</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">Watchlist</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">PoPPro</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                   <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                  </li>
+                  <hr class="linemarginmenu">
+                  <li class="nav-item text-white"><i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  <i class="fa fa-instagram" aria-hidden="true"></i></li>
+                </ul>
+                <hr class="linemarginmenu">
+                <form class="form-inline my-2 my-lg-0">
+                  <span class="fa fa-search form-control-feedback"></span>
+                      <input class="form-control" type="text" placeholder="Search Site" aria-label="Search">
+                </form>
+              
+              </div>
+          </div>
+        </nav>
+    </header>
+  </section>
+
+<section id="DesktopAddEvent">
+    <header class="DesktopHeader">
+      <div class="container">
+        <div class="box-width">
+          <div class="row pt-5">
+            <div class="col col-md-3">
+              <a href="#" class="d-block px-3 py-2 text-uppercase text-center text-bold text-white Logostyle">People<span class="span-text-grey">of</span>play</a>
+              </div>
+              <div class="col col-md-9">
+                <div class="d-flex align-items-center">
+                  <div class="form-group has-search">
+                    <span class="fa fa-search form-control-feedback"></span>
+                    <input class="form-control" type="text" placeholder="Search Site" aria-label="Search">
+                </div>
+                <ul class="d-flex text-white li-text">
+                  <li>PoPPro</li>
+                  <li>Help</li>
+                </ul>
+                </div>
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="col">
+              <ul class="d-flex flex-row justify-content-around second-icon-text text-white text-center">
+                <div class="text-center text-md-right mobilehidden">
+                    <ul class="list-unstyled list-inline">
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                         <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                          <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                         <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                          <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                           <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                        <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                           <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                           <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                     
+                    </ul>
+        </div>
+                  <li class="li-color">Toys, Games & launches</li>
+                  <li class="li-color">Inventors, Events & Photos</li>
+                  <li class="li-color">News & Community</li>
+                  <li class="li-color">Watchlist</li>
+                  <a href="LoginPage.html"><li class="li-color">Login</li></a>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+  </section>
+
+<main>
+
+
+ <div class="container">
+     <div class="row">
+      <div class="col-md-12">
+        <div class="container-width">
+          <div class="left-column">
+             <form action="/action_page.php" class="">
+               <div class="First-column bg-white">
+                 <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                                   <div id="file-upload-formten" class="uploaderten">
+                                  <input id="file-uploadten" type="file" name="fileUpload" accept="image/*" />
+                                  <label for="file-uploadten" id="file-dragten" class="label1">
+                                    <img id="file-imageten" src="#" alt="Preview" class="hidden">
+                                    <div id="startten">
+                                      <i class="fa fa-download" aria-hidden="true"></i>
+                                      <div></div>
+                                      <div id="notimageten" class="hidden"></div>
+                                      <span id="file-upload-btnten" class="btn edit-btn-style">Add Event Image</span>
+                                    </div>
+                                    <div id="responseten" class="hidden">
+                                      <div id="messagesten"></div>
+                                      <progress class="progress" id="file-progressten" value="0">
+                                        <span>0</span>%
+                                      </progress>
+                                    </div>
+                                  </label>
+                              </div>
+                            </div>
+                  </div>
+                </div>
+                <hr>
+                <div id="First_Event" class="row">
+                   <div class="col-md-4">
+                          <div class="form-group">
+                          <label for="NameEvent">Name Of Event</label>
+                            <input id="NameEvent" type="text" name="NameEvent" class="form-control" placeholder="">
+                          </div>
+                    </div>
+                   <div class="col-md-4">
+                    <div class="form-group">
+                            <label for="Category">Category</label>
+                              <select name="Category" class="custom-select">
+                                <option selected class="search_categories">Select</option>
+                                <option value="Action Figures & Statues">Action Figures & Statues</option>
+                                <option value="Arts & Crafts">Arts & Crafts</option>
+                                <option value="Baby & Toddler Toys">Baby & Toddler Toys</option>
+                                <option value="Building Toys">Building Toys</option>
+                                <option value="Dolls & Accessories">Dolls & Accessories</option>
+                                <option value="Dress Up & Pretend Play">Dress Up & Pretend Play</option>
+                                <option value="Kids' Electronics">Kids' Electronics</option>
+                                <option value="Games">Games</option>
+                                <option value="Grown-Up Toys">Grown-Up Toys</option>
+                                <option value="Hobbies">Hobbies</option>
+                                <option value="Kids' Furniture, Décor & Storage">Kids' Furniture, Décor & Storage</option>
+                                <option value="Learning & Education">Learning & Education</option>
+                                <option value="Novelty & Gag Toys">Novelty & Gag Toys</option>
+                                <option value="Party Supplies">Party Supplies</option>
+                                <option value="Puppets">Puppets</option>
+                                <option value="Puzzles">Puzzles</option>
+                                <option value="Sports & Outdoor Play">Sports & Outdoor Play</option>
+                                <option value="Stuffed Animals & Plush Toys">Stuffed Animals & Plush Toys</option>
+                                <option value="Toy Remote Control & Play Vehicles">Toy Remote Control & Play Vehicles</option>
+                                <option value="Tricycles, Scooters & Wagons">Tricycles, Scooters & Wagons</option>
+                                <option value="Video Games">Video Games</option>
+                              </select>
+                          </div>
+                   </div>
+                   <div class="col-md-4">
+                       <div class="form-group">
+                            <label for="Sub Category">Sub Category</label>
+                              <select name="Sub Category" class="custom-select">
+                                <option selected>Select</option>
+                                <option value="Accessories">Accessories</option>
+                                <option value="Action Figures">Action Figures</option>
+                                <option value="Playsets & Vehicles">Playsets & Vehicles</option>
+                                <option value="Statues & Bobbleheads">Statues & Bobbleheads</option>
+                                </select>
+                          </div>
+                   </div>
+                </div>
+                <hr>
+                <div class="row">
+                   <div class="col-md-6">
+                          <div class="form-group">
+                          <label for="DescriptionEvent">Description</label>
+                          <textarea class="form-control" rows="1" id="DescriptionEvent" placeholder=""></textarea>
+                       </div>
+                   </div>
+                   <div class="col-md-6">
+                       <div class="form-group">
+                          <label for="YearStarted">Year Started</label>
+                          <input id="YearStarted" type="number" name="YearStarted" class="form-control" placeholder="">
+                      </div>
+                   </div>
+                </div>
+                <h3 class="Tile-style social my-3">Contact Info</h3>
+                 <div class="row">
+                    <div class="col-md-6">
+                       <div class="form-group">
+                          <label for="Company">Company</label>
+                          <input id="Company" type="text" name="Company" class="form-control" placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                       <div class="form-group">
+                          <label for="CompanyInfo">Company Info</label>
+                          <input id="CompanyInfo" type="text" name="CompanyInfo" class="form-control" placeholder="">
+                        </div>
+                    </div>
+                 </div>
+                <h3 class="Tile-style social my-3">Media</h3>
+                      <div class="row">
+                            <div class="col-md-4">
+                                  <label For="ImageEvent">Attachment Instructions :</label>
+                                  <ul class="Ulstyle">
+                                      <li>
+                                          Allowed only files with extension (jpg, png, gif)
+                                      </li>
+                                      <li>
+                                          Maximum number of allowed files 10 with 300 KB for each
+                                      </li>
+                                      <li>
+                                          you can select files from different folders
+                                      </li>
+                                  </ul>
+                                  <!--To give the control a modern look, I have applied a stylesheet in the parent span.-->
+                                  <span class="btn edit-btn-style fileinput-button">
+                                      <span>Add Images</span>
+                                      <input type="file" name="files[]" id="files" multiple accept="image/jpeg, image/png, image/gif,"><br />
+                                  </span>
+                            </div>
+                            <div class="col-md-8">
+                              <div id="myModal" class="modal">
+                                 <span class="close">&times;</span>
+                                <output id="Filelist" class="modal-content"></output>
+                              </div>
+                            </div>
+                      </div>
+                       <hr>
+                      <div class="row">
+                            <div class="col-md-4">
+                                <span class="btn edit-btn-style fileinput-button">
+                                  <span> Add Vedios</span>
+                                  <input type="file" name="files[]" id="vediofiles" accepts="video/*" multiple>
+                                </span>
+                            </div>
+                            <div class="col-md-8">
+                             <output id="list"></output>
+                            </div>
+                      </div>
+                      <hr>
+                    <div class="row">
+                          <div class="col-md-12">
+                             <div class="form-group">
+                                <label for="Article">Article</label>
+                                <input id="Article" type="url" name="Article" class="form-control" placeholder="">
+                              </div>
+                          </div>
+                    </div>
+                 <hr>
+                 <h3 class="Tile-style social my-3">Award Categogories</h3>
+                         <div class="row">
+                            <div class="col-md-4">
+                                <button type="button" class="btn edit-btn-style" data-toggle="modal" data-target="#ModalLoginForm">
+                                    Add Award
+                                </button>
+                                <div id="ModalLoginForm" class="modal fade">
+                                  <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                          <div class="modal-header text-center">
+                                              <h1 class="modal-title w-100 font-weight-bold">Add Award</h1>
+                                          </div>
+                                              <div class="modal-body">
+                                                  <form role="form" method="POST" action="">
+                                                      <input type="hidden" name="_token" value="">
+                                                      <div class="form-group">
+                                                         <label for="Name">Name</label>
+                                                          <input id="AwardName" type="text" name="name" class="form-control" placeholder="">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <label for="DescriptionEvent">Description</label>
+                                                          <textarea class="form-control" rows="1" id="DescriptionEvent" placeholder=""></textarea>
+                                                       </div>
+                                                      <div class="form-group">
+                                                         <label for="Events Associated with">Events Associated with</label>
+                                                          <input id="EventsAssociatedwith" type="text" name="Events Associated with" class="form-control" placeholder="">
+                                                      </div>
+                                                      <div class="form-group">
+                                                         <label for="Year Established">Year Established</label>
+                                                          <input id="YearEstablished" type="number" name="Year Established" class="form-control" placeholder="">
+                                                      </div>
+                                                        <div class="form-group">
+                                                           <label for="Events Associated with">Year Dissolved</label>
+                                                            <input id="YearDissolved" type="number" name="Year Dissolved" class="form-control" placeholder="">
+                                                        </div>
+                                                         <div class="form-group">
+                                                             <label for="Previous year recipients">Previous year recipients</label>
+                                                              <input id="Previousyearrecipients" type="number" name="Previous year recipients" class="form-control" placeholder="">
+                                                          </div>
+                                                          <div class="form-group">
+                                                             <label for="Previous year products">Previous year products</label>
+                                                              <input id="Previousyearproducts" type="number" name="Previous year products" class="form-control" placeholder="">
+                                                           </div>
+                                                            <div class="modal-footer border-top-0 d-flex justify-content-center">
+                                                              <button type="submit" class="btn edit-btn-style">Submit</button>
+                                                            </div>
+                                                        </form>
+                                                      </div>
+                                                  </div><!-- /.modal-content -->
+                                              </div><!-- /.modal-dialog -->
+                                          </div><!-- /.modal -->
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-group">
+                                    <input id="Searchbar" type="search" name="Searchbar" class="form-control searchaward" placeholder="Search Already added awards">
+                                   </div>
+                            </div>
+                         </div>
+                          <hr>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="table-responsive text-nowrap">
+                              <!--Table-->
+                                <table class="table table-striped">
+                                  <thead>
+                                    <tr>
+                                      <th>Name</th>
+                                      <th>Description</th>
+                                      <th>Events Associated with</th>
+                                      <th>Year Established</th>
+                                      <th>Year Dissolved</th>
+                                      <th>Previous year recipients</th>
+                                      <th>Previous year products</th>
+                                      <th>Edit</th>
+                                      <th>Delete</th>
+                                    </tr>
+                                  </thead>
+                                 <tbody>
+                                    <tr>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td>
+                                        <span class="table-edit">
+                                          <button type="button"
+                                            class="btn edit-btn-style-table rounded-0 btn-sm my-0">Edit</button>
+                                          </span>
+                                      </td>
+                                      <td>
+                                        <span class="table-delete">
+                                          <button type="button"
+                                            class="btn edit-btn-style-table rounded-0 btn-sm my-0">Delete</button>
+                                          </span>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                  <!--Table body-->
+
+
+                                </table>
+                                <!--Table-->
+                              </div>
+                            </div>
+                          </div>
+                       <hr>
+                    <div class="row">
+                          <div class="col-md-12">
+                             <div class="form-group">
+                                <label for="Related awards">Related awards</label>
+                                <input id="Relatedawards" type="url" name="Related awards" class="form-control" placeholder="">
+                              </div>
+                          </div>
+                    </div>
+                    <button type="submit" class="btn edit-btn-style">Save</button>
+             </form> 
+             </div>
+           </div>
+            <div class="right-column px-3">
+            <div class="">
+            <ul class="list-align align-items-start mt-3">
+              <li class="dashboard-icon">Dashboard</li>
+              <hr>
+              <div class="mt-4">
+                <a href="HomePage.html"><li class="dashboard-icon1"><i class="fa fa-user fa-icon1 mr-3" aria-hidden="true"></i>View Profile</li></a>
+                <a href="editProfile.html"><li class="dashboard-icon1"><i class="fa fa-pencil fa-icon1 mr-3" aria-hidden="true"></i>Edit Profile</li></a>
+                <a href="addproductsclient.html" data-toggle="modal" data-target="#gridSystemModal"><li class="dashboard-icon1"><i class="fa fa-shopping-cart fa-icon1 mr-3" aria-hidden="true"></i>Products</li></a>
+                <a href="addevents.html"><li class="dashboard-icon1"><i class="fa fa-calendar fa-icon1 mr-3" aria-hidden="true"></i>Events</li></a>
+                <a href="addBlogpage.html"><li class="dashboard-icon1"><i class="fa fa-pencil-square mr-3" aria-hidden="true"></i>Blog</li></a>
+                <a href="addDidyouknowpage.html"><li class="dashboard-icon1"><i class="fa fa-bullhorn mr-3" aria-hidden="true"></i>Did You Know</li></a>
+                <a data-toggle="modal" href="message.html" data-target="#Modalmessage"><li class="dashboard-icon1"><i class="fa fa-envelope fa-icon1 mr-3" aria-hidden="true"></i>Message</li></a>
+                <a href="#"><li class="dashboard-icon1"><i class="fa fa-unlock-alt fa-icon1 mr-3" aria-hidden="true"></i>Change Password</li></a>
+                <a href="#"><li class="dashboard-icon1"><i class="fa fa-sign-out fa-icon1 mr-3" aria-hidden="true"></i>Logout</li></a>
+              </div>
+            </ul>
+            <hr>
+          </div>
+            <ul class="list-align align-items-start mt-3 pl-5">
+              <a href="#"><li>Play-o-graphy</li></a>
+              <a href="#"><li>Vedios</li></a>
+            </ul>
+            <hr>
+            <div class="text-center p-text">
+              <p>People of Play picks: September</p>
+              <img src="images/gallery9.jpg" class="img-fluid text-center my-2">
+            </div>
+
+            <p class="side-paragraph pt-3">A story of survival and resilience leads to joy for generations of children. <br><br>
+            What do popsicles, motorized bicycles, and Anne Frank have to do with one another? They are all part of the path that led Ora and Theo Coster to the stage at the 2012 TAGIE Awards to be honored for Lifetime Achievement. Theirs is an inspiring story that spans continents, decades.…and the terror of wars. <br><br>
+
+            Their most famous creation: <span class="span-style">Guess Who?<span>
+
+
+              </p>
+ 
+          <!-- Section -->
+            <div class="text-center p-text">
+              <p>Top 10 Toys</p>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table">
+              <tr>
+                  <th scope="row">Razor scooter</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Fairy Garden</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">in store</td>
+                </tr>
+                <tr>
+                  <th scope="row">Bilderhoos</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Edwin the Duck</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Enigmaze</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">in store</td>
+                </tr>
+                <tr>
+                  <th scope="row">Fashion Angels</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Mr. Game</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Lionel Trains</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Lite Poppers</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">in store</td>
+                </tr>
+                <tr>
+                  <th scope="row">Kelele</th>
+                  <td colspan="2"></td>
+                  <td class="text-right">buy</td>
+                </tr>
+            </table>
+            </div>
+            <span class="span-style">See more popular toys & games >></span>
+            <hr>    
+
+
+            <!-- Section -->
+            <div class="text-center p-text">
+              <p>White Papers</p>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table">
+              <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                <tr>
+                  <th scope="row">&lt;White paper title&gt;...</th>
+                  <td colspan="2"></td>
+                  <td class="text-right"> &lt;Author name &gt;</td>
+                </tr>
+                </table>
+
+            </div>
+            <div class="text-center">
+            <button type="button" class="btn btn-style rounded-0 text-center">Sign Up</button>
+          </div>
+            <hr>  
+              <div class="text-center p-text">
+              <p>Blogger of the Month</p>
+              <img src="images/gallery7.jpg" class="img-fluid text-center my-2"><br><span class="span-style">Keri Wilmot<span>
+
+            </div>
+            <hr>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FChicagoToyAndGameWeek%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="140px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+            <hr>
+            <center><a href="https://twitter.com/intent/tweet?screen_name=ChicagoToyAndGameWeek&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large" data-dnt="true" data-show-count="true">Tweet to @ChicagoToyAndGameWeek</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+            <hr>
+            <div class="card">
+              <img class="card-img-top" src="images/gallery7.jpg">
+                  <div class="card-header bg-white">ManufacturingStories</div>
+                <div class="card-body bg-white">Beth Engelman – Mommy on a Shoestring | ChiTAG (Chicago Toy and Game) Week – ManufacturingStories®</div>
+                <div class="card-footer bg-white"><div class="image-width1 d-flex flex-row justifly-content-center">
+                    <img src="images/pint.jpg" class="rounded-circle mr-3">
+                     <div class="">
+                      <p class="p-text2"><b>Mary Couzin - Chicago Toy & Game Fair CEO</b><br>Mary Couzin - Chicago Toy & Game Fair CEO
+                      </p>
+                       </div>
+                    </div></div>
+             </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                  <div class="image-width1 d-flex flex-row justifly-content-center">
+                    <img src="images/card.jpg" class="img-fluid mr-3">
+                     <div class="">
+                      <p class="p-text1">Marvel to launch Black Widow figurine<br><span class="span-style">lego.com</span>
+                      </p>
+                       </div>
+                    </div>
+                    <div class="image-width1 d-flex flex-row justifly-content-center my-3">
+                    <img src="images/card.jpg" class="img-fluid mr-3">
+                     <div class="">
+                      <p class="p-text1">Old game with a new twist
+                      <br><span class="span-style">3ds.com</span>
+                      </p>
+                       </div>
+                    </div>
+                    <div class="image-width1 d-flex flex-row justifly-content-center">
+                    <img src="images/card.jpg" class="img-fluid mr-3">
+                     <div class="">
+                      <p class="p-text1">Busy hatching another animal!
+                      <br><span class="span-style">hasbro.com</span>
+                      </p>
+                       </div>
+                    </div>
+                    <hr>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+            
+  </div>
+</main>
+
+
+<footer class="container page-footer font-small mdb-color text-white">
+
+  <!-- Footer Links -->
+  <div class="text-center text-md-left footer-background">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left px-3 pt-3">
+
+
+    <!-- Grid column -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3 imagecenter">
+        <h6 class="text-uppercase mb-4">People Of Play everywhere</h6>
+        <p class="paragraphdesign">Find launch times, watch trailers, browse photos, track your Watchlist and rate your favorite toys, games and inventors on your phone or tablet!
+        </p>
+       <ul class="d-flex footerimg">
+          <li class="border mr-1"><img src="images/footergoogle.png"></li>
+          <li class="border"><img src="images/footerapp.png"></li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mt-3 h4footer">
+          <h4>Contact us</h4>
+          <hr class="bg-white">
+          <ul>
+            <li><a href="#!">Contact us</a></li>
+             <li><a href="#!">info@chitag.com</a></li>
+              <li><a href="#!">+1-847-677-8277</a></li>
+          </ul>
+           
+        </div>
+         <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mt-3 h4footer">
+              <h4>About us</h4>
+               <hr class="bg-white">
+              <ul>
+            <li><a href="#!">About ChiTAG Group</a></li>
+             <li><a href="#!">The Importance of Play</a></li>
+              <li><a href="#!">Charities we Support</a></li>
+          </ul>
+          </div>
+         <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mt-3 h4footer">
+          <h4>Newsletters</h4>
+           <hr class="bg-white">
+           <ul>
+            <li><a href="#!">Importance of Play</a></li>
+             <li><a href="#!">Business of Play</a></li>
+              <li><a href="#!">Play in Education</a></li>
+              <li><a href="#!">Media & Social Influencers</a></li>
+          </ul>
+           
+         </div>
+         <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mt-3 h4footer">
+          <h4>Play with us</h4>
+           <hr class="bg-white">
+           <ul>
+            <li><a href="#!">Advertise</a></li>
+             <li><a href="#!">Exhibit at the Fair</a></li>
+              <li><a href="#!">Join the YIC</a></li>
+              <li><a href="#!">Sponsor</a></li>
+               <li><a href="#!">City Partnership</a></li>
+              <li><a href="#!">Internship</a></li>
+               <li><a href="#!">Volunteer</a></li>
+                </ul>
+                 </div>
+       </div>
+       <hr class="bg-white">
+        <div class="row d-flex align-items-center">
+      
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8 pl-4">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">Copyright
+          <a href="HomePage.html">
+            © 2017 a Chicago Toy &amp; Game Group company
+          </a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+               <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+               <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                 <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </a>
+            </li>
+              <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                 <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+              </a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                 <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+           
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Grid column -->
+    </div>
+  
+
+ 
+
+    <!-- Grid row -->
+   
+</footer>
+
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/dropzone.js"></script>
+<script src="js/dropzone.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script  type="text/javascript" src="js/lightgallery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+<script>
+
+// File Upload
+// 
+function ekUploadten(){
+  function Init() {
+
+    console.log("Upload Initialised");
+
+    var fileSelect    = document.getElementById('file-uploadten'),
+        fileDrag      = document.getElementById('file-dragten'),
+        submitButton  = document.getElementById('submit-buttonten');
+
+    fileSelect.addEventListener('change', fileSelectHandler, false);
+
+    // Is XHR2 available?
+    var xhr = new XMLHttpRequest();
+    if (xhr.upload) {
+      // File Drop
+      fileDrag.addEventListener('dragover', fileDragHover, false);
+      fileDrag.addEventListener('dragleave', fileDragHover, false);
+      fileDrag.addEventListener('drop', fileSelectHandler, false);
+    }
+  }
+
+  function fileDragHover(e) {
+    var fileDrag = document.getElementById('file-dragten');
+
+    e.stopPropagation();
+    e.preventDefault();
+
+    fileDrag.className = (e.type === 'dragover' ? 'hover' : 'modal-body file-upload');
+  }
+
+  function fileSelectHandler(e) {
+    // Fetch FileList object
+    var files = e.target.files || e.dataTransfer.files;
+
+    // Cancel event and hover styling
+    fileDragHover(e);
+
+    // Process all File objects
+    for (var i = 0, f; f = files[i]; i++) {
+      parseFile(f);
+      uploadFile(f);
+    }
+  }
+
+  // Output
+  function output(msg) {
+    // Response
+    var m = document.getElementById('messagesten');
+    m.innerHTML = msg;
+  }
+
+  function parseFile(file) {
+
+    console.log(file.name);
+    output(
+      '<strong>' + encodeURI(file.name) + '</strong>'
+    );
+    
+    // var fileType = file.type;
+    // console.log(fileType);
+    var imageName = file.name;
+
+    var isGood = (/\.(?=gif|jpg|png|jpeg)/gi).test(imageName);
+    if (isGood) {
+      document.getElementById('startten').classList.add("hidden");
+      document.getElementById('responseten').classList.remove("hidden");
+      document.getElementById('notimageten').classList.add("hidden");
+      // Thumbnail Preview
+      document.getElementById('file-imageten').classList.remove("hidden");
+      document.getElementById('file-imageten').src = URL.createObjectURL(file);
+    }
+    else {
+      document.getElementById('file-imageten').classList.add("hidden");
+      document.getElementById('notimageten').classList.remove("hidden");
+      document.getElementById('startten').classList.remove("hidden");
+      document.getElementById('responseten').classList.add("hidden");
+      document.getElementById("file-upload-formten").reset();
+    }
+  }
+
+  function setProgressMaxValue(e) {
+    var pBar = document.getElementById('file-progressten');
+
+    if (e.lengthComputable) {
+      pBar.max = e.total;
+    }
+  }
+
+  function updateFileProgress(e) {
+    var pBar = document.getElementById('file-progressten');
+
+    if (e.lengthComputable) {
+      pBar.value = e.loaded;
+    }
+  }
+
+  function uploadFile(file) {
+
+    var xhr = new XMLHttpRequest(),
+      fileInput = document.getElementById('class-roster-fileten'),
+      pBar = document.getElementById('file-progressten'),
+      fileSizeLimit = 400; // In MB
+    if (xhr.upload) {
+      // Check if file is less than x MB
+      if (file.size <= fileSizeLimit * 400 * 400) {
+        // Progress bar
+        pBar.style.display = 'inline';
+        xhr.upload.addEventListener('loadstartten', setProgressMaxValue, false);
+        xhr.upload.addEventListener('progressten', updateFileProgress, false);
+
+        // File received / failed
+        xhr.onreadystatechange = function(e) {
+          if (xhr.readyState == 4) {
+            // Everything is good!
+
+            // progress.className = (xhr.status == 200 ? "success" : "failure");
+            // document.location.reload(true);
+          }
+        };
+
+        // Start upload
+        xhr.open('POST', document.getElementById('file-upload-formten').action, true);
+        xhr.setRequestHeader('X-File-Name', file.name);
+        xhr.setRequestHeader('X-File-Size', file.size);
+        xhr.setRequestHeader('Content-Type', 'multipart/form-data');
+        xhr.send(file);
+      } else {
+        output('Please upload a smaller file (< ' + fileSizeLimit + ' MB).');
+      }
+    }
+  }
+
+  // Check for the various File API support.
+  if (window.File && window.FileList && window.FileReader) {
+    Init();
+  } else {
+    document.getElementById('file-dragten').style.display = 'none';
+  }
+}
+ekUploadten();
+</script>
+</body>
+</html>
+
+
