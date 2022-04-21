@@ -14,7 +14,7 @@ if(!empty($blog['description']))
 }
 
 if(!empty($str_blog_description))
-{ 
+{
   $find_text = ['contenteditable="true"', 'type="text"'];
   $replace_text   = ['', ''];
   $str_blog_description = str_replace($find_text, $replace_text, $str_blog_description);
@@ -42,15 +42,15 @@ $str_blog_description = str_replace('<p class="ql-align-center"><br></p><p class
   {
     text-align:right;
   }
-  
+
   .ql-align-left
   {
-    text-align:left;  
+    text-align:left;
   }
-  
+
   .ql-align-center
   {
-    text-align:center;  
+    text-align:center;
   }
     </style>
     <div class="col-md-9 col-lg-10 MiddleColumnFullWidth">
@@ -65,13 +65,13 @@ $str_blog_description = str_replace('<p class="ql-align-center"><br></p><p class
                   @php
                   @$str_user_name = $blog['user'];
                   $str_user_url_new = '';
-                  @endphp  
+                  @endphp
                   <!-- <span class="span-text-grey">By: {{(!empty(@$str_user_name) ? @$str_user_name : 'People Of Play' )}} </span> -->
                 </h2>
                 <div class="mb-0">
-                  <p class="mb-0 span-text-grey" ><span class="span-text-grey">by <a class="span-text-grey" target="_blank" href="@if(!empty($str_user_url_new)){{$str_user_url_new}}@else{{'#'}} @endif">{{(!empty(@$str_user_name) ? @$str_user_name : 'People Of Play' )}} </a></span> <small class="span-text-grey ml-0 blogDate"> | {{@App\Helpers\Utilities::getDateFormat($blog['created_at'])}}</small> 
+                  <p class="mb-0 span-text-grey" ><span class="span-text-grey">by <a class="span-text-grey" target="_blank" href="@if(!empty($str_user_url_new)){{$str_user_url_new}}@else{{'#'}} @endif">{{(!empty(@$str_user_name) ? @$str_user_name : 'People Of Play' )}} </a></span> <small class="span-text-grey ml-0 blogDate"> | {{@App\Helpers\Utilities::getDateFormat($blog['created_at'])}}</small>
                   </p>
-                  <p class="mb-0 span-text-grey" ><small class="span-text-grey ml-0 blogDate">@if(!empty($blog['blog_category_name'])){{@$blog['blog_category_name']}}@endif</small> 
+                  <p class="mb-0 span-text-grey" ><small class="span-text-grey ml-0 blogDate">@if(!empty($blog['blog_category_name'])){{@$blog['blog_category_name']}}@endif</small>
                   </p>
                 </div>
               </div>
@@ -94,10 +94,10 @@ $str_blog_description = str_replace('<p class="ql-align-center"><br></p><p class
           </div>
 
               <?php /*<div class="blogDetHeadImg mt-4" style="background-image: url('{{@newsBlogImageBasePath($blog['featured_image'])}}');">
-              </div> */?>             
+              </div> */?>
               <div class="mt-2 w-100">
                 <img src="{{ @$blog['featured_image'] }}" class="imgDetailBlog">
-              </div>          
+              </div>
 
             </div>
           </div>
@@ -121,18 +121,18 @@ $str_blog_description = str_replace('<p class="ql-align-center"><br></p><p class
             @endforeach
           </div>
         </div>
-      </div>                
+      </div>
     </div>
   </div>
   </div>
 
 @if(!empty($related_blog) && count($related_blog)>1)
 <div class="right-column colheightleft backgroundrightforblog px-3 py-3 kright-column" >
-  <div class="BlogBottomColumn">  
+  <div class="BlogBottomColumn">
     <h2 class="text-left blogSideHead" >Recent Blogs</h2>
     <div class="row">
      @foreach($related_blog as $related_blog_row)
-      @php            
+      @php
         if($blog['id'] == $related_blog_row->id){
             continue;
           }
@@ -163,19 +163,19 @@ $int_count_related_blog_flag++;
 @else
 
 {{--  @if(Auth::guard('users')->check())
-@include('front.includes.profile-sidebar')    
+@include('front.includes.profile-sidebar')
 @else
 @include('front.includes.pages-sidebar')
-@endif 
---}}  
+@endif
+--}}
 @endif
 </div>
 </div>
 </div>
-<input type="hidden" name="hid_current_url" id="hid_current_url" value="{{$str_current_url}}">   
-@if(!isset(Auth::guard('users')->user()->type_of_user) && Auth::guard('users')->user()->type_of_user == 1) 
+<input type="hidden" name="hid_current_url" id="hid_current_url" value="{{$str_current_url}}">
+@if(!isset(Auth::guard('users')->user()->type_of_user) && Auth::guard('users')->user()->type_of_user == 1)
 @include('front.includes.join_mailing')
-@endif 
+@endif
 
 @endsection
 

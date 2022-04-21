@@ -1,13 +1,13 @@
-<?php $__env->startSection('title'); ?> All Events <?php $__env->stopSection(); ?>
+<?php $__env->startSection('title'); ?> Section two profile <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
 
 	<!-- Content Header (Page header) -->
         <section class="content-header">
-            <h1> All Events </h1>
+            <h1> Section two profile </h1>
             <ol class="breadcrumb">
                 <li><a href="<?php echo e(route('admin.dashboard')); ?>"><i class="fa fa-dashboard"></i> <?php echo e(adminTransLang('dashboard')); ?></a></li>
-                <li class="active">All Events</li>
+                <li class="active">Section two profile</li>
             </ol>
         </section>
         <p id="message-box-id" class="alert alert-block alert-danger message_box hide alert-dismissible"></p>
@@ -15,7 +15,7 @@
         <section class="content">
             <?php echo $__env->make('admin.includes.info-box', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
             <p>
-                <a href="<?php echo e(route('admin.eventyear.create')); ?>" class="btn btn-success">Create Event</a>
+                <a href="<?php echo e(route('admin.eventyear.create')); ?>" class="btn btn-success">Create Profile</a>
             </p>
             <div class="row">
                 <div class="col-md-12">

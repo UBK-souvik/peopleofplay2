@@ -1,4 +1,4 @@
-<?php $__env->startSection('title'); ?> Create Header <?php $__env->stopSection(); ?>
+<?php $__env->startSection('title'); ?> Create Section one header <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
 <style>
@@ -9,7 +9,7 @@
 </style>
   <!-- Content Header (Page header) -->
     <section class="content-header">
-        <h1> Create Header</h1>
+        <h1> Create section one header</h1>
         <ol class="breadcrumb">
             <li><a href="<?php echo e(route('admin.dashboard')); ?>"><i class="fa fa-dashboard"></i> <?php echo e(adminTransLang('dashboard')); ?></a></li>
             <li><a href="<?php echo e(route('admin.eventheader.index')); ?>"> Event Header </a></li>

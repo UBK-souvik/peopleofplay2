@@ -34,6 +34,39 @@
                 </div>
         <?php } ?>
 
+                
+                <div class="ImageBoxSection my-2">
+                    <?php foreach ($sectionThree as $key => $section) { ?>
+
+                    <div class="imageboxhead text-center mt-5 mb-5" >
+                        <h4 style="color: #662e91;font-size: 28px;font-weight:bold;" > <?php echo e($section->profileHeader); ?> </h4>
+                    </div>
+                    <?php } ?>
+
+                    <div class="row" >
+                        <?php foreach ($sectionProfile as $key => $sectionprofile) { ?>
+                            <div class="col-sm-12 col-xs-12 col-md-3">
+                                <div class="imagebox  profileImg" >
+                                <a href="<?php echo e($sectionprofile->profileUrl); ?>" target="_blank">
+
+                                        <img src="<?php echo e(@imageBasePath($sectionprofile->main_image)); ?>" class="category-banner img-fluid">
+
+                                </a>
+                            </div>
+
+                                <a href="<?php echo e($sectionprofile->profileUrl); ?>" target="_blank">
+                                <span class="imagebox-desc text-center mt-2 profileName" > <?php echo e($sectionprofile->profileName); ?> </span>
+                                </a>
+                                <span class="imagebox-desc text-center mt-1 profileSubtitle" > <?php echo e($sectionprofile->profileSubtitle); ?> </span>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+                
+
+
+                
+
                 <div class="ImageBoxSection my-2">
                     <?php foreach ($profileHeader as $key => $row3) { ?>
 
@@ -62,55 +95,66 @@
                     </div>
                 </div>
 
+                
+
+                
                 <div class="ImageBoxSection my-2">
-                    <?php foreach ($sectionThree as $key => $section) { ?>
+                    <?php foreach ($SectionFour as $key => $sectionfour) { ?>
 
                     <div class="imageboxhead text-center mt-5 mb-5" >
-                        <h4 style="color: #662e91;font-size: 28px;font-weight:bold;" > <?php echo e($section->profileHeader); ?> </h4>
+                        <h4 style="color: #662e91;font-size: 28px;font-weight:bold;" > <?php echo e($sectionfour->profileHeader); ?> </h4>
                     </div>
                     <?php } ?>
 
                     <div class="row" >
-                        <?php foreach ($sectionProfile as $key => $sectionprofile) { ?>
+                        <?php foreach ($SectionFourProfile as $key => $sectionfourprofile) { ?>
                             <div class="col-sm-12 col-xs-12 col-md-3">
                                 <div class="imagebox  profileImg" >
-                                <a href="<?php echo e($sectionprofile->profileUrl); ?>" target="_blank">
+                                <a href="<?php echo e($sectionfourprofile->profileUrl); ?>" target="_blank">
 
-                                        <img src="<?php echo e(@imageBasePath($sectionprofile->main_image)); ?>" class="category-banner img-fluid">
+                                        <img src="<?php echo e(@imageBasePath($sectionfourprofile->main_image)); ?>" class="category-banner img-fluid">
 
                                 </a>
                             </div>
 
-                                <a href="<?php echo e($sectionprofile->profileUrl); ?>" target="_blank">
-                                <span class="imagebox-desc text-center mt-2 profileName" > <?php echo e($sectionprofile->profileName); ?> </span>
+                                <a href="<?php echo e($sectionfourprofile->profileUrl); ?>" target="_blank">
+                                <span class="imagebox-desc text-center mt-2 profileName" > <?php echo e($sectionfourprofile->profileName); ?> </span>
                                 </a>
-                                <span class="imagebox-desc text-center mt-1 profileSubtitle" > <?php echo e($sectionprofile->profileSubtitle); ?> </span>
+                                <span class="imagebox-desc text-center mt-1 profileSubtitle" > <?php echo e($sectionfourprofile->profileSubtitle); ?> </span>
                             </div>
                         <?php } ?>
                     </div>
                 </div>
+                
 
                 <div class="ImageBoxSection my-2 description" >
                     <?php foreach ($descriptionHeader as $key => $description) { ?>
 
-                    <div class="imageboxhead text-center mt-5 mb-5">
-                        <h4 style="color: #662e91;font-size: 28px;
-                        font-weight: bold;"> <?php echo e($description->description_main_header); ?> </h4>
+                    <div class="imageboxhead text-center mt-5 mb-4">
+                        <h4 style="" class="main_header"> <?php echo e($description->description_main_header); ?> </h4>
                     </div>
                     <?php } ?>
                     <?php foreach ($eventDescription as $key => $event) { ?>
 
                     <div>
-                        <h4 style="font-size:22px;font-weight:bold; color:black;" > <?php echo e($event->description_header); ?></h4><br><span class="st-icon-pandora " style="font-size: 14px;color:black;"><?php echo html_entity_decode($event->description_details); ?></span>
+                        <h4 style="font-size:22px;font-weight:bold; color:black;" class="description_header"> <?php echo e($event->description_header); ?></h4><br><span class="st-icon-pandora buttom_description" style=""><?php echo html_entity_decode($event->description_details); ?></span>
                     </div>
-                    <?php } ?>
+                         <?php if( $event->button_text  == NULL){ ?>
+                                 <div class="imagebtn text-center " style="margin-top: -32px;">
+                                </div>
+                        <?php }else{?>
+                                <div class="imagebtn text-center " style="float:left;">
+                                 <a class="btn hover_btn" href="<?php echo e($event->button_link); ?>" target="_blank"><span class="ButtonText " style="padding:17px;"><?php echo e($event->button_text); ?></span></a>
+                                    </div>
+                        <?php } ?>
+                        <?php } ?>
 
                 </div>
 
 
-                  <div class="col-md-10 col-lg-12">
+                  <div class="col-md-10 col-lg-12" style="margin-top: 83px;">
                         <?php foreach ($eventBanner as $key => $banner) { ?>
-                      <div class="ImageBoxSection text-center mt-5 mb-2">
+                      <div class="ImageBoxSection text-center mt-5 mb-4">
                             <h4 style="color: #662e91; font-size: 28px;
                             font-weight: bold;"> <?php echo e($banner->banner_header); ?> </h4>
                       </div>

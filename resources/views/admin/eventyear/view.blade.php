@@ -1,6 +1,6 @@
 @extends('admin.layouts.master')
 
-@section('title') View Events @endsection
+@section('title') View profiles @endsection
 
 @section('content')
 <style>
@@ -11,11 +11,11 @@
 </style>
 
     <section class="content-header">
-        <h1> View Events</h1>
+        <h1> View profile</h1>
         <ol class="breadcrumb">
             <li><a href="{{ route('admin.dashboard') }}"><i class="fa fa-dashboard"></i> {{ adminTransLang('dashboard') }}</a></li>
-            <li><a href="{{ route('admin.event.index') }}"> All Events </a></li>
-            <li class="active">View Event</li>
+            <li><a href="{{ route('admin.event.index') }}"> All profile </a></li>
+            <li class="active">View profile</li>
         </ol>
     </section>
 

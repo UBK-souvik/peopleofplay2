@@ -1723,7 +1723,7 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => 'admi
     ]);
     /* End Event Routes */
 
-
+    // souvik code start
     /* Start Event 2022 Routes */
     Route::get('eventyear', [
         'uses' => 'EventYearController@getIndex',
@@ -1954,6 +1954,82 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => 'admi
     /* End Section Three Header Routes */
 
 
+    /* Start Section Four Routes */
+    Route::get('sectionfour', [
+        'uses' => 'SectionfourController@getIndex',
+        'as' => 'admin.sectionfour.index'
+    ]);
+
+    Route::get('sectionfour/list', [
+        'uses' => 'SectionfourController@getList',
+        'as' => 'admin.sectionfour.list'
+    ]);
+
+    Route::get('sectionfour/create', [
+        'uses' => 'SectionfourController@getCreate',
+        'as' => 'admin.sectionfour.create'
+    ]);
+
+    Route::post('sectionfour/create', [
+        'uses' => 'SectionfourController@postCreate',
+        'as' => 'admin.sectionfour.create'
+    ]);
+
+    Route::get('sectionfour/update/{id?}', [
+        'uses' => 'SectionfourController@getUpdate',
+        'as' => 'admin.sectionfour.update'
+    ]);
+
+    Route::get('sectionfour/view/{id?}', [
+        'uses' => 'SectionfourController@getView',
+        'as' => 'admin.sectionfour.update'
+    ]);
+
+    Route::get('sectionfour/delete/{id?}', [
+        'uses' => 'SectionfourController@getDelete',
+        'as' => 'admin.sectionfour.delete'
+    ]);
+    /* End Section four Header Routes */
+
+
+    /* Start Section Four profile Routes */
+    Route::get('sectionfourprofile', [
+        'uses' => 'SectionFourProfileController@getIndex',
+        'as' => 'admin.sectionfourprofile.index'
+    ]);
+
+    Route::get('sectionfourprofile/list', [
+        'uses' => 'SectionFourProfileController@getList',
+        'as' => 'admin.sectionfourprofile.list'
+    ]);
+
+    Route::get('sectionfourprofile/create', [
+        'uses' => 'SectionFourProfileController@getCreate',
+        'as' => 'admin.sectionfourprofile.create'
+    ]);
+
+    Route::post('sectionfourprofile/create', [
+        'uses' => 'SectionFourProfileController@postCreate',
+        'as' => 'admin.sectionfourprofile.create'
+    ]);
+
+    Route::get('sectionfourprofile/update/{id?}', [
+        'uses' => 'SectionFourProfileController@getUpdate',
+        'as' => 'admin.sectionfourprofile.update'
+    ]);
+
+    Route::get('sectionfourprofile/view/{id?}', [
+        'uses' => 'SectionFourProfileController@getView',
+        'as' => 'admin.sectionfourprofile.update'
+    ]);
+
+    Route::get('sectionfourprofile/delete/{id?}', [
+        'uses' => 'SectionFourProfileController@getDelete',
+        'as' => 'admin.sectionfourprofile.delete'
+    ]);
+    /* End Section four profile Routes */
+
+
     /* Start Event Description Routes */
     Route::get('eventdescription', [
         'uses' => 'EventDescriptionController@getIndex',
@@ -2028,6 +2104,10 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => 'admi
         'as' => 'admin.eventbanner.delete'
     ]);
     /* End Event Banner Routes */
+
+
+    // souvik code end
+
 
     /* Start Award Routes */
     Route::get('award/{event_id?}', [

@@ -1,6 +1,6 @@
 @extends('admin.layouts.master')
 
-@section('title') Banner List @endsection
+@section('title') Create section six @endsection
 
 @section('content')
 
@@ -9,7 +9,7 @@
             {{-- <h1> All Events </h1> --}}
             <ol class="breadcrumb">
                 <li><a href="{{ route('admin.dashboard') }}"><i class="fa fa-dashboard"></i> {{ adminTransLang('dashboard') }}</a></li>
-                <li class="active">Create Banner</li>
+                <li class="active">Section six</li>
             </ol>
         </section>
         <p id="message-box-id" class="alert alert-block alert-danger message_box hide alert-dismissible"></p>
@@ -17,7 +17,7 @@
         <section class="content">
             @include('admin.includes.info-box')
             <p>
-                <p style="font-size: 20px;">Banner</p>
+                <p style="font-size: 20px;">Section six</p>
             </p>
             <div class="row">
                 <div class="col-md-12">

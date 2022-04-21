@@ -1,4 +1,4 @@
-<?php $__env->startSection('title'); ?> Header <?php $__env->stopSection(); ?>
+<?php $__env->startSection('title'); ?> Section one header <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
 
@@ -7,7 +7,7 @@
             
             <ol class="breadcrumb">
                 <li><a href="<?php echo e(route('admin.dashboard')); ?>"><i class="fa fa-dashboard"></i> <?php echo e(adminTransLang('dashboard')); ?></a></li>
-                <li class="active">Header List</li>
+                <li class="active">Section one header List</li>
             </ol>
         </section>
         <p id="message-box-id" class="alert alert-block alert-danger message_box hide alert-dismissible"></p>
@@ -15,7 +15,7 @@
         <section class="content">
             <?php echo $__env->make('admin.includes.info-box', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
             <p>
-                <p style="font-size: 20px;">Header List</p>
+                <p style="font-size: 20px;">Section one header List</p>
             </p>
             <div class="row">
                 <div class="col-md-12">

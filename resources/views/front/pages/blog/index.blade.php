@@ -54,10 +54,10 @@
                   </div>
                </div>
             </div>
-            @if(!empty($blogs) && count($blogs)>0) 
+            @if(!empty($blogs) && count($blogs)>0)
             @foreach ($blogs as $blog)
             @php
-            if(!empty($blog->blog_data->user))          
+            if(!empty($blog->blog_data->user))
             {
             @$str_user_name = App\Helpers\Utilities::getUserName($blog->blog_data->user);
             @$str_user_url_new = App\Helpers\Utilities::get_user_url($base_url, $blog->blog_data->user);
@@ -65,7 +65,7 @@
             else
             {
             @$str_user_name = App\Helpers\Utilities::getUserName($blog->user);
-            @$str_user_url_new = App\Helpers\Utilities::get_user_url($base_url, $blog->user);             
+            @$str_user_url_new = App\Helpers\Utilities::get_user_url($base_url, $blog->user);
             }
             @$str_created_at = App\Helpers\Utilities::getDateFormat($blog->created_at);
             if($type_post == 'blog'  || $type_post =='blog_pedia')
@@ -82,7 +82,7 @@
             }
             else
             {
-            $str_blog_detail = 'front.pages.news.detail'; 
+            $str_blog_detail = 'front.pages.news.detail';
             }
             @endphp
             <div class="col-md-12">
@@ -114,7 +114,7 @@
             <div class="col-md-12">
                {{ $blogs->links('pagination') }}
             </div>
-            @else 
+            @else
             <div class="col-md-12 text-center pb-3 font-weight-bold">
                 <hr>
                 No record found in this category.
@@ -126,7 +126,7 @@
    </div>
 </div>
 
-<div class="col-md-3 px-md-4 RightColumnSection">  
+<div class="col-md-3 px-md-4 RightColumnSection">
    <div class="right-column k_sidebar right-colom-sidebar">
       <div class="RightSidebarAllPage">
          @include('front.includes.home-sidebar')
@@ -134,7 +134,7 @@
    </div>
 </div>
 
-<?php 
+<?php
 if(Request::segment(1) == 'blog_pedia'){
    $searchUrl = Request::segment(1);
 } else {

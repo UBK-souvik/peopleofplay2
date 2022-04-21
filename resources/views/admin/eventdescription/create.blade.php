@@ -25,7 +25,11 @@
                 <div class="col-md-12">
                     <div class="box">
                         <div class="box-body" id="add-edit-user-main-box-body-div">
-                            <p class="alert alert-block alert-danger message_box hide alert-dismissible"></p>
+                            <p class="alert alert-block alert-danger message_box hide alert-dismissible">
+
+
+
+                            </p>
                             <form class="form-horizontal" id="create-form" enctype="multipart/form-data">
                                 <input type="hidden" name="description_id" value="{{@$event_description->id}}">
                                 @csrf
@@ -48,6 +52,18 @@
                                                 <textarea class="form-control" id="description" name="description" rows="4">{{@$event_description->description_details}}</textarea>
                                             </div>
                                         </div>
+                                        <div class="form-group">
+                                            <label for="fun_fact1" class="col-sm-2 control-label">Button Text</label>
+                                            <div class="col-sm-6">
+                                               <input required type="text" class="form-control" name="button_text" placeholder="" value="{{@$event_description->button_text}}">
+                                            </div>
+                                         </div>
+                                        <div class="form-group">
+                                            <label for="fun_fact1" class="col-sm-2 control-label">Button Link</label>
+                                            <div class="col-sm-6">
+                                               <input required type="text" class="form-control" name="button_link" placeholder="" value="{{@$event_description->button_link}}">
+                                            </div>
+                                         </div>
                                     </div>
                                 </div>
 

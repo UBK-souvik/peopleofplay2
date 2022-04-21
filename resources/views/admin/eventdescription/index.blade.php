@@ -28,6 +28,7 @@
 					                <tr>
                                         <th>Description Header</th>
                                         <th>Description</th>
+                                        <th>Button Text</th>
                                         <th>Action</th>
 					                </tr>
 				                </thead>
@@ -36,8 +37,15 @@
                                         <tr>
                                           <td>{{ $event->description_header }}</td>
                                           <td>{!!html_entity_decode($event->description_details)!!}</td>
+                                          <td>{{ $event->button_text }}</td>
+
                                           <td><a href="{{ URL::to("admin/eventdescription/update") }}/{{ $event->id }}">
-                                            <i class="fa fa-edit fa-fw"></i></td>
+                                            <i class="fa fa-edit fa-fw"></i>
+                                            <a class="delete_admins" href="{{ URL::to("admin/eventdescription/delete") }}/{{ $event->id }}">
+                                                <i class="fa fa-trash fa-fw"></i>
+                                                </a></td>
+
+
                                         </tr>
                                      <?php } ?>
 
@@ -55,5 +63,18 @@
 @endsection
 
 @section('scripts')
-
+<script>
+     $('#navigation-table').on('click', '.delete_admins', function(e){
+         alert("ok");
+            e.preventDefault();
+            var r = confirm("{{ adminTransLang('are_you_sure_to_delete') }}");
+            if (r == false) {
+                return false;
+            }
+            var href = $(this).attr('href');
+            $.get( href, function( data ) {
+                $('#navigation-table').DataTable().ajax.reload();
+            });
+        });
+</script>
 @endsection

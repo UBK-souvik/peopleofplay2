@@ -55,7 +55,7 @@ class EventYearController extends Controller
 
             'main_image' => 'required_without|file',
             'profileName' => 'required',
-            'profileSubtitle' => 'required',
+            // 'profileSubtitle' => 'required',
             'profileUrl' => 'required',
 
         ]);

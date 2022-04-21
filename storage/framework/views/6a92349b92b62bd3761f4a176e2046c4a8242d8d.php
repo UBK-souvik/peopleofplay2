@@ -1,4 +1,4 @@
-<?php $__env->startSection('title'); ?> Create Event <?php $__env->stopSection(); ?>
+<?php $__env->startSection('title'); ?> Create Profile <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
 <style>
@@ -9,11 +9,11 @@
 </style>
   <!-- Content Header (Page header) -->
     <section class="content-header">
-        <h1> Create Event</h1>
+        <h1> Create Profile</h1>
         <ol class="breadcrumb">
             <li><a href="<?php echo e(route('admin.dashboard')); ?>"><i class="fa fa-dashboard"></i> <?php echo e(adminTransLang('dashboard')); ?></a></li>
-            <li><a href="<?php echo e(route('admin.eventyear.index')); ?>"> All Events </a></li>
-            <li class="active">Create Event</li>
+            <li><a href="<?php echo e(route('admin.eventyear.index')); ?>"> Create Profile </a></li>
+            <li class="active">Create Profile</li>
         </ol>
     </section>
 

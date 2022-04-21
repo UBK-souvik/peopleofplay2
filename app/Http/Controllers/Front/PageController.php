@@ -40,12 +40,12 @@ class PageController extends ModuleController
      * @return void
      */
     public function __construct()
-    { 
+    {
         parent::__construct();
     }
 
      public function getClassifiedSingleDetail($slug)
-    {	
+    {
     	$current_user = get_current_user_info();
 
     	$classified = Classified::where('slug',$slug)->with(['user'])->first();
@@ -55,7 +55,7 @@ class PageController extends ModuleController
     	if(!empty($classified_application)) {
     		$classified_application_apply = 1;
     	}
-    	
+
         return view('front.pages.view_classified_detail',compact('classified','classified_related','classified_application_apply'));
     }
 
@@ -77,7 +77,7 @@ class PageController extends ModuleController
     {
 		echo $this->getPageContentData(1, $slug, 0);
     }
-	
+
 	public function getCompany($slug)
     {
         // return redirect($slug);
@@ -107,7 +107,7 @@ class PageController extends ModuleController
         pr(config('cms.social_media_icon_new'));
         pr(config('cms.social_media_icon'));
     }
-	
+
 	public function getBrand($slug)
     {
 		$user_id = 0;
@@ -122,7 +122,7 @@ class PageController extends ModuleController
         echo $this->getPageContentData(5, $slug, $user_id);
 
     }
-	
+
 	// for a quiz detail page
 	public function getSlugQuizDetail($slug)
     {
@@ -140,16 +140,16 @@ class PageController extends ModuleController
 
 
 		// echo "<pre>"; print_r($question_detail->toArray()); die;
-		
+
 		if(empty($question_detail[0]->id))
 		 {
-			return redirect('coming-soon');	 
+			return redirect('coming-soon');
 		 }
-			 
+
         return view('front.pages.quiz_detail', compact('question_detail'));
 
     }
-	
+
 	public function getQuizDetail(Request $request)
     {
 		// echo "<pre>request - "; print_r($request->all()); die;
@@ -160,7 +160,7 @@ class PageController extends ModuleController
                 ->inRandomOrder()
 				->limit(10)
 				->get();*/
-			
+
 		// $question_detail = Question::where('status', 1)
 		// ->with(['user'])
 		// ->inRandomOrder()
@@ -181,26 +181,26 @@ class PageController extends ModuleController
 
 
 		// echo "<pre>"; print_r($question_detail->toArray()); die;
-		
+
 		if(empty($question_detail[0]->id))
 		 {
-			return redirect('coming-soon');	 
+			return redirect('coming-soon');
 		 }
-			 
+
         return view('front.pages.quiz_detail', compact('question_detail'));
 
     }
 /**quiz***/
     public function getQuiz()
     {
-		
+
 		$quiz_data = Quiz::where('status', 1)->get();
-		
+
 		if(empty($quiz_data[0]->id))
 		 {
-			return redirect('coming-soon');	 
+			return redirect('coming-soon');
 		 }
-			 
+
         return view('front.pages.quiz.index', compact('quiz_data'));
 
     }
@@ -213,28 +213,28 @@ class PageController extends ModuleController
 		->limit(10)
 		->get();
 		// echo "<pre>"; print_r($question_detail); die;
-		
+
 		if(empty($question_detail[0]->id))
 		 {
-			return redirect('coming-soon');	 
+			return redirect('coming-soon');
 		 }
-		$quiz_data = Quiz::where('id',$id)->first();	
+		$quiz_data = Quiz::where('id',$id)->first();
         return view('front.pages.quiz.quiz_question', compact('question_detail','quiz_data'));
 
     }
 
-    
+
     function postQuizQuestion(Request $request)
     {
     	 $rules = [
-            'questions_id' => 'required',       
+            'questions_id' => 'required',
             'quiz_id' => 'required'
 		 ];
-	
+
 		 $niceNames = [
 				'questions_id' => 'Question',
-                'quiz_id' => 'Quiz',   				
-		 ];	
+                'quiz_id' => 'Quiz',
+		 ];
 
        $this->validate($request, $rules, [], $niceNames);
 
@@ -244,30 +244,30 @@ class PageController extends ModuleController
 
             $current_user = @get_current_user_info();
             $data = $request->only(QuizQuestionApplication::$fillable_shadow);
-            
+
 			if(!empty($current_user->id))
 			{
 			  $data['applicant_user_id'] = $current_user->id;
 			}
 			else
 			{
-			  $data['applicant_user_id'] = 0;	
+			  $data['applicant_user_id'] = 0;
 			}
-			
+
 			$data['quiz_id'] = $request->quiz_id;
 			$data['ques_id'] = $request->questions_id;
-			
+
 			if($request->which_is_lie == $request->question_id)
 			{
-			   $data['is_lie'] = 1;	
+			   $data['is_lie'] = 1;
 			}
 			else
 			{
-			   $data['is_lie'] = 0;	
+			   $data['is_lie'] = 0;
 			}
-			
+
 			$data['status'] = 1;
-			
+
             QuizQuestionApplication::updateOrCreate(['id' => 0], $data);
 
             DB::commit();
@@ -279,18 +279,18 @@ class PageController extends ModuleController
         }
     }
 /**quiz***/
-	
+
 	public function postQuizApplication(Request $request)
     {
 		 $rules = [
-            // 'question_id' => 'required',       
+            // 'question_id' => 'required',
             'quiz_id' => 'required'
 		 ];
-	
+
 		 $niceNames = [
 				// 'question_id' => 'Question',
-                'quiz_id' => 'Quiz',   				
-		 ];	
+                'quiz_id' => 'Quiz',
+		 ];
 
        $this->validate($request, $rules, [], $niceNames);
 
@@ -300,30 +300,30 @@ class PageController extends ModuleController
 
             $current_user = @get_current_user_info();
             $data = $request->only(QuizApplication::$fillable_shadow);
-            
+
 			if(!empty($current_user->id))
 			{
 			  $data['applicant_user_id'] = $current_user->id;
 			}
 			else
 			{
-			  $data['applicant_user_id'] = 0;	
+			  $data['applicant_user_id'] = 0;
 			}
-			
+
 			$data['quiz_id'] = $request->quiz_id;
 			$data['ques_id'] = $request->question_id;
-			
+
 			if($request->which_is_lie == $request->question_id)
 			{
-			   $data['is_lie'] = 1;	
+			   $data['is_lie'] = 1;
 			}
 			else
 			{
-			   $data['is_lie'] = 0;	
+			   $data['is_lie'] = 0;
 			}
-			
+
 			$data['status'] = 1;
-			
+
             QuizApplication::updateOrCreate(['id' => 0], $data);
 
             DB::commit();
@@ -334,23 +334,23 @@ class PageController extends ModuleController
             return errorMessage($e->getMessage(), true);
         }
     }
-	
+
 	// for a word detail page
 	public function getWordDetail($slug)
     {
 		$dictionary_detail = Dictionary::where('status', 1)
             ->where('slug', @$slug)
             ->get();
-			
+
 		$str_current_day =	date('Y-m-d');
-			
+
 		$int_dictionary_detail_id =  @$dictionary_detail[0]->id;
 
         $str_current_time = strtotime($str_current_day);
-		
+
 		$str_last_three_day_time =  strtotime(date('Y-m-d',(strtotime ( '-3 day' , strtotime ( $str_current_day) ) )));
 
-			
+
 		$dictionary_list = Dictionary::selectRaw('*, UNIX_TIMESTAMP(date_to_be_published) AS timeu')
 		    ->where('status', 1)
             ->where('date_to_be_published', '<>', '')
@@ -362,84 +362,84 @@ class PageController extends ModuleController
 			->groupBy('id')
 			->orderby('id', 'desc')
             ->get();
-			
+
       // print_r($dictionary_list);exit;
-        $arr_dictionary_data = UtilitiesFour::getDictionaryFieldsData($dictionary_detail);  			
-			
+        $arr_dictionary_data = UtilitiesFour::getDictionaryFieldsData($dictionary_detail);
+
         return view('front.pages.view_dictionary_detail', compact('dictionary_detail', 'dictionary_list', 'arr_dictionary_data'));
 
     }
-	
+
 	// for a random word and word of day
 	public function getWordofDay($is_random_number)
     {
 
 		$str_current_date = date('Y-m-d');
-		
+
 		// for random word
 		if(empty($is_random_number))
 		{
 			//echo 1534534;
-		   
+
 		   $dictionary_detail = Dictionary::where('status', 1)
             ->inRandomOrder()
 			->limit(10)
 			->get();
 
-			
+
             if(!empty($dictionary_detail[0]->slug))
 			 {
-				return redirect('pop-dictionary/'.$dictionary_detail[0]->slug);	 
+				return redirect('pop-dictionary/'.$dictionary_detail[0]->slug);
 			 }
 			 else
 			 {
-			   return redirect('coming-soon'); 	 
+			   return redirect('coming-soon');
 			 }
-			
 
-		}		
+
+		}
 		// for current word of day
 		else
 		{
-		  
 
-            $dictionary_detail = Dictionary::get_dictionary_word_of_day();		   
-			
+
+            $dictionary_detail = Dictionary::get_dictionary_word_of_day();
+
 			$dictionary_last_detail = Dictionary::where('status', 1)
             ->where('date_to_be_published', '<>',  '')
 			->orderBy('id', 'desc')
 			->get();
-			
-			
-			
+
+
+
 			//echo '<pre>slug: ' . @$dictionary_last_detail[0]->slug;
 			//print_r($dictionary_last_detail);
 			//echo '</pre>';
 
 			// echo "<pre>"; print_r($dictionary_last_detail); die;
-         
+
 			 if(!empty($dictionary_detail[0]->slug))
 			 {
 				$str_dictionary_detail_slug = @$dictionary_detail[0]->slug;
 			 }
 			 else
 			 {
-				$str_dictionary_detail_slug = @$dictionary_last_detail[0]->slug; 
-				
-			 }		
-			 
+				$str_dictionary_detail_slug = @$dictionary_last_detail[0]->slug;
+
+			 }
+
 			 if(!empty($str_dictionary_detail_slug))
 			 {
-			   return redirect('pop-dictionary/'.$str_dictionary_detail_slug);	 
+			   return redirect('pop-dictionary/'.$str_dictionary_detail_slug);
 			 }
              else
 			 {
-			   return redirect('coming-soon'); 	 
+			   return redirect('coming-soon');
 			 }
-              			 
-			
+
+
 		}
-         		 
+
 
     }
 
@@ -488,7 +488,7 @@ class PageController extends ModuleController
     }
 
     public function getDropMenu($type)
-    { 
+    {
         $available_type = config('cms.drop_down_type');
         if (!in_array($type, $available_type)) {
             abort(404);
@@ -498,14 +498,14 @@ class PageController extends ModuleController
             ->where('type', array_flip($available_type)[$type])
             ->orderBy('display_order', 'asc')
             ->get();
-			
+
 		$main_list_paragraph = MainListParagraph::where('status', 1)
             ->where('type', array_flip($available_type)[$type])
-            ->first();	
-			
+            ->first();
+
 		//echo '<pre>';
         //print_r($main_list_page);
-        //echo '</pre>';		
+        //echo '</pre>';
 //exit;
 
         // $main_list_page = $main_list_page->toArray();
@@ -539,26 +539,26 @@ class PageController extends ModuleController
             Session::put('poll_message', 1);
             return redirect()->back()->with('success', 'Poll Submitted Successfully');
         } catch (\Exception $e) {
-            Session::put('poll_message', 'poll submitted failed' );   
+            Session::put('poll_message', 'poll submitted failed' );
             return redirect()->back()->with('error', 'Something went wrong');
         }
     }
-	
+
 	public function getComingSoonPage()
     {
         return view('front.pages.coming_soon');
     }
-	
+
 	public function getClassifiedList()
     {
 		$all_classified_categories = ClassifiedCategory::get_all_classified_categories();
-		
+
 		$all_classified_list = Classified::get_all_classified_list(0);
-        
+
 		$current_user = get_current_user_info();
-		
+
 		$all_classified_application = '';
-		
+
 		if(!empty(@$current_user->id))
 		{
 		  $user_id = @$current_user->id;
@@ -568,25 +568,25 @@ class PageController extends ModuleController
 		//print_r($all_classified_list);
 		//echo '</pre>';
 		//exit;
-		
+
         return view('front.pages.view_classifieds', compact('all_classified_categories', 'all_classified_list', 'all_classified_application'));
     }
-	
+
 	public function getClassifiedDetail($type_id)
     {
 		$current_user = get_current_user_info();
 		$all_classified_categories = ClassifiedCategory::get_all_classified_categories();
-		
+
 		$all_classified_list = Classified::get_all_classified_list($type_id);
-		
+
 		$all_classified_application = '';
-		
+
 		if(!empty(@$current_user->id))
 		{
-		  $user_id = @$current_user->id;		
+		  $user_id = @$current_user->id;
 		  $all_classified_application =  ClassifiedApplication::get_classified_application($user_id);
 		}
-		
+
         return view('front.pages.view_classifieds', compact('type_id', 'all_classified_categories', 'all_classified_list', 'all_classified_application'));
     }
 }

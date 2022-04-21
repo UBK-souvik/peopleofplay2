@@ -19,7 +19,7 @@ class BlogController extends AdminModuleController
     {
         return view('admin.blog.index');
     }
-	
+
 
     public function getList()
     {
@@ -66,23 +66,23 @@ class BlogController extends AdminModuleController
                 'user_id' => 'exists:users,id',
             ]);
         }
-        
+
         try {
             DB::beginTransaction();
 
             $data = $request->only(Blog::$fillable_shadow);
-			
+
 			$str_tag = $this->getAdminBlogTags($request);
-						 
+
             $str_ckeditor_description_new = $request->ckeditor_description_new;
-			
-			$data['tag'] = $str_tag;			
-            $data['added_by'] = 1;			
+
+			$data['tag'] = $str_tag;
+            $data['added_by'] = 1;
             $data['description'] = $str_ckeditor_description_new;
-			
+
         // pr($data,1);
             $data = UtilitiesFour::uploadImageToDirectory($data, $request, 'featured_image', 'blog');
-			
+
             Blog::updateOrCreate(['id' => $request->blog_id], $data);
 
             DB::commit();
@@ -165,24 +165,24 @@ class BlogController extends AdminModuleController
                 'user_id' => 'exists:users,id',
             ]);
         }
-        
+
         try {
             DB::beginTransaction();
 
             $data = $request->only(Blog::$fillable_shadow);
-            
+
             $str_tag = $this->getAdminBlogTags($request);
-			
+
 			$str_ckeditor_description_new = $request->ckeditor_description_new;
-                         
-            $data['tag'] = $str_tag;            
+
+            $data['tag'] = $str_tag;
             $data['user_id'] = 0;
             $data['added_by'] = 2;
 			$data['description'] = $str_ckeditor_description_new;
-			
+
             // pr($data,1);
             $data = UtilitiesFour::uploadImageToDirectory($data, $request, 'featured_image', 'blog');
-			
+
             Blog::updateOrCreate(['id' => $request->blog_id], $data);
 
             DB::commit();

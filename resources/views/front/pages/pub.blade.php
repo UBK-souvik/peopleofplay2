@@ -50,9 +50,9 @@
                   <h1 class="mt-3 font-weight-bold headText">Welcome to <span class="textPurple">POP</span> Pub!</h1>
                   <!-- <h5 class="mt-4 font-weight-bold" style="line-height: 1.4;">INTERNATIONAL INNOVATION SUMMIT</h5>
                      <h5 class="mt-3 font-weight-bold mt-4">POP Networking rooms open <span class="text-danger"> 24 hours </span> a day from November 16th-20th!</h5>
-                     
+
                      <h3 class="mt-5 font-weight-bold textPurple font-weight-bold">Thank you to our esteemed sponsors!</h3>
-                     
+
                      <img class="mt-3" src="https://static.wixstatic.com/media/df6cd8_6492ff07fb2e488882169fc6f0212212~mv2.jpg/v1/fill/w_933,h_429,al_c,q_85/Conference%20Sponsors.webp"> -->
                </div>
             </div>
@@ -146,10 +146,8 @@
             <!--Pop Pub Banner-->
             <section class="W-100 clearfix popPubBanner" id="popPubBanner">
                   <div class="popPubImage position-relative">
-                     <img src="{{asset('uploads/images/pub/poppub_banner.png')}}" alt="popPub" class="img-fluid">
-                     <div class="popPubtextGraphic position-absolute">
-                        <img src="{{asset('uploads/images/pub/Pop_pub_text_graphic.png')}}" alt="poppubtextgraphic" class="img-fluid">
-                     </div>
+                     <img src="{{asset('uploads/images/pub/EventsMeetingsNetworkingHeader.jpg')}}" alt="popPub" class="img-fluid">
+
                   </div>
             </section>
             <!--Pop Pub Contant-->
@@ -166,14 +164,14 @@
             <!--Horizontal Line-->
             <!--Mingling Space-->
             @if(!empty(@$pub_featured_rooms))
-               <section class="W-100 clearfix minglingSpace mt-5" id="minglingSpace">                  
+               <section class="W-100 clearfix minglingSpace mt-5" id="minglingSpace">
                   <div class="row justify-content-center">
                      <div class="col-md-4">
                      <a href="{{@$pub_featured_rooms->url}}">
                         <div class="minglingSpaceImage text-center text-dark">
                               <img src="{{asset('uploads/images/pub/'.@$pub_featured_rooms->image)}}" alt="popPub" class="img-fluid">
                               <h5 class="mb-0">{{ucwords(@$pub_featured_rooms->heading)}}</h5>
-                              
+
                         </div>
                      </a>
                      </div>
@@ -181,8 +179,6 @@
                      <div class="col-md-4">
                         <div class="minglingSpacePara text-center">
                            <h2 class="mb-4 text-dark">MINGLING SPACE</h2>
-                           <p class="mb-4 text-dark">Be the first to enter.<br>
-                              We'll invite others to join you!</p>
                            <a class="btn" href="{{@$pub_featured_rooms->url}}">JOIN ROOM</a>
                         </div>
                      </div>

@@ -1,4 +1,3 @@
-
 <?php $__env->startSection('content'); ?>
 <style>
    .headTopContainer img{
@@ -71,10 +70,8 @@
             <!--Pop Pub Banner-->
             <section class="W-100 clearfix popPubBanner" id="popPubBanner">
                   <div class="popPubImage position-relative">
-                     <img src="<?php echo e(asset('uploads/images/pub/poppub_banner.png')); ?>" alt="popPub" class="img-fluid">
-                     <div class="popPubtextGraphic position-absolute">
-                        <img src="<?php echo e(asset('uploads/images/pub/Pop_pub_text_graphic.png')); ?>" alt="poppubtextgraphic" class="img-fluid">
-                     </div>
+                     <img src="<?php echo e(asset('uploads/images/pub/EventsMeetingsNetworkingHeader.jpg')); ?>" alt="popPub" class="img-fluid">
+
                   </div>
             </section>
             <!--Pop Pub Contant-->
@@ -91,14 +88,14 @@
             <!--Horizontal Line-->
             <!--Mingling Space-->
             <?php if(!empty(@$pub_featured_rooms)): ?>
-               <section class="W-100 clearfix minglingSpace mt-5" id="minglingSpace">                  
+               <section class="W-100 clearfix minglingSpace mt-5" id="minglingSpace">
                   <div class="row justify-content-center">
                      <div class="col-md-4">
                      <a href="<?php echo e(@$pub_featured_rooms->url); ?>">
                         <div class="minglingSpaceImage text-center text-dark">
                               <img src="<?php echo e(asset('uploads/images/pub/'.@$pub_featured_rooms->image)); ?>" alt="popPub" class="img-fluid">
                               <h5 class="mb-0"><?php echo e(ucwords(@$pub_featured_rooms->heading)); ?></h5>
-                              
+
                         </div>
                      </a>
                      </div>
@@ -106,8 +103,7 @@
                      <div class="col-md-4">
                         <div class="minglingSpacePara text-center">
                            <h2 class="mb-4 text-dark">MINGLING SPACE</h2>
-                           <p class="mb-4 text-dark">Be the first to enter.<br>
-                              We'll invite others to join you!</p>
+
                            <a class="btn" href="<?php echo e(@$pub_featured_rooms->url); ?>">JOIN ROOM</a>
                         </div>
                      </div>
@@ -163,4 +159,5 @@
 
    </div>
 <?php $__env->stopSection(); ?>
+
 <?php echo $__env->make('front.layouts.pages', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

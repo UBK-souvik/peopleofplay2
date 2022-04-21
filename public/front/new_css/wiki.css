@@ -99,7 +99,20 @@
     margin:0px auto;
     float:none;
 } */
+.description_header{
 
+    margin-top: 77px;
+    margin-bottom: -15px;
+}
+.main_header{
+    color: #662e91;font-size: 28px;
+                        font-weight: bold;margin-bottom: -40px;
+}
+.buttom_description{
+    font-size: 14px;
+    color:black;
+    line-height: 10px;
+}
 @media only screen and (max-device-width:1199px) {
     .imagebox, .imagebox img {
         min-height: 200px;

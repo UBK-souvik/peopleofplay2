@@ -13,6 +13,8 @@ class EventDescription extends Model
     protected $fillable = [
         'description_header',
         'description_details',
+        'button_text',
+        'button_link',
     ];
 
 }

@@ -488,13 +488,19 @@ $is_chk_spon_adv_page_flag = 1;
             <li ><a href="<?php echo e(url('/admin/sectionprofile')); ?>"><i class="fa fa-circle-o"></i>Section three Profile</a></li>
             
          </ul>
+
          <ul class="treeview-menu">
-             <li ><a href="<?php echo e(url('/admin/descriptionheader')); ?>"><i class="fa fa-circle-o"></i>Section three Description Header</a></li>
-            <li ><a href="<?php echo e(url('/admin/eventdescription')); ?>"><i class="fa fa-circle-o"></i>Section three Description </a></li>
+             <li ><a href="<?php echo e(url('admin/sectionfour')); ?>"><i class="fa fa-circle-o"></i>Section four Header</a></li>
+            <li ><a href="<?php echo e(url('/admin/sectionfourprofile')); ?>"><i class="fa fa-circle-o"></i>Section four Profile</a></li>
             
          </ul>
          <ul class="treeview-menu">
-            <li ><a href="<?php echo e(url('/admin/eventbanner')); ?>"><i class="fa fa-circle-o"></i>Section four</a></li>
+             <li ><a href="<?php echo e(url('/admin/descriptionheader')); ?>"><i class="fa fa-circle-o"></i>Section five Description Header</a></li>
+            <li ><a href="<?php echo e(url('/admin/eventdescription')); ?>"><i class="fa fa-circle-o"></i>Section five Description </a></li>
+            
+         </ul>
+         <ul class="treeview-menu">
+            <li ><a href="<?php echo e(url('/admin/eventbanner')); ?>"><i class="fa fa-circle-o"></i>Section six</a></li>
             
          </ul>
          </li>

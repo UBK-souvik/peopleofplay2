@@ -1,4 +1,4 @@
-<?php $__env->startSection('title'); ?> Banner List <?php $__env->stopSection(); ?>
+<?php $__env->startSection('title'); ?> Create section six <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
 
@@ -7,7 +7,7 @@
             
             <ol class="breadcrumb">
                 <li><a href="<?php echo e(route('admin.dashboard')); ?>"><i class="fa fa-dashboard"></i> <?php echo e(adminTransLang('dashboard')); ?></a></li>
-                <li class="active">Create Banner</li>
+                <li class="active">Section six</li>
             </ol>
         </section>
         <p id="message-box-id" class="alert alert-block alert-danger message_box hide alert-dismissible"></p>
@@ -15,7 +15,7 @@
         <section class="content">
             <?php echo $__env->make('admin.includes.info-box', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
             <p>
-                <p style="font-size: 20px;">Banner</p>
+                <p style="font-size: 20px;">Section six</p>
             </p>
             <div class="row">
                 <div class="col-md-12">

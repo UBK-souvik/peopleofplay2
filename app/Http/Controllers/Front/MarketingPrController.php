@@ -11,6 +11,8 @@ use App\Models\EventYear;
 use App\Models\DescriptionHeader;
 use App\Models\SectionProfile;
 use App\Models\SectionThree;
+use App\Models\SectionFourProfile;
+use App\Models\SectionFour;
 use App\Models\ProfileHeader;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -50,6 +52,8 @@ class MarketingPrController extends Controller
         $descriptionHeader = DescriptionHeader::all();
         $sectionProfile = SectionProfile::all();
         $sectionThree = SectionThree::all();
+        $SectionFourProfile = SectionFourProfile::all();
+        $SectionFour = SectionFour::all();
 
         // echo "<pre>";
         // print_r($header);exit;
@@ -57,7 +61,7 @@ class MarketingPrController extends Controller
         //     $data[$key]->wiki = Entertainment::where(['status'=>1,'category_id'=>$row->id])->orderBy('id','DESC')->get()->take(6);
         //  }
          $categories = EntertainmentCategory::where(['status'=>1,'type'=>'cast'])->get();
-        return view('front.prevent.pr_event',compact('data','header','profileHeader','eventBanner','eventDescription','descriptionHeader','sectionProfile','sectionThree'));
+        return view('front.prevent.pr_event',compact('data','header','profileHeader','eventBanner','eventDescription','descriptionHeader','sectionProfile','sectionThree','SectionFourProfile','SectionFour'));
     }
 
      public function getCastList($slug)

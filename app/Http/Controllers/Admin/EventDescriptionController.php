@@ -72,9 +72,29 @@ $eventDescription = EventDescription::all();
             if ($request->filled('description_id')) {
                     $event_description = EventDescription::findOrFail($request->description_id);
                 }
+                $button_text = $request->button_text;
+                $button_link = $request->button_link;
+
+                if($button_text == NULL){
+                    // echo 1111;exit;
+                 $event_description->button_text = '';
+                }else{
+                $event_description->button_text = $request->button_text;
+
+                }
+
+                if($button_link == NULL){
+                    // echo 1111;exit;
+                 $event_description->button_link = '';
+                }else{
+                $event_description->button_link = $request->button_link;
+
+                }
 
             $event_description->description_header = $request->description_header;
             $event_description->description_details = $request->description;
+            // $event_description->button_text = $request->button_text;
+            // $event_description->button_link = $request->button_link;
 
                 // print_r ($event_description);exit;
             $event_description->save();
@@ -117,10 +137,7 @@ $eventDescription = EventDescription::all();
     public function getDelete($id)
     {
         $event_description  = EventDescription::findOrFail($id)->delete();
-        return response()->json([
-            'status' => 1,
-            'msg' => adminTransLang('request_processed_successfully'),
-        ], 200);
+        return redirect (url('/admin/eventdescription'));
     }
 
     public function getAgent(Request $request)

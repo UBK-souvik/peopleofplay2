@@ -1,15 +1,15 @@
 @extends('admin.layouts.master')
 
-@section('title') Profile header @endsection
+@section('title') Section two header @endsection
 
 @section('content')
 
 	<!-- Content Header (Page header) -->
         <section class="content-header">
-            <h1> Header </h1>
+            <h1> Section two header </h1>
             <ol class="breadcrumb">
                 <li><a href="{{ route('admin.dashboard') }}"><i class="fa fa-dashboard"></i> {{ adminTransLang('dashboard') }}</a></li>
-                <li class="active">Profile Header</li>
+                <li class="active">Section two header</li>
             </ol>
         </section>
         <p id="message-box-id" class="alert alert-block alert-danger message_box hide alert-dismissible"></p>

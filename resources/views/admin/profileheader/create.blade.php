@@ -1,6 +1,6 @@
 @extends('admin.layouts.master')
 
-@section('title') Create header @endsection
+@section('title') Section two header @endsection
 
 @section('content')
 <style>
@@ -11,11 +11,11 @@
 </style>
   <!-- Content Header (Page header) -->
     <section class="content-header">
-        <h1> Create Header</h1>
+        <h1> Section two header</h1>
         <ol class="breadcrumb">
             <li><a href="{{ route('admin.dashboard') }}"><i class="fa fa-dashboard"></i> {{ adminTransLang('dashboard') }}</a></li>
-            <li><a href="{{ route('admin.profileheader.index') }}"> Header List </a></li>
-            <li class="active">Create Header</li>
+            <li><a href="{{ route('admin.profileheader.index') }}"> Section two header List </a></li>
+            <li class="active">Section two header</li>
         </ol>
     </section>
 

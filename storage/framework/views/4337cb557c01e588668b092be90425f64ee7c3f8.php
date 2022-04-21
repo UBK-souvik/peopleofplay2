@@ -1,13 +1,13 @@
-<?php $__env->startSection('title'); ?> Profile header <?php $__env->stopSection(); ?>
+<?php $__env->startSection('title'); ?> Description header <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
 
 	<!-- Content Header (Page header) -->
         <section class="content-header">
-            <h1> Header </h1>
+            <h1>Description header </h1>
             <ol class="breadcrumb">
                 <li><a href="<?php echo e(route('admin.dashboard')); ?>"><i class="fa fa-dashboard"></i> <?php echo e(adminTransLang('dashboard')); ?></a></li>
-                <li class="active">Profile Header</li>
+                <li class="active">Description Header</li>
             </ol>
         </section>
         <p id="message-box-id" class="alert alert-block alert-danger message_box hide alert-dismissible"></p>

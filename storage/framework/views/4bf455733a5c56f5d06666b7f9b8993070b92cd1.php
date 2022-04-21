@@ -1,4 +1,4 @@
-<?php $__env->startSection('title'); ?> Create Banner <?php $__env->stopSection(); ?>
+<?php $__env->startSection('title'); ?> Create section six <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
 <style>
@@ -9,11 +9,11 @@
 </style>
   <!-- Content Header (Page header) -->
     <section class="content-header">
-        <h1> Create Event</h1>
+        <h1> Create section six</h1>
         <ol class="breadcrumb">
             <li><a href="<?php echo e(route('admin.dashboard')); ?>"><i class="fa fa-dashboard"></i> <?php echo e(adminTransLang('dashboard')); ?></a></li>
-            <li><a href="<?php echo e(route('admin.eventbanner.index')); ?>"> Banner List </a></li>
-            <li class="active">Create Banner</li>
+            <li><a href="<?php echo e(route('admin.eventbanner.index')); ?>"> Create section six List </a></li>
+            <li class="active">Create section six</li>
         </ol>
     </section>
 

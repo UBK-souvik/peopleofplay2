@@ -1,15 +1,15 @@
 @extends('admin.layouts.master')
 
-@section('title') All Events @endsection
+@section('title') Section two profile @endsection
 
 @section('content')
 
 	<!-- Content Header (Page header) -->
         <section class="content-header">
-            <h1> All Events </h1>
+            <h1> Section two profile </h1>
             <ol class="breadcrumb">
                 <li><a href="{{ route('admin.dashboard') }}"><i class="fa fa-dashboard"></i> {{ adminTransLang('dashboard') }}</a></li>
-                <li class="active">All Events</li>
+                <li class="active">Section two profile</li>
             </ol>
         </section>
         <p id="message-box-id" class="alert alert-block alert-danger message_box hide alert-dismissible"></p>
@@ -17,7 +17,7 @@
         <section class="content">
             @include('admin.includes.info-box')
             <p>
-                <a href="{{ route('admin.eventyear.create') }}" class="btn btn-success">Create Event</a>
+                <a href="{{ route('admin.eventyear.create') }}" class="btn btn-success">Create Profile</a>
             </p>
             <div class="row">
                 <div class="col-md-12">
