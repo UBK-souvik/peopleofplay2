@@ -1,33 +1,34 @@
-@extends('front.layouts.pages')
-@section('content')
+<?php $__env->startSection('content'); ?>
 <div class="col-md-9 col-lg-10 MiddleColumnFullWidth">
    <div class="left-column Popblog" id="add-edit-blog-div-id">
       <!-- method="post"  -->
       <form id="blog-form" enctype="multipart/form-data">
-         <!-- <textarea id="Comments" name="description"  row="10" class="form-control">{{@$blog->description}}</textarea>
-            <input type="hidden" name="blog_id" value="{{@$blog->id}}"> -->
-         @csrf
+         <!-- <textarea id="Comments" name="description"  row="10" class="form-control"><?php echo e(@$blog->description); ?></textarea>
+            <input type="hidden" name="blog_id" value="<?php echo e(@$blog->id); ?>"> -->
+         <?php echo csrf_field(); ?>
          <div class="First-column bg-white">
             <h3 class="sec_head_text mb-0" style="padding: 20px;">
-               @if(!empty($blog->id))
-               {{'Edit'}}
-               @else
-               {{'Add'}}
-               @endif
+               <?php if(!empty($blog->id)): ?>
+               <?php echo e('Edit'); ?>
+
+               <?php else: ?>
+               <?php echo e('Add'); ?>
+
+               <?php endif; ?>
                Blog Post
             </h3>
             <div class="col-md-12">
                <div class="row sectionBox pb-0">
-                  @php
+                  <?php
                   $str_featured_image_type_new = 'blog';
-                  @endphp
-                  @include('front.user.include_featured_image')
+                  ?>
+                  <?php echo $__env->make('front.user.include_featured_image', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
                   <div class="col-md-8">
                      <div class="row">
                         <div class="col-md-6">
                            <div class="form-group">
                               <label for="Add New Post">Title</label><span class="text-danger">*</span>
-                              <input id="AddNewPost" type="text" name="title" value="{{@$blog->title}}" class="form-control" placeholder="">
+                              <input id="AddNewPost" type="text" name="title" value="<?php echo e(@$blog->title); ?>" class="form-control" placeholder="">
                            </div>
                         </div>
                         <div class="col-md-6">
@@ -35,16 +36,16 @@
                               <label for="Category">Category</label><span class="text-danger">*</span>
                               <select name="category_id" class="custom-select">
                                  <option value>Select</option>
-                                 @foreach ($blog_categories as $key => $value)
-                                 <option value="{{$key}}" {{isset($blog) && $blog->category_id == $key ? 'selected' : ''}}>{{$value}}</option>
-                                 @endforeach
+                                 <?php $__currentLoopData = $blog_categories; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $value): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                 <option value="<?php echo e($key); ?>" <?php echo e(isset($blog) && $blog->category_id == $key ? 'selected' : ''); ?>><?php echo e($value); ?></option>
+                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                               </select>
                            </div>
                         </div>
                         <div class="col-md-6">
                            <div class="form-group">
                               <label for="Tag">Tag</label><span class="text-danger">*</span>
-                              @include("front.includes.tags_drop_down")
+                              <?php echo $__env->make("front.includes.tags_drop_down", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
                               <?php /* <input id="Tag" type="text" data-role="tagsinput" name="tag[]" class="form-control other-tag-input-class" value="{{@$blog->tag}}" placeholder="">
                                  <!--<p>Separate with commas or the Enter key.</p>-->
                                  {!!App\Helpers\UtilitiesTwo::getTagText()!!} --}} */?>
@@ -60,11 +61,9 @@
                         <?php $description =@$blog->description; ?>
                         <!-- <div id="editor-container">
                            </div> -->
-                        @include("includes.include_quill_editor")
-                        {{--
-                        <textarea id="Comments" name="description"  row="10" class="form-control w-100">{{@$blog->description}}</textarea>
-                        --}}
-                        <input type="hidden" name="blog_id" value="{{@$blog->id}}">
+                        <?php echo $__env->make("includes.include_quill_editor", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+                        
+                        <input type="hidden" name="blog_id" value="<?php echo e(@$blog->id); ?>">
                         <input type="hidden" id="blog_preview_id" name="blog_preview_id" value="">
                      </div>
                   </div>
@@ -76,19 +75,19 @@
                   <div class="col-md-6  ">
                      <div class="form-group">
                         <label for="Add Meta Title">Meta Title</label><span class="text-danger"></span>
-                        <input id="AddMetaTitle" type="text" name="meta_title" value="{{@$blog->meta_title}}"  class="form-control" placeholder="">
+                        <input id="AddMetaTitle" type="text" name="meta_title" value="<?php echo e(@$blog->meta_title); ?>"  class="form-control" placeholder="">
                      </div>
                   </div>
                   <div class="col-md-6 ">
                      <div class="form-group">
                         <label for="MetaKeyword">Meta Keyword</label><span class="text-danger"></span>
-                        <input id="MetaKeyword" type="text" name="meta_keyword" value="{{@$blog->meta_keyword}}" class="form-control" placeholder="">
+                        <input id="MetaKeyword" type="text" name="meta_keyword" value="<?php echo e(@$blog->meta_keyword); ?>" class="form-control" placeholder="">
                      </div>
                   </div>
                   <div class="col-md-12  ">
                      <div class="form-group mb-0">
                         <label for="MetaDescription">Meta Description</label><span class="text-danger"></span>
-                        <textarea id="MetaDescription" type="text" name="meta_description"  rows="5"  class="form-control">{{ strip_tags(@$blog->meta_description) }}</textarea>
+                        <textarea id="MetaDescription" type="text" name="meta_description"  rows="5"  class="form-control"><?php echo e(strip_tags(@$blog->meta_description)); ?></textarea>
                      </div>
                   </div>
                   <div class="col-md-12 mt-3">
@@ -102,21 +101,21 @@
             <div class="col-md-12">
                <div class="row sectionBox">
                   <input type="hidden" id="blg_status" name="blg_status" vlue="1">
-                  <button type="button" id="blogSubmit" class="btn btnAll az mr-3">@if(!isset($blog) || $blog->status == 0) {{ 'Publish' }}@else {{ 'Update' }}@endif <i class="fa fa-spinner fa-spin postLoading" style="display: none;"></i></button>
-                  @if(!isset($blog) || $blog->status == 0)
+                  <button type="button" id="blogSubmit" class="btn btnAll az mr-3"><?php if(!isset($blog) || $blog->status == 0): ?> <?php echo e('Publish'); ?><?php else: ?> <?php echo e('Update'); ?><?php endif; ?> <i class="fa fa-spinner fa-spin postLoading" style="display: none;"></i></button>
+                  <?php if(!isset($blog) || $blog->status == 0): ?>
                      <button type="button" id="blogDraft" class="btn btnAll az mr-3" name="blog_draft" onclick="blogs_Submit(this); return false;">Save as draft <i class="fa fa-spinner fa-spin postLoading1" style="display: none;"></i></button>
-                  @endif
+                  <?php endif; ?>
                      <button type="button" id="blogPreview" class="btn btnAll az mr-3" onclick="blog_preview(this); return false;">Preview</button>
                </div>
             </div>
          </div>
       </form>
    </div>
-   @include("front.includes.cropper_model")
+   <?php echo $__env->make("front.includes.cropper_model", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 </div>
-@endsection
-@section('scripts')
-@include("includes.include_quill_editor_js")
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('scripts'); ?>
+<?php echo $__env->make("includes.include_quill_editor_js", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 <script>
    var bs_modal = $('#modal');
    var image = document.getElementById('blah');
@@ -203,7 +202,7 @@
            $.ajax({
              type: "POST",
              dataType: "json",
-             url: "{{ route('front.user.blog.upload') }}",
+             url: "<?php echo e(route('front.user.blog.upload')); ?>",
              data: {image: base64data},
              success: function(data) {
                 $('.crop_laoder').hide();
@@ -234,7 +233,7 @@
    //CKEDITOR.replace( 'Comments' );
    /*
    CKEDITOR.replace('Comments', {
-       filebrowserUploadUrl: '{{ URL::to("backend/plugins/ckeditor/ck_upload.php") }}',
+       filebrowserUploadUrl: '<?php echo e(URL::to("backend/plugins/ckeditor/ck_upload.php")); ?>',
        filebrowserUploadMethod: 'form'
    });
 
@@ -290,7 +289,7 @@
        $('#blg_status').val(1);
        var fd = new FormData($('#blog-form')[0]);
        $.ajax({
-           url: "{{ route('front.user.blog.create') }}",
+           url: "<?php echo e(route('front.user.blog.create')); ?>",
            headers: {
               'X-CSRF-TOKEN': ajax_csrf_token_new
           },
@@ -315,7 +314,7 @@
                $('button').attr('disabled', false);
                toastr.success("Blog Saved Successfully.");
                $('.postLoading').hide();
-               window.location.replace('{{ route("front.user.blog.index")}}');
+               window.location.replace('<?php echo e(route("front.user.blog.index")); ?>');
            }
        });
    });
@@ -328,7 +327,7 @@
        tinyMCE.triggerSave();
        var fd = new FormData($('#blog-form')[0]);
        $.ajax({
-           url: "{{ route('front.user.blog.create') }}",
+           url: "<?php echo e(route('front.user.blog.create')); ?>",
            headers: {
               'X-CSRF-TOKEN': ajax_csrf_token_new
           },
@@ -358,7 +357,7 @@
                $('button').attr('disabled', false);
                toastr.success("Blog Saved Successfully.");
                $('.postLoading1').hide();
-               window.location.replace('{{ route("front.user.blog.index")}}');
+               window.location.replace('<?php echo e(route("front.user.blog.index")); ?>');
               }
 
            }
@@ -366,7 +365,7 @@
    }
 
    function blog_preview(e){
-      // var url = "{{ url('user/blog/preview_detail/') }}";
+      // var url = "<?php echo e(url('user/blog/preview_detail/')); ?>";
       // var slug = "/test-blog-2";
       // window.open(url+slug, '_blank');
       // return false;
@@ -374,7 +373,7 @@
        $('#blg_status').val(2);
        var fd = new FormData($('#blog-form')[0]);
        $.ajax({
-           url: "{{ route('front.user.blog.pre_preview_detail') }}",
+           url: "<?php echo e(route('front.user.blog.pre_preview_detail')); ?>",
            headers: {
               'X-CSRF-TOKEN': ajax_csrf_token_new
           },
@@ -398,7 +397,7 @@
            success: function (data) {
               // $('button').attr('disabled', false);
               $('#blog_preview_id').val(data.id);
-               var url = "{{ url('user/blog/pre_view_detail/') }}";
+               var url = "<?php echo e(url('user/blog/pre_view_detail/')); ?>";
                var slug = "/"+data.slug;
                window.open(url+slug, '_blank');
                // $('#DefaultModal .modal-content').html(data.view);
@@ -462,5 +461,7 @@
 }
 
 </script>
-@include('includes.include_tags_js')
-@endsection
+<?php echo $__env->make('includes.include_tags_js', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('front.layouts.pages', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

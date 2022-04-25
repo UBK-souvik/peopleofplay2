@@ -95,7 +95,7 @@ $str_blog_description = str_replace('<p class="ql-align-center"><br></p><p class
 
              <?php /*<div class="blogDetHeadImg mt-4" style="background-image: url('{{@newsBlogImageBasePath($blog->featured_image)}}');">
              </div> */?>
-             <div class="col-md-6 blog_details">
+             <div class="mt-2 w-100">
               <img src="{{@newsBlogImageBasePath($blog->featured_image)}}" class="imgDetailBlog">
             </div>
 
